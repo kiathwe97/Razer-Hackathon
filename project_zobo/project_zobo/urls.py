@@ -17,12 +17,12 @@ from django.contrib import admin
 from django.urls import path
 from django.urls import path, include
 from page_2.views import product_create_view
-
+from open_account.views import open_account_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", include("demo.urls") ),
     path("page_2/", include("page_2.urls")),
-    path("create_product/", product_create_view)
-
+    path("create_product/", product_create_view),
+    path("OpenAccount/", open_account_view)
 ]
