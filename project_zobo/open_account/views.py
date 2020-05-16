@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import Context, loader
 # Create your views here.
-import requests
+
 def open_account_view(request):
 
     return render(request, 'register.html')
