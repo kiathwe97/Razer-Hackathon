@@ -1,0 +1,969 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500|Montserrat:300');
+
+
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  animation-delay     : 0s;
+}
+@keyframes anima-reveal {
+  from {
+    opacity             : 0;
+  }
+  to {
+    opacity             : 1;
+  }
+}
+* {
+  box-sizing          : border-box;
+}
+a {
+  text-decoration     : none;
+}
+.anima-flexbox-container a {
+  line-height         : 0;
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-component-wrapper a,
+.anima-screen a {
+  text-decoration     : none;
+}
+.anima-flexbox-container a {
+  line-height         : 0;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+.anima-screen textarea:focus,
+.anima-screen input:focus {
+  outline             : none;
+}
+.anima-screen div {
+  -webkit-text-size-adjust: none;
+}
+.anima-container-center-vertical,
+.anima-container-center-horizontal {
+  pointer-events      : none;
+  display             : flex;
+  flex-direction      : row;
+  padding             : 0;
+  margin              : 0;
+}
+.anima-container-center-vertical {
+  align-items         : center;
+  height              : 100%;
+}
+.anima-container-center-horizontal {
+  justify-content     : center;
+  width               : 100%;
+}
+.anima-container-center-vertical > *,
+.anima-container-center-horizontal > * {
+  pointer-events      : auto;
+  flex-shrink         : 0;
+}
+.anima-component-wrapper ,
+.anima-screen {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.anima-auto-animated div,
+.anima-auto-animated span {
+  opacity             : 0;
+  position            : absolute;
+  --anima-z-index: -1;
+}
+/* ANIMA screen - openaccountapplication */
+.font-class-1 {
+  font-family         : Montserrat, Helvetica, Arial, serif;
+  font-style          : normal;
+  font-weight         : 300;
+}
+.font-class-2 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.20px;
+  line-height         : 21.0px;
+}
+.font-class-3 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.54px;
+  line-height         : 16.0px;
+}
+.font-class-4 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.19px;
+  line-height         : 20.0px;
+}
+.font-class-5 {
+  color               : var(--auto-palette-color-1);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  font-style          : normal;
+  font-weight         : 500;
+  letter-spacing      : 1.51px;
+  line-height         : 17.0px;
+}
+.font-class-6 {
+  color               : var(--auto-palette-color-1);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  font-style          : normal;
+  font-weight         : 500;
+  letter-spacing      : 1.07px;
+  line-height         : 12.0px;
+}
+:root {
+  --auto-palette-color-1: rgba(0,0,0,1.0);
+  --auto-palette-color-2: rgba(255,255,255,1.0);
+  --auto-palette-color-3: rgba(122,132,248,1.0);
+  --auto-palette-color-4: rgba(0,229,1,1.0);
+  --auto-palette-color-5: rgba(186,194,255,1.0);
+  --auto-palette-color-6: rgba(143,152,248,1.0);
+  --auto-palette-color-7: rgba(227,6,19,1.0);
+}
+.openaccountapplication .overlap-group-auyQ7l {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 78px;
+  position            : relative;
+  width               : 820px;
+}
+.openaccountapplication .auto-flex-aoIBg2 {
+  align-items         : center;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  margin-bottom       : -3.5px;
+  position            : relative;
+  width               : 107px;
+}
+.openaccountapplication .nric-4836a3cf-92d6-4c4c-a3c5-d4dd05530ac3-oA7Zzu {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  height              : auto;
+  left                : 23px;
+  opacity             : 0.5;
+  position            : absolute;
+  text-align          : left;
+  top                 : 27px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .text-field-outlined-unfilled-enabled-6aa81145-7516-4c16-8025-402fd0c72974-bztPyw {
+  background-color    : rgba(255,255,255,0);
+  height              : 79px;
+  left                : 742px;
+  position            : absolute;
+  top                 : 876px;
+  transform           : rotate(0deg);
+  width               : 329px;
+}
+.openaccountapplication .surface-20766523-a278-4356-b43b-793576f8ab96-dF4hlQ {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-1);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 79px;
+  left                : 0px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 329px;
+}
+.openaccountapplication .nationality-f98c9626-7e62-4eac-85db-2121626ff602-xUHFku {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  height              : auto;
+  left                : 23px;
+  opacity             : 0.5;
+  position            : absolute;
+  text-align          : left;
+  top                 : 27px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .text-field-outlined-unfilled-enabled-30bedf74-b0ec-4c5b-9ad5-c95e32cb133f-45c7TP {
+  background-color    : rgba(255,255,255,0);
+  height              : 79px;
+  left                : 251px;
+  position            : absolute;
+  top                 : 775px;
+  transform           : rotate(0deg);
+  width               : 309px;
+}
+.openaccountapplication .surface-decb87a6-ff21-4677-a813-7197a76cff2e-nO8uIY {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-1);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 79px;
+  left                : 0px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 309px;
+}
+.openaccountapplication .name-as-per-nric-24b89bc3-deb7-40b3-ae52-60ddfc8ebb0c-dstHR4 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  height              : auto;
+  left                : 23px;
+  opacity             : 0.5;
+  position            : absolute;
+  text-align          : left;
+  top                 : 27px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .icon-visibility-filled-4be6e246-3947-4636-a1bb-9f89acb9881f-0wdFrZ {
+  background-color    : rgba(255,255,255,0);
+  height              : 34px;
+  left                : 259px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 23px;
+  transform           : rotate(0deg);
+  width               : 34px;
+}
+.openaccountapplication .group-71-19f25b09-b407-48c4-84e4-df92f3a15b86-1LkuxJ {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 86px;
+  justify-content     : flex-start;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .group-68-1c2d3538-e787-4bdb-8956-6cf4cbcf5107-dwCUGx {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 86px;
+  justify-content     : flex-start;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .group-67-3323e667-0330-469f-afb7-1853e6c5d3a2-xu9tln {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 86px;
+  justify-content     : flex-start;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .group-62-29570701-f61e-4758-b83c-9af68bc19941-cbfo79 {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 86px;
+  justify-content     : flex-start;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .rectangle-103-4faba463-bb6f-4586-b471-cbbd607670cc-EjjRLv {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-7);
+  border-radius       : 35.0px;
+  border-style        : solid;
+  border-width        : 3.0px;
+  flex-shrink         : 0;
+  height              : 86px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 330px;
+}
+.openaccountapplication .download-a2b5b08a-8999-4c83-bc7c-a7cc89ea1ecb-iywV6a {
+  background-color    : rgba(255,255,255,0);
+  height              : 48px;
+  left                : 180px;
+  position            : absolute;
+  top                 : 19px;
+  transform           : rotate(0deg);
+  width               : 119px;
+}
+.openaccountapplication .retrieve-from-cabb4902-cd66-45bd-babc-08e4e50f4ba1-x04RDC {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 22.0px;
+  height              : auto;
+  left                : 16px;
+  line-height         : 22.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 30px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .account-application-form-9eb27c31-fa90-43cc-8853-7a2286576efb-mSoL3g {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 27.0px;
+  height              : auto;
+  left                : 321px;
+  line-height         : 27.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 61px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .a1-personal-details-51a2de11-5be3-4e40-a2a4-5b3f4fd38465-x5gVC2 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 31.0px;
+  height              : auto;
+  left                : 321px;
+  line-height         : 31.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 227px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .a2-proof-of-residential-address-b6ef8f1f-4311-47e6-abec-737ef52fe205-1Ag39Q {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 30.0px;
+  height              : auto;
+  left                : 327px;
+  line-height         : 30.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 785px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .rectangle-105-2522b8f8-b6f3-4b4f-90d3-efba805c2582-ZiVad1 {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 20.0px;
+  height              : 417px;
+  left                : 263px;
+  position            : absolute;
+  top                 : 787px;
+  transform           : rotate(0deg);
+  width               : 1170px;
+}
+.openaccountapplication .document-name-bcec65eb-c2c0-4b10-9bcd-06967350f370-xYRor5 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 22.0px;
+  height              : auto;
+  left                : 358px;
+  line-height         : 22.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 873px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .local-utility-bill-e2631254-4c55-4d8f-9d5d-4c0b5a5164b8-9UBHcG {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 358px;
+  line-height         : 18.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 972px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .local-telecommunication-bill-3b4c7811-1dd0-47b1-a227-94c8fc2ccdd7-g086A9 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 358px;
+  line-height         : 18.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 1002px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .local-bank-statement-credit-card-statement-43a79da2-a288-441d-8afd-1804861a6440-tooFjS {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 358px;
+  line-height         : 18.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 1032px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .provide-the-latest-copy-within-last-3-months-of-any-of-the-items-below-50a51521-a85f-44f4-85d7-5e6ba6250315-GbRBTL {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 14.0px;
+  height              : auto;
+  left                : 358px;
+  line-height         : 14.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 904px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .group-86-4552a01d-5872-48b8-bfab-e88f1c960ad9-csoRdx {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 71px;
+  justify-content     : flex-end;
+  left                : 1085px;
+  min-width           : 57px;
+  position            : absolute;
+  top                 : 951px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .down-icon-1f8c6389-213f-4038-b276-92ccd0a79264-ZRxxqz {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 71px;
+  margin-top          : -0.0px;
+  position            : relative;
+  transform           : rotate(180deg);
+  width               : 57px;
+}
+.openaccountapplication .bx-chevron-down-8f83039c-5e1e-4cf1-901d-37257e33a69b-SWAakE {
+  background-color    : rgba(255,255,255,0);
+  height              : 62px;
+  left                : -0px;
+  position            : absolute;
+  top                 : -0px;
+  transform           : rotate(-180deg);
+  width               : 50px;
+}
+.openaccountapplication .path-12-aa798a5b-a662-4f06-8853-4158e3c9c64f-yKvCP9 {
+  background-color    : rgba(177,181,190,0);
+  height              : 32px;
+  left                : -0px;
+  position            : absolute;
+  top                 : 30px;
+  width               : 50px;
+}
+.openaccountapplication .path-989-e81fb31c-5245-453c-a91d-8e3d728673b3-ig00mF {
+  background-color    : rgba(177,181,190,0);
+  height              : 50px;
+  left                : 20px;
+  position            : absolute;
+  top                 : -0px;
+  width               : 9px;
+}
+.openaccountapplication .rectangle-37-25f914b9-d3af-4357-8042-dc8259d59c02-Nib3Xf {
+  background-color    : rgba(255,255,255,0);
+  height              : 24px;
+  left                : 33px;
+  position            : absolute;
+  top                 : 47px;
+  transform           : rotate(0deg);
+  width               : 24px;
+}
+.openaccountapplication .upload-document-46aeed4d-3ce0-41ed-ac90-f89ad85dc69e-HxU1X1 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 14.0px;
+  height              : auto;
+  left                : 1157px;
+  line-height         : 14.0px;
+  position            : absolute;
+  text-align          : left;
+  text-decoration     : underline;
+  top                 : 993px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .group-12-3b4e769d-9375-4f34-baef-e6bdddd487c2-EZWxhw {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  cursor              : pointer;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 61px;
+  justify-content     : flex-start;
+  left                : 705px;
+  position            : absolute;
+  top                 : 1138px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .group-85-0ca21164-e45c-4d5f-bf25-dfca106e8b99-182nsx {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 61px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 227px;
+}
+.openaccountapplication .path-13-338a558a-dbb3-4ca8-85fc-3116dc29c61d-Z4wAqY {
+  background-color    : rgba(0,229,1,0);
+  height              : 61px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 227px;
+}
+.openaccountapplication .submit-application-5a3b359c-9a5d-4fb1-83ed-85fc17ec3637-O5qYro {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 36px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 22px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .rectangle-105-eded285c-2743-4d2d-bb54-f73bb47c205c-NOncxG {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 20.0px;
+  height              : 296px;
+  left                : 118px;
+  position            : absolute;
+  top                 : 151px;
+  width               : 1253px;
+}
+.openaccountapplication .opening-a-razer-bank-account-2b73c8f6-44df-4a52-a8f6-267d66e95b28-x1l8VE {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  font-size           : 26.0px;
+  height              : auto;
+  left                : 247px;
+  line-height         : 26.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 257px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .group-100-52dde34c-9651-4c01-ae39-d1ea9ce90eb3-sqLJsI {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 131px;
+  justify-content     : flex-start;
+  left                : 1156px;
+  position            : absolute;
+  top                 : 22px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .chrislim63-f390e4a0-a585-441e-a550-fb53ff1e7896-IpnMTF {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-top          : 23px;
+  min-height          : 22px;
+  min-width           : 117px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .ellipse-17-ca5ad745-baf0-48f0-81e7-eb6878894ea7-iz71OA {
+  background-color    : rgba(255,255,255,0);
+  cursor              : pointer;
+  flex-shrink         : 0;
+  height              : 89px;
+  margin-right        : 2.0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 89px;
+}
+.openaccountapplication .log-out-0c201f94-3dcf-4c7f-a255-761696bb4964-o8WO3f {
+  align-self          : center;
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 15.0px;
+  height              : auto;
+  line-height         : 15.0px;
+  margin-bottom       : 36.0px;
+  margin-left         : 36px;
+  min-height          : 21px;
+  min-width           : 81px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .text-field-outlined-unfilled-enabled-23813ea3-de8f-4e02-ad4b-2cd7a0a88ef4-tTtRVq {
+  background-color    : rgba(255,255,255,0);
+  height              : 79px;
+  left                : 251px;
+  position            : absolute;
+  top                 : 876px;
+  transform           : rotate(0deg);
+  width               : 177px;
+}
+.openaccountapplication .surface-27417e52-19c9-473a-b7ec-7e8e0b265bf3-cHwx9g {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-1);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 79px;
+  left                : 0px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 177px;
+}
+.openaccountapplication .date-of-birth-f8766d7f-7d15-40d5-aeea-833eb5f64b36-bDMbZe {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  height              : auto;
+  left                : 23px;
+  opacity             : 0.5;
+  position            : absolute;
+  text-align          : left;
+  top                 : 27px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .text-field-outlined-unfilled-enabled-8a9750f2-17b5-4c0f-b35f-56945cece46a-Sgyi92 {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  height              : auto;
+  justify-content     : flex-start;
+  left                : 251px;
+  min-height          : 111px;
+  position            : absolute;
+  top                 : 977px;
+  transform           : rotate(0deg);
+  width               : 820px;
+}
+.openaccountapplication .surface-858cac03-854f-4109-9234-8d7f022e193f-oVAJGO {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-1);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 78px;
+  left                : 0px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 820px;
+}
+.openaccountapplication .address-6aecc8ab-b543-42d8-81c4-8b0122c21578-SIYiUo {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  height              : auto;
+  left                : 22px;
+  opacity             : 0.5;
+  position            : absolute;
+  text-align          : left;
+  top                 : 26px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .pdpa-e53d4eee-2908-43a3-9149-9d68785f29e4-WJeVaq {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  height              : auto;
+  margin-left         : 1.36px;
+  margin-top          : 13px;
+  min-height          : 23px;
+  min-width           : 54px;
+  opacity             : 0.5;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .text-field-outlined-unfilled-enabled-be99e866-e405-4b4e-afad-b6779239a89b-zD924B {
+  background-color    : rgba(255,255,255,0);
+  height              : 79px;
+  left                : 888px;
+  position            : absolute;
+  top                 : 775px;
+  transform           : rotate(0deg);
+  width               : 185px;
+}
+.openaccountapplication .surface-7823a00a-9dab-4411-a0ca-e62d6a40345b-xtE3CQ {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-1);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 79px;
+  left                : 0px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 185px;
+}
+.openaccountapplication {
+  background-color    : var(--auto-palette-color-2);
+  height              : 1746.0px;
+  overflow            : hidden;
+  position            : relative;
+  width               : 1440.0px;
+}
+.openaccountapplication .group-10-1f09f443-8db4-4705-9e99-e9b083130063-t5f95M {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 20px;
+  justify-content     : flex-start;
+  left                : 527px;
+  position            : absolute;
+  top                 : 46px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .services-7d854fa8-7ec8-48d3-9ae2-9d7b489af953-enp7zr {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 42px;
+  min-height          : 22px;
+  min-width           : 80px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .discover-52eae354-2848-497f-9eea-079ef62bf9da-ac8Veh {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  min-height          : 22px;
+  min-width           : 84px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .apply-9f104dcb-6325-4706-b6b4-45164cf76226-N4nw15 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 44px;
+  min-height          : 22px;
+  min-width           : 60px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .contact-76f863d7-323c-4465-944a-dc8cdb7725fb-SxTxZ4 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 41px;
+  min-height          : 22px;
+  min-width           : 79px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .razer-logo-b7ed10a0-a9f9-4bba-8071-b080df6f8327-vhFiN6 {
+  background-color    : rgba(255,255,255,0);
+  height              : 128px;
+  left                : 164px;
+  position            : absolute;
+  top                 : 49px;
+  width               : 228px;
+}
+.openaccountapplication .group-94-326500cc-d94c-4b0a-831e-ba18bf10148d-7FE7Hy {
+  background-color    : rgba(255,255,255,0);
+  height              : 1269px;
+  left                : -98px;
+  position            : absolute;
+  top                 : 357px;
+  transform           : rotate(0deg);
+  width               : 1394px;
+}
+.openaccountapplication .path-92-8ddeb661-27d9-4119-8a54-cdba8c199983-UHDdiQ {
+  background-color    : rgba(0,229,1,0);
+  height              : 668px;
+  left                : 0px;
+  position            : absolute;
+  top                 : -0px;
+  transform           : rotate(0deg);
+  width               : 668px;
+}
+.openaccountapplication .down-icon-8f352cd4-e24c-493e-bc0b-8115eda2faa4-Lcm3i9 {
+  background-color    : rgba(255,255,255,0);
+  height              : 33px;
+  left                : 562px;
+  position            : absolute;
+  top                 : 262px;
+  transform           : rotate(0deg);
+  width               : 32px;
+}
+.openaccountapplication .bx-chevron-down-f264d788-a493-419a-b3ce-848fff048fa8-UeLqd2 {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 12px;
+  justify-content     : flex-start;
+  left                : 7px;
+  min-width           : 19px;
+  position            : absolute;
+  top                 : 10px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.openaccountapplication .path-12-7a6d881d-d40f-4ef8-9c0e-5e529520afe3-zpPP5R {
+  background-color    : rgba(0,229,1,0);
+  flex-shrink         : 0;
+  height              : 12px;
+  margin-bottom       : -0.0px;
+  margin-left         : 0px;
+  position            : relative;
+  width               : 19px;
+}
+.openaccountapplication .rectangle-37-251900a8-c4f9-47e6-9057-b6e67f320287-8cBH6O {
+  background-color    : rgba(255,255,255,0);
+  height              : 32px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 32px;
+}
+.openaccountapplication .rectangle-43-0b047117-c466-43e2-8cb3-86ad64f3ca7a-0IPiWx {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 10.0px;
+  height              : 1390px;
+  left                : 216px;
+  position            : absolute;
+  top                 : -31px;
+  transform           : rotate(0deg);
+  width               : 1253px;
+}
+.openaccountapplication .group-78-83d67c68-648e-4b89-b124-1b18b26c2028-3iPC37 {
+  background-color    : rgba(255,255,255,0);
+  height              : 86px;
+  left                : 321px;
+  position            : absolute;
+  top                 : 292px;
+  transform           : rotate(0deg);
+  width               : 330px;
+}

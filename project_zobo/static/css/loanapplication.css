@@ -1,0 +1,1099 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500|Montserrat:300');
+
+
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  animation-delay     : 0s;
+}
+@keyframes anima-reveal {
+  from {
+    opacity             : 0;
+  }
+  to {
+    opacity             : 1;
+  }
+}
+a {
+  text-decoration     : none;
+}
+.anima-flexbox-container a {
+  line-height         : 0;
+}
+* {
+  box-sizing          : border-box;
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-component-wrapper a,
+.anima-screen a {
+  text-decoration     : none;
+}
+.anima-flexbox-container a {
+  line-height         : 0;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+.anima-screen textarea:focus,
+.anima-screen input:focus {
+  outline             : none;
+}
+.anima-screen div {
+  -webkit-text-size-adjust: none;
+}
+.anima-container-center-vertical,
+.anima-container-center-horizontal {
+  pointer-events      : none;
+  display             : flex;
+  flex-direction      : row;
+  padding             : 0;
+  margin              : 0;
+}
+.anima-container-center-vertical {
+  align-items         : center;
+  height              : 100%;
+}
+.anima-container-center-horizontal {
+  justify-content     : center;
+  width               : 100%;
+}
+.anima-container-center-vertical > *,
+.anima-container-center-horizontal > * {
+  pointer-events      : auto;
+  flex-shrink         : 0;
+}
+.anima-component-wrapper ,
+.anima-screen {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.anima-auto-animated div,
+.anima-auto-animated span {
+  opacity             : 0;
+  position            : absolute;
+  --anima-z-index: -1;
+}
+/* ANIMA screen - loanapplication */
+.font-class-1 {
+  font-family         : Montserrat, Helvetica, Arial, serif;
+  font-style          : normal;
+  font-weight         : 300;
+}
+.font-class-2 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.20px;
+  line-height         : 21.0px;
+}
+.font-class-3 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.54px;
+  line-height         : 16.0px;
+}
+.font-class-4 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.19px;
+  line-height         : 20.0px;
+}
+.font-class-5 {
+  color               : var(--auto-palette-color-1);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  font-style          : normal;
+  font-weight         : 500;
+  letter-spacing      : 1.51px;
+  line-height         : 17.0px;
+}
+.font-class-6 {
+  color               : var(--auto-palette-color-1);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  font-style          : normal;
+  font-weight         : 500;
+  letter-spacing      : 1.07px;
+  line-height         : 12.0px;
+}
+:root {
+  --auto-palette-color-1: rgba(0,0,0,1.0);
+  --auto-palette-color-2: rgba(255,255,255,1.0);
+  --auto-palette-color-3: rgba(122,132,248,1.0);
+  --auto-palette-color-4: rgba(0,229,1,1.0);
+  --auto-palette-color-5: rgba(186,194,255,1.0);
+  --auto-palette-color-6: rgba(143,152,248,1.0);
+  --auto-palette-color-7: rgba(227,6,19,1.0);
+}
+.loanapplication .auto-flex-xxVOrt {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  margin-bottom       : 0.0px;
+  position            : relative;
+  width               : 309px;
+}
+.loanapplication .overlap-group1-uzxhTp {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 78px;
+  position            : relative;
+  width               : 820px;
+}
+.loanapplication .auto-flex2-euG4Mf {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 180px;
+  justify-content     : flex-start;
+  position            : relative;
+  width               : auto;
+}
+.loanapplication .auto-flex1-EraUFx {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  margin-left         : 181px;
+  position            : relative;
+  width               : 332px;
+}
+.loanapplication .auto-flex-9YbP6t {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 23px;
+  justify-content     : flex-start;
+  margin-left         : 1.36px;
+  margin-top          : 13px;
+  position            : relative;
+  width               : auto;
+}
+.loanapplication .auto-flex-mTOG99 {
+  align-items         : center;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  margin-bottom       : -3.5px;
+  position            : relative;
+  width               : 107px;
+}
+.loanapplication .overlap-group-fjjE7g {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 111px;
+  margin-top          : 22px;
+  position            : relative;
+  width               : 820px;
+}
+.loanapplication .pdpa-554cc1a9-8042-4580-8a40-8318dc8c8c02-Dx7oUt {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  height              : auto;
+  margin-left         : 1.36px;
+  margin-top          : 13px;
+  min-height          : 23px;
+  min-width           : 54px;
+  opacity             : 0.5;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .text-field-outlined-unfilled-enabled-a05883a1-3a2d-41ca-b363-74f50843603f-aeMYcz {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 79px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 185px;
+}
+.loanapplication .surface-05171c70-0c84-4d30-ad46-061897e29a1a-dVAejP {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-1);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 79px;
+  left                : 0px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 185px;
+}
+.loanapplication .nric-3aa1a51f-12cc-4410-b70e-5accfef7df8a-IeIePz {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  height              : auto;
+  left                : 23px;
+  opacity             : 0.5;
+  position            : absolute;
+  text-align          : left;
+  top                 : 27px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .text-field-outlined-unfilled-enabled-de97f0ee-c043-42d6-9680-2dc5d7089689-uaFx7x {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 79px;
+  margin-right        : 2.83px;
+  margin-top          : 22px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 329px;
+}
+.loanapplication .surface-f132e8d4-85a9-492b-a860-1914ce8feb99-JhOHh0 {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-1);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 79px;
+  left                : 0px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 329px;
+}
+.loanapplication .nationality-29cb5fde-ae33-4884-8e76-e66cbd4e43ae-Ttjrjr {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  height              : auto;
+  left                : 23px;
+  opacity             : 0.5;
+  position            : absolute;
+  text-align          : left;
+  top                 : 27px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .text-field-outlined-unfilled-enabled-3c63a0b1-0ae3-4a95-860d-c9474eabcc85-z5Rn2F {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 79px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 309px;
+}
+.loanapplication .surface-9c39a19c-39a2-468d-8c93-e554e8a21755-yx70C3 {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-1);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 79px;
+  left                : 0px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 309px;
+}
+.loanapplication .name-as-per-nric-8467c676-f4d6-4313-bc4b-92268630dafb-rIgyx9 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  height              : auto;
+  left                : 23px;
+  opacity             : 0.5;
+  position            : absolute;
+  text-align          : left;
+  top                 : 27px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .icon-visibility-filled-fc47efef-228d-493a-ad5c-a4d87ad99bcb-97GyRL {
+  background-color    : rgba(255,255,255,0);
+  height              : 34px;
+  left                : 259px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 23px;
+  transform           : rotate(0deg);
+  width               : 34px;
+}
+.loanapplication .text-field-outlined-unfilled-enabled-75220437-3525-4608-b226-de20db73cc2c-Eu3Sxl {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  height              : auto;
+  justify-content     : flex-start;
+  left                : 0px;
+  min-height          : 111px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 820px;
+}
+.loanapplication .surface-0aacaa22-d698-4cac-811b-d1526b9d4093-cwDijd {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-1);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 1.0px;
+  flex-shrink         : 0;
+  height              : 78px;
+  opacity             : 0.5;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 820px;
+}
+.loanapplication .pdpa-89fb16c5-67f7-46a6-ab27-326e98dd21fc-c2sIXJ {
+  align-self          : flex-end;
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  height              : auto;
+  min-height          : 23px;
+  min-width           : 54px;
+  opacity             : 0.5;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .privacy-agreement-7cfb7b10-c4d6-4c43-acf8-0a7c9f4116af-3ItPe1 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  height              : auto;
+  margin-left         : 26px;
+  min-height          : 23px;
+  min-width           : 182px;
+  opacity             : 0.5;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .group-78-b7014614-72f3-4594-b6aa-045b354d9e2f-S4ui1I {
+  background-color    : rgba(255,255,255,0);
+  cursor              : pointer;
+  height              : 86px;
+  left                : 228px;
+  position            : absolute;
+  top                 : 670px;
+  transform           : rotate(0deg);
+  width               : 330px;
+}
+.loanapplication .group-71-d245e0fb-38a9-4017-ad54-b74cc3481d3f-IV7yxx {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 86px;
+  justify-content     : flex-start;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .group-68-bc3febb3-7e6c-4b6e-b4d1-f80ad19c5694-kqvCMn {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 86px;
+  justify-content     : flex-start;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .group-67-38debfe9-bb6d-4bec-86da-2ea0dfd0ec3f-D2bxMN {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 86px;
+  justify-content     : flex-start;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .group-62-f64bfdbb-8b5f-4bdc-a0ff-73fec4af01c4-wEOMXj {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 86px;
+  justify-content     : flex-start;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .rectangle-103-9779c43c-3a4c-4ba7-9eab-7682b9d4525e-1us656 {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-7);
+  border-radius       : 35.0px;
+  border-style        : solid;
+  border-width        : 3.0px;
+  flex-shrink         : 0;
+  height              : 86px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 330px;
+}
+.loanapplication .download-e01784e6-4e3f-4e74-99dd-3c00e28063fc-7sTwat {
+  background-color    : rgba(255,255,255,0);
+  height              : 48px;
+  left                : 180px;
+  position            : absolute;
+  top                 : 19px;
+  transform           : rotate(0deg);
+  width               : 119px;
+}
+.loanapplication .retrieve-from-da2e5538-63d3-43b1-bc7d-f0485cb7dd7d-Cu6RYl {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 22.0px;
+  height              : auto;
+  left                : 16px;
+  line-height         : 22.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 30px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .rectangle-105-4e7657c9-c19a-49b7-9ab7-1ce4f9dafc90-hMFWF9 {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 20.0px;
+  height              : 296px;
+  left                : 118px;
+  position            : absolute;
+  top                 : 151px;
+  width               : 1253px;
+}
+.loanapplication .taking-a-student-loan-with-razer-bank-264f6774-a3dd-4b99-b915-059bc1ed690c-kKDLQQ {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  font-size           : 26.0px;
+  height              : auto;
+  left                : 247px;
+  line-height         : 26.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 257px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .group-100-d3e07821-2b4d-4a22-979a-aa39bd9c77b5-Pq7y6z {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 131px;
+  justify-content     : flex-start;
+  left                : 1156px;
+  position            : absolute;
+  top                 : 22px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .chrislim63-236a66dc-3f30-4644-998e-b4d5d27e4507-tVq4a8 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-top          : 23px;
+  min-height          : 22px;
+  min-width           : 117px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .ellipse-17-9cb5bc47-8e3a-45d0-9023-85d44af25563-CbTbAe {
+  background-color    : rgba(255,255,255,0);
+  cursor              : pointer;
+  flex-shrink         : 0;
+  height              : 89px;
+  margin-right        : 2.0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 89px;
+}
+.loanapplication .log-out-ef6354bf-0937-41ef-b741-831fac28d1c6-6x6fD4 {
+  align-self          : center;
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 15.0px;
+  height              : auto;
+  line-height         : 15.0px;
+  margin-bottom       : 36.0px;
+  margin-left         : 36px;
+  min-height          : 21px;
+  min-width           : 81px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .group-94-a3c9c343-b14b-4396-b5be-7f3d22776bfe-Q4bTgX {
+  background-color    : rgba(255,255,255,0);
+  height              : 1271px;
+  left                : -101px;
+  position            : absolute;
+  top                 : 389px;
+  transform           : rotate(0deg);
+  width               : 1397px;
+}
+.loanapplication .path-92-080af5fe-7a14-4555-a922-44431edd953a-qKxZq4 {
+  background-color    : rgba(0,229,1,0);
+  height              : 668px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 668px;
+}
+.loanapplication .down-icon-afdc0323-9cd6-4d3d-a525-c443733fb06f-E0Q9mP {
+  background-color    : rgba(255,255,255,0);
+  height              : 33px;
+  left                : 562px;
+  position            : absolute;
+  top                 : 262px;
+  transform           : rotate(0deg);
+  width               : 32px;
+}
+.loanapplication .bx-chevron-down-66843d5e-037f-44b6-915e-431be162fe6b-LdfzAH {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 12px;
+  justify-content     : flex-start;
+  left                : 7px;
+  min-width           : 19px;
+  position            : absolute;
+  top                 : 10px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .path-12-6507eb83-8671-4220-a8e8-c369ccb4efd6-w9jW9W {
+  background-color    : rgba(0,229,1,0);
+  flex-shrink         : 0;
+  height              : 12px;
+  margin-bottom       : -0.0px;
+  margin-left         : 0px;
+  position            : relative;
+  width               : 19px;
+}
+.loanapplication .rectangle-37-974c4888-e244-4be3-8c58-e338acf1f124-rVfVxy {
+  background-color    : rgba(255,255,255,0);
+  height              : 32px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 32px;
+}
+.loanapplication .rectangle-43-78711759-038f-4d1b-b48c-683fcc83f0ca-ERUg9A {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 10.0px;
+  height              : 1421px;
+  left                : 219px;
+  position            : absolute;
+  top                 : -60px;
+  transform           : rotate(0deg);
+  width               : 1253px;
+}
+.loanapplication .student-loan-application-form-0e0105ed-aec7-43f9-9f79-41b9c418146a-IWEeK8 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 27.0px;
+  height              : auto;
+  left                : 321px;
+  line-height         : 27.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 61px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .a1-personal-details-1524929b-bc12-482e-ae0e-74f23a73c833-oTQJ0X {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 31.0px;
+  height              : auto;
+  left                : 321px;
+  line-height         : 31.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 227px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .a2-supporting-documents-85e94f26-4515-4650-a565-ed4940828e27-unV6Vl {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 30.0px;
+  height              : auto;
+  left                : 324px;
+  line-height         : 30.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 784px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .path-991-2073d206-4a4f-4825-a530-3f9d56605648-RsuXnY {
+  background-color    : rgba(255,255,255,0);
+  height              : 417px;
+  left                : 260px;
+  position            : absolute;
+  top                 : 778px;
+  transform           : rotate(0deg);
+  width               : 1170px;
+}
+.loanapplication .document-name-74a17e69-3137-4450-a6a6-c63ef7714790-tAUGNR {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 22.0px;
+  height              : auto;
+  left                : 355px;
+  line-height         : 22.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 864px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .guarantor-letter-4b11afb4-c3d6-479b-bd08-c4875bde826f-bAqjKA {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 355px;
+  line-height         : 18.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 963px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .university-admission-letter-42874cdf-9bce-4b25-8cb7-8445c73cda26-SO1hrX {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 355px;
+  line-height         : 18.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 993px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .proof-of-residence-453e6d7c-3f15-4693-b62b-fc61edc9fa72-D1N8Ns {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 355px;
+  line-height         : 18.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 1023px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .provide-the-latest-copy-within-last-3-months-of-any-of-the-items-below-20c97465-4496-45b2-9ce8-3dbc8c62acce-CzeuQ5 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 14.0px;
+  height              : auto;
+  left                : 355px;
+  line-height         : 14.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 895px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .group-86-45e5b0a3-468c-4826-80e0-5c8958bdd40e-NnFKSu {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 71px;
+  justify-content     : flex-end;
+  left                : 1080px;
+  min-width           : 57px;
+  position            : absolute;
+  top                 : 954px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .down-icon-5e38eb33-e54c-431d-80b8-5578c6dff55d-E2lpFm {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 71px;
+  margin-top          : -0.0px;
+  position            : relative;
+  transform           : rotate(180deg);
+  width               : 57px;
+}
+.loanapplication .bx-chevron-down-f5ed7cba-1ff7-4154-8a3d-84b801ae3f0f-nQbzqv {
+  background-color    : rgba(255,255,255,0);
+  height              : 62px;
+  left                : -0px;
+  position            : absolute;
+  top                 : -0px;
+  transform           : rotate(-180deg);
+  width               : 50px;
+}
+.loanapplication .path-12-fddecc71-e1c6-4489-b91d-7e71f4197286-iA5zct {
+  background-color    : rgba(177,181,190,0);
+  height              : 32px;
+  left                : -0px;
+  position            : absolute;
+  top                 : 30px;
+  width               : 50px;
+}
+.loanapplication .path-989-9deaea74-bd8c-42c5-8d7d-1c660bcf86ca-OzpuTP {
+  background-color    : rgba(177,181,190,0);
+  height              : 50px;
+  left                : 20px;
+  position            : absolute;
+  top                 : -0px;
+  width               : 9px;
+}
+.loanapplication .rectangle-37-2ade51d4-82e0-45b5-be40-e5a4f080eac7-WxaUEV {
+  background-color    : rgba(255,255,255,0);
+  height              : 24px;
+  left                : 33px;
+  position            : absolute;
+  top                 : 47px;
+  transform           : rotate(0deg);
+  width               : 24px;
+}
+.loanapplication .upload-document-ce320427-2813-48f3-8a50-a9f1ab7d6c5b-Fc8d1b {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 14.0px;
+  height              : auto;
+  left                : 1154px;
+  line-height         : 14.0px;
+  position            : absolute;
+  text-align          : left;
+  text-decoration     : underline;
+  top                 : 984px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .group-12-7de02fec-7908-48c4-8c56-bbe75de60959-PnHr0A {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  cursor              : pointer;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 61px;
+  justify-content     : flex-start;
+  left                : 758px;
+  position            : absolute;
+  top                 : 1141px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .group-85-b7123687-e919-4608-b769-a396ed837bc4-a6KYPP {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 61px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 227px;
+}
+.loanapplication .path-13-1a1dfb23-d03e-48ef-8aa0-c068d679ed76-hS27cp {
+  background-color    : rgba(0,229,1,0);
+  height              : 61px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 227px;
+}
+.loanapplication .submit-application-63134de2-2825-4ef5-a308-ee1ad806ae8a-q1OIpx {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 36px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 22px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .group-84-7857c59b-aae6-4312-817d-917323aa787e-AkXg7k {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  height              : auto;
+  justify-content     : flex-start;
+  left                : 352px;
+  min-height          : 312px;
+  position            : absolute;
+  top                 : 386px;
+  transform           : rotate(0deg);
+  width               : 823px;
+}
+.loanapplication .text-field-outlined-unfilled-enabled-d916b8cc-2256-480c-849b-da9a8a2efb47-6RIF34 {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 79px;
+  margin-top          : 22px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 177px;
+}
+.loanapplication .surface-cec10614-c96f-4966-bbc7-ddae1a8653fb-89semR {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-1);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 79px;
+  left                : 0px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 177px;
+}
+.loanapplication .date-of-birth-a1c12651-2b37-405f-877f-ad751a2a77a4-DF5fl7 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  height              : auto;
+  left                : 23px;
+  opacity             : 0.5;
+  position            : absolute;
+  text-align          : left;
+  top                 : 27px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .text-field-outlined-unfilled-enabled-43f81f29-813f-48d8-ab60-2c7d5fe892fc-R37QX2 {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  height              : auto;
+  justify-content     : flex-start;
+  left                : 0px;
+  min-height          : 111px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 820px;
+}
+.loanapplication .surface-8661f300-8fd4-4dca-93d4-cda65958498c-kxFjMq {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-1);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 78px;
+  left                : 0px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 820px;
+}
+.loanapplication .address-8100c50d-3e84-4e34-9cbf-db06cf5e7498-17JoSG {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  height              : auto;
+  left                : 22px;
+  opacity             : 0.5;
+  position            : absolute;
+  text-align          : left;
+  top                 : 26px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication {
+  background-color    : var(--auto-palette-color-2);
+  height              : 1746.0px;
+  overflow            : hidden;
+  position            : relative;
+  width               : 1440.0px;
+}
+.loanapplication .group-10-815af1fc-75d7-455d-9945-51aacf092f0c-zIHxcM {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 20px;
+  justify-content     : flex-start;
+  left                : 527px;
+  position            : absolute;
+  top                 : 46px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .services-d174d5bd-19f7-43ba-bd61-ad9900854611-gs0gIk {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 42px;
+  min-height          : 22px;
+  min-width           : 80px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .discover-9b054edb-c768-4bec-a231-c1cb799c5110-lvsziP {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  min-height          : 22px;
+  min-width           : 84px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .apply-79333992-bafb-4377-9187-45b34614a56a-fSHUoQ {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 44px;
+  min-height          : 22px;
+  min-width           : 60px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .contact-fe0a9647-6a15-4ddd-ad0f-c7d7c56ac4a8-3yFxTx {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 41px;
+  min-height          : 22px;
+  min-width           : 79px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanapplication .razer-logo-dd9fc193-fd5c-4776-8215-5bca6080c8a2-8W1vSs {
+  background-color    : rgba(255,255,255,0);
+  height              : 128px;
+  left                : 164px;
+  position            : absolute;
+  top                 : 49px;
+  width               : 228px;
+}

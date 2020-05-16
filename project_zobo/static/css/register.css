@@ -1,0 +1,759 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500|Montserrat:300');
+
+
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  animation-delay     : 0s;
+}
+@keyframes anima-reveal {
+  from {
+    opacity             : 0;
+  }
+  to {
+    opacity             : 1;
+  }
+}
+a {
+  text-decoration     : none;
+}
+.anima-flexbox-container a {
+  line-height         : 0;
+}
+* {
+  box-sizing          : border-box;
+}
+.align-self-flex-end {
+  align-self          : flex-end;
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-component-wrapper a,
+.anima-screen a {
+  text-decoration     : none;
+}
+.anima-flexbox-container a {
+  line-height         : 0;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+.anima-screen textarea:focus,
+.anima-screen input:focus {
+  outline             : none;
+}
+.anima-screen div {
+  -webkit-text-size-adjust: none;
+}
+.anima-container-center-vertical,
+.anima-container-center-horizontal {
+  pointer-events      : none;
+  display             : flex;
+  flex-direction      : row;
+  padding             : 0;
+  margin              : 0;
+}
+.anima-container-center-vertical {
+  align-items         : center;
+  height              : 100%;
+}
+.anima-container-center-horizontal {
+  justify-content     : center;
+  width               : 100%;
+}
+.anima-container-center-vertical > *,
+.anima-container-center-horizontal > * {
+  pointer-events      : auto;
+  flex-shrink         : 0;
+}
+.anima-component-wrapper ,
+.anima-screen {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.anima-auto-animated div,
+.anima-auto-animated span {
+  opacity             : 0;
+  position            : absolute;
+  --anima-z-index: -1;
+}
+/* ANIMA screen - register */
+.font-class-1 {
+  font-family         : Montserrat, Helvetica, Arial, serif;
+  font-style          : normal;
+  font-weight         : 300;
+}
+.font-class-2 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.20px;
+  line-height         : 21.0px;
+}
+.font-class-3 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.54px;
+  line-height         : 16.0px;
+}
+.font-class-4 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.19px;
+  line-height         : 20.0px;
+}
+.font-class-5 {
+  color               : var(--auto-palette-color-1);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  font-style          : normal;
+  font-weight         : 500;
+  letter-spacing      : 1.51px;
+  line-height         : 17.0px;
+}
+.font-class-6 {
+  color               : var(--auto-palette-color-1);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  font-style          : normal;
+  font-weight         : 500;
+  letter-spacing      : 1.07px;
+  line-height         : 12.0px;
+}
+:root {
+  --auto-palette-color-1: rgba(0,0,0,1.0);
+  --auto-palette-color-2: rgba(255,255,255,1.0);
+  --auto-palette-color-3: rgba(122,132,248,1.0);
+  --auto-palette-color-4: rgba(0,229,1,1.0);
+  --auto-palette-color-5: rgba(186,194,255,1.0);
+  --auto-palette-color-6: rgba(143,152,248,1.0);
+  --auto-palette-color-7: rgba(227,6,19,1.0);
+}
+.register .overlap-group1-Xb8q1j {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 72px;
+  position            : relative;
+  width               : 543px;
+}
+.register .auto-flex-1lKxzb {
+  align-items         : flex-start;
+  align-self          : center;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 144px;
+  justify-content     : flex-start;
+  margin-right        : 114.0px;
+  position            : relative;
+  width               : auto;
+}
+.register .overlap-group-Y7zamN {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 895px;
+  margin-left         : -93.96px;
+  margin-top          : 19px;
+  position            : relative;
+  width               : 1580px;
+}
+.register .apply-81e1e6c1-c676-48ff-9498-3d14f9fbf27b-NyBok6 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 44px;
+  min-height          : 22px;
+  min-width           : 60px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.register .contact-051e2ab3-d3f8-4936-98d0-e446881a39e1-ji2v6D {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 41px;
+  min-height          : 22px;
+  min-width           : 79px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.register .group-11-8c72fa84-47b0-4dfc-8c40-d1004113f33c-MXMSEr {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 50px;
+  margin-left         : 71px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 173px;
+}
+.register .rectangle-39-6669eb60-8c5a-4781-931c-ef865e3ad8cb-fewKK8 {
+  background-color    : var(--auto-palette-color-4);
+  border-radius       : 28.0px;
+  height              : 50px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 173px;
+}
+.register .get-started-8d600250-4a98-4f73-8dc8-ff791a6b8c85-7Q3W85 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 17.0px;
+  height              : auto;
+  left                : 41px;
+  line-height         : 17.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 16px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.register .razer-logo-67438f06-6633-4fbc-80bd-faf01fe605fd-7gIHtB {
+  align-self          : flex-end;
+  background-color    : rgba(255,255,255,0);
+  cursor              : pointer;
+  flex-shrink         : 0;
+  height              : 128px;
+  position            : relative;
+  width               : 228px;
+}
+.register .group-84-00621e56-2f63-4a03-8f22-097b0a6112ff-3vlrev {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  height              : auto;
+  justify-content     : flex-start;
+  left                : 763px;
+  min-height          : 482px;
+  position            : absolute;
+  top                 : 178px;
+  transform           : rotate(0deg);
+  width               : 543px;
+}
+.register .text-field-outlined-active-34fdbc24-5e03-4bd1-b322-7dcf888106bf-3YzTje {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 89px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 543px;
+}
+.register .surface-b11d5503-2e35-4c7a-ae9a-f81f44f08fe1-lkDw1H {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-2);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 2.0px;
+  height              : 72px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 16px;
+  transform           : rotate(0deg);
+  width               : 543px;
+}
+.register .adrian-8328f80c-ecbb-4fa6-b72d-6a4e0f3ac3d2-6xoqJx {
+  background-color    : rgba(0,0,0,0);
+  color               : rgba(0,0,0,0.380392156863);
+  height              : auto;
+  left                : 21px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 41px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.register .rectangle-597-f4d5402b-e6e8-4b1a-a1f3-94afe142e9a9-5VD8d3 {
+  background-color    : var(--auto-palette-color-1);
+  height              : 3px;
+  left                : 14px;
+  position            : absolute;
+  top                 : 16px;
+  transform           : rotate(0deg);
+  width               : 110px;
+}
+.register .username-4e37a36c-861c-4f1c-88f8-22121aa3e85a-PT93BG {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  height              : auto;
+  left                : 24px;
+  letter-spacing      : 0.64px;
+  line-height         : 19.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 3px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.register .input-3079f8f4-85be-4d19-9322-3d7e928ef37a-smdxO7 {
+  background-color    : rgba(97,0,237,1.0);
+  height              : 22px;
+  left                : 19px;
+  position            : absolute;
+  top                 : 42px;
+  transform           : rotate(0deg);
+  width               : 2px;
+}
+.register .text-field-outlined-unfilled-enabled-982aa682-215e-40d1-a8c2-f0bf9e49bb0c-NgJOiY {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 72px;
+  margin-top          : 20px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 543px;
+}
+.register .surface-f011a319-dad5-4d83-a50a-4b57936e8a40-nnf8WQ {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-2);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 72px;
+  left                : 0px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 543px;
+}
+.register .email-address-c0181805-b071-45d5-868c-749cac01f1fb-SxRR7x {
+  background-color    : rgba(255,255,255,0);
+  color               : rgba(255,255,255,0.6);
+  height              : auto;
+  left                : 21px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 24px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.register .text-field-outlined-unfilled-enabled-d36ccddb-e528-4de5-a3ee-48cd4dc3c67c-1vMtBB {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  margin-top          : 20px;
+  min-height          : 95px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 543px;
+}
+.register .surface-3685de51-3fd6-4be9-9f8d-08b02b3c3309-7j0ots {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-2);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 72px;
+  left                : 0px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 543px;
+}
+.register .password-917f3cda-4886-42f9-83e4-d11190ab0a5f-t2swhi {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  height              : auto;
+  left                : 20px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 23px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.register .the-password-must-be-between-4-and-6-characters-d6a6a0a0-ae1a-472a-9ea8-2633704db35c-eL8Zxy {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  flex-shrink         : 0;
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  height              : auto;
+  letter-spacing      : 0.51px;
+  line-height         : 15.0px;
+  margin-left         : 20.24px;
+  margin-top          : 4px;
+  min-height          : 22px;
+  min-width           : 375px;
+  opacity             : 0.5;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.register .icon-visibility-filled-6066bc29-8bbf-4655-aebd-7afbc2aaa94c-ZmQvm8 {
+  background-color    : rgba(255,255,255,0);
+  height              : 31px;
+  left                : 497px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 21px;
+  transform           : rotate(0deg);
+  width               : 31px;
+}
+.register .path-988-385a5a8a-de18-4b22-91c2-1f96dd82a987-YmYbj8 {
+  background-color    : rgba(255,255,255,0);
+  height              : 19px;
+  left                : 1px;
+  position            : absolute;
+  top                 : 6px;
+  transform           : rotate(0deg);
+  width               : 28px;
+}
+.register .box-bcdfb1ca-ec6d-4ca1-8786-7a28ba99c427-1wc2Ef {
+  background-color    : rgba(255,255,255,0);
+  height              : 31px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 31px;
+}
+.register .text-field-outlined-unfilled-enabled-b9a7cb84-4dde-43ed-a2ff-12b15e282c97-ELYfkH {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 72px;
+  margin-top          : 20px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 543px;
+}
+.register .surface-d3c9d883-3451-4749-8feb-caa16c587b0e-vx73R8 {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-2);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 72px;
+  left                : 0px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 543px;
+}
+.register .retype-password-cb14037d-fc4c-4ab2-8b98-221a7750c70f-eZxQzF {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  height              : auto;
+  left                : 21px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 24px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.register .icon-visibility-filled-e3f6565f-7c88-4c20-9bdb-3128f4cf332f-iPNYQa {
+  background-color    : rgba(255,255,255,0);
+  height              : 31px;
+  left                : 496px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 21px;
+  transform           : rotate(0deg);
+  width               : 31px;
+}
+.register .path-988-18c47cc4-9d8d-4be8-839c-e51b3251dcbb-4EH9Do {
+  background-color    : rgba(255,255,255,0);
+  height              : 19px;
+  left                : 1px;
+  position            : absolute;
+  top                 : 6px;
+  transform           : rotate(0deg);
+  width               : 28px;
+}
+.register .box-01eb6684-724b-45e2-97db-103b53ebb9b3-Q6xYop {
+  background-color    : rgba(255,255,255,0);
+  height              : 31px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 31px;
+}
+.register .text-field-outlined-unfilled-enabled-2ca382da-9780-4f2f-8489-e5597b7d73ae-HrnVBQ {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 72px;
+  margin-top          : 20px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 543px;
+}
+.register .surface-796cd15e-3ace-4f96-850b-b563f8302492-GuWtLU {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-2);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 72px;
+  left                : 0px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 543px;
+}
+.register .mobile-number-72b77cd3-7df3-4dca-96d4-38b4064e80e5-YKvdmz {
+  background-color    : rgba(255,255,255,0);
+  color               : rgba(255,255,255,0.6);
+  height              : auto;
+  left                : 21px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 24px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.register .buttons-contained-enabled-f3e16a7e-ff08-4729-8f96-52eb9aea5504-9HDUaL {
+  background-color    : rgba(255,255,255,0);
+  cursor              : pointer;
+  height              : 71px;
+  left                : 766px;
+  pointer-events      : auto;
+  position            : absolute;
+  top                 : 705px;
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease;
+  width               : 535px;
+}
+.register .buttons-contained-enabled-f3e16a7e-ff08-4729-8f96-52eb9aea5504-9HDUaL:hover {
+  transform           : scale(1.1);
+}
+.register .rectangle-377-defe4b2d-820d-4e0b-a08c-65c10cc662ba-zTWDVX {
+  background-color    : rgba(0,229,1,0);
+  border-radius       : 4.0px;
+  height              : 80px;
+  left                : -4px;
+  position            : absolute;
+  top                 : -4px;
+  transform           : rotate(0deg);
+  width               : 544px;
+}
+.register .register-11f2fd07-92ec-4467-bcbc-691571d15d8e-BAoaDn {
+  background-color    : rgba(0,0,0,0);
+  height              : auto;
+  left                : 221px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 26px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.register .register-aedf8293-5f37-4cac-ba23-b11218964523-wVSsqQ {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 42.0px;
+  height              : auto;
+  left                : 258px;
+  line-height         : 42.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 131px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.register .log-in-to-your-razer-account-to-open-bank-accounts-and-apply-for-loans-with-ease-dab99f5f-347f-4c2c-9289-ea3778701f12-Y8hoEF {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 17.0px;
+  height              : 86px;
+  left                : 258px;
+  line-height         : 27.6px;
+  opacity             : 0.8;
+  position            : absolute;
+  text-align          : left;
+  top                 : 206px;
+  transform           : rotate(0deg);
+  width               : 400px;
+}
+.register {
+  align-items         : flex-start;
+  background-color    : var(--auto-palette-color-2);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  height              : auto;
+  justify-content     : flex-start;
+  min-height          : 1080px;
+  overflow            : hidden;
+  padding             : 33.0px 0;
+  position            : relative;
+  width               : 1440.0px;
+}
+.register .path-89-7e836b92-acf4-4d91-ad69-dfec9ca09e5b-uyXfNV {
+  background-color    : rgba(255,255,255,0);
+  height              : 458px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 101px;
+  width               : 1580px;
+}
+.register .rectangle-40-cb02ad4a-cb49-4602-a93a-1951da0365aa-hBBRY5 {
+  background-color    : rgba(0,0,0,0);
+  border-radius       : 20.0px;
+  height              : 895px;
+  left                : 593px;
+  position            : absolute;
+  top                 : 0px;
+  width               : 881px;
+}
+.register .register-4b3f0f40-a052-42f9-80a5-c2a033696400-yP2Qia {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  font-size           : 30.0px;
+  height              : auto;
+  left                : 865px;
+  line-height         : 30.0px;
+  opacity             : 0.5;
+  position            : absolute;
+  text-align          : left;
+  top                 : 95px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.register .log-in-cd8400d6-d514-45fd-9c70-466871bbbe92-mT0vLI {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  cursor              : pointer;
+  font-size           : 30.0px;
+  height              : auto;
+  left                : 1130px;
+  line-height         : 30.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 95px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.register .path-990-02da6d11-7260-4a2b-8a88-ed57470b9b2c-xMomWD {
+  background-color    : rgba(255,255,255,0);
+  height              : 6px;
+  left                : 843px;
+  position            : absolute;
+  top                 : 137px;
+  width               : 194px;
+}
+.register .group-10-c7bc3bdf-4e5e-4d17-af01-e763e498fb9c-yI9WbH {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  cursor              : pointer;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 20px;
+  justify-content     : flex-start;
+  margin-left         : 135px;
+  margin-top          : 13.0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.register .services-a3bb6814-938e-4ec3-9007-d9ae074bad45-8nw7Bb {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 42px;
+  min-height          : 22px;
+  min-width           : 80px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.register .discover-5026afc0-764d-4c7a-b556-1be9fcfc8754-ef75Q1 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  min-height          : 22px;
+  min-width           : 84px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}

@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500|Montserrat:300');
+
+
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  animation-delay     : 0s;
+}
+@keyframes anima-reveal {
+  from {
+    opacity             : 0;
+  }
+  to {
+    opacity             : 1;
+  }
+}
+* {
+  box-sizing          : border-box;
+}
+a {
+  text-decoration     : none;
+}
+.anima-flexbox-container a {
+  line-height         : 0;
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-component-wrapper a,
+.anima-screen a {
+  text-decoration     : none;
+}
+.anima-flexbox-container a {
+  line-height         : 0;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+.anima-screen textarea:focus,
+.anima-screen input:focus {
+  outline             : none;
+}
+.anima-screen div {
+  -webkit-text-size-adjust: none;
+}
+.anima-container-center-vertical,
+.anima-container-center-horizontal {
+  pointer-events      : none;
+  display             : flex;
+  flex-direction      : row;
+  padding             : 0;
+  margin              : 0;
+}
+.anima-container-center-vertical {
+  align-items         : center;
+  height              : 100%;
+}
+.anima-container-center-horizontal {
+  justify-content     : center;
+  width               : 100%;
+}
+.anima-container-center-vertical > *,
+.anima-container-center-horizontal > * {
+  pointer-events      : auto;
+  flex-shrink         : 0;
+}
+.anima-component-wrapper ,
+.anima-screen {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.anima-auto-animated div,
+.anima-auto-animated span {
+  opacity             : 0;
+  position            : absolute;
+  --anima-z-index: -1;
+}
+/* ANIMA screen - aboutopenaccount */
+.font-class-1 {
+  font-family         : Montserrat, Helvetica, Arial, serif;
+  font-style          : normal;
+  font-weight         : 300;
+}
+.font-class-2 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.20px;
+  line-height         : 21.0px;
+}
+.font-class-3 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.54px;
+  line-height         : 16.0px;
+}
+.font-class-4 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.19px;
+  line-height         : 20.0px;
+}
+.font-class-5 {
+  color               : var(--auto-palette-color-1);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  font-style          : normal;
+  font-weight         : 500;
+  letter-spacing      : 1.51px;
+  line-height         : 17.0px;
+}
+.font-class-6 {
+  color               : var(--auto-palette-color-1);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  font-style          : normal;
+  font-weight         : 500;
+  letter-spacing      : 1.07px;
+  line-height         : 12.0px;
+}
+:root {
+  --auto-palette-color-1: rgba(0,0,0,1.0);
+  --auto-palette-color-2: rgba(255,255,255,1.0);
+  --auto-palette-color-3: rgba(122,132,248,1.0);
+  --auto-palette-color-4: rgba(0,229,1,1.0);
+  --auto-palette-color-5: rgba(186,194,255,1.0);
+  --auto-palette-color-6: rgba(143,152,248,1.0);
+  --auto-palette-color-7: rgba(227,6,19,1.0);
+}
+.aboutopenaccount .auto-flex1-a1Q0QQ {
+  align-items         : center;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  margin-bottom       : -3.5px;
+  position            : relative;
+  width               : 107px;
+}
+.aboutopenaccount .overlap-group-4tDfkw {
+  align-self          : flex-end;
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 128px;
+  position            : relative;
+  width               : 255px;
+}
+.aboutopenaccount .auto-flex-1lKxzb {
+  align-items         : flex-start;
+  align-self          : center;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 155px;
+  justify-content     : flex-start;
+  margin-left         : 66.98px;
+  position            : relative;
+  width               : auto;
+}
+.aboutopenaccount .overlap-group-17gSzi {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 61px;
+  margin-top          : 0px;
+  position            : relative;
+  width               : 228px;
+}
+.aboutopenaccount .rectangle-43-6a2dcbe8-1a83-4548-a448-090ef8f1090b-jZyxJP {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 10.0px;
+  height              : 754px;
+  left                : 686px;
+  position            : absolute;
+  top                 : -27px;
+  transform           : rotate(0deg);
+  width               : 788px;
+}
+.aboutopenaccount .path-92-d0ff8a74-7f48-44fe-a5b2-625aa9f6c490-cpuUwj {
+  background-color    : rgba(0,229,1,0);
+  height              : 671px;
+  left                : -0px;
+  position            : absolute;
+  top                 : -0px;
+  transform           : rotate(0deg);
+  width               : 670px;
+}
+.aboutopenaccount .rectangle-105-ddf566d1-3353-4990-9f91-b8e3e31247db-zjFOu9 {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 20.0px;
+  height              : 745px;
+  left                : 200px;
+  position            : absolute;
+  top                 : -22px;
+  transform           : rotate(0deg);
+  width               : 545px;
+}
+.aboutopenaccount .text-field-outlined-unfilled-enabled-6f4c65e5-187d-4b12-93c5-c596e5357439-JnDIV3 {
+  background-color    : rgba(255,255,255,0);
+  height              : 69px;
+  left                : 306px;
+  position            : absolute;
+  top                 : 326px;
+  transform           : rotate(0deg);
+  width               : 334px;
+}
+.aboutopenaccount .surface-d4d012d4-3e0d-4b9d-873b-322e4cbbd595-dxhxKE {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-2);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 2.0px;
+  height              : 69px;
+  left                : 0px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 333px;
+}
+.aboutopenaccount .savings-account-0bb68ac0-770b-44d3-b165-16fffeda0df5-5KhRZs {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 17px;
+  line-height         : 18.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 26px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.aboutopenaccount .down-icon-812083b6-fc99-4485-9ee3-88b124feb4db-srsNt6 {
+  background-color    : rgba(255,255,255,0);
+  height              : 58px;
+  left                : 666px;
+  position            : absolute;
+  top                 : 322px;
+  transform           : rotate(269.999999971deg);
+  width               : 66px;
+}
+.aboutopenaccount .bx-chevron-down-f0fab5c3-cffa-429f-906b-1a628eb98432-MEPpTx {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 57px;
+  justify-content     : flex-end;
+  left                : 15px;
+  min-width           : 45px;
+  position            : absolute;
+  top                 : 7px;
+  transform           : rotate(-269.999999971deg);
+  width               : auto;
+}
+.aboutopenaccount .path-12-563d712f-ecd8-4737-9888-e56d5897f0a9-sANslM {
+  background-color    : rgba(0,229,1,0);
+  flex-shrink         : 0;
+  height              : 57px;
+  margin-top          : -5.96px;
+  position            : relative;
+  width               : 45px;
+}
+.aboutopenaccount .rectangle-37-552e300c-f5ec-4ebf-9cdc-5ed7f1a94e8c-BrQnoF {
+  background-color    : rgba(255,255,255,0);
+  height              : 42px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 42px;
+}
+.aboutopenaccount .about-razer-accounts-dee135a2-6208-4106-adac-0e1a6d3b0be6-DcJlKl {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 26.0px;
+  height              : auto;
+  left                : 796px;
+  line-height         : 26.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 84px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.aboutopenaccount .opening-a-razer-bank-account-8ed031d3-8fd6-4aaf-bb92-d8873c08b556-YuZrOc {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  font-size           : 26.0px;
+  height              : auto;
+  left                : 303px;
+  line-height         : 26.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 84px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.aboutopenaccount .lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-dolore-magna-aliquyam-erat-sed-diam-voluptua-at-vero-eos-et-accusam-et-justo-duo-dolores-et-ea-rebum-stet-clita-kasd-gubergren-no-sea-takimata-f52e7575-cf07-4daf-a3fd-f9e2d079c655-qb7jFm {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 30.0px;
+  height              : 213px;
+  left                : 797px;
+  line-height         : 30.0px;
+  overflow            : hidden;
+  position            : absolute;
+  text-align          : left;
+  top                 : 192px;
+  transform           : rotate(0deg);
+  width               : 560px;
+}
+.aboutopenaccount .group-12-99c6c2db-85e3-4eaf-85f7-efd92c1ddfee-A4BFvI {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  cursor              : pointer;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 90px;
+  justify-content     : flex-start;
+  left                : 974px;
+  position            : absolute;
+  top                 : 458px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.aboutopenaccount .group-85-0f138634-94f9-4867-a2e1-a161baa694bb-PU9x0f {
+  align-items         : center;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  min-height          : 90px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 228px;
+}
+.aboutopenaccount .path-13-c1147c4a-da75-43f6-b72f-c6bd848420f6-RFswqY {
+  background-color    : rgba(0,229,1,0);
+  height              : 61px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 228px;
+}
+.aboutopenaccount .apply-now-26ea6e01-68f2-490f-9a0a-9a479cd65559-lgzHlL {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 14.0px;
+  height              : auto;
+  left                : 68px;
+  line-height         : 14.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 22px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.aboutopenaccount .with-b13beb70-77bb-4700-a953-3a28ad023121-epuQCu {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 16.0px;
+  height              : auto;
+  line-height         : 16.0px;
+  margin-left         : 0.89px;
+  margin-top          : 11px;
+  min-height          : 21px;
+  min-width           : 47px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.aboutopenaccount .download-9f1347a2-562c-4259-9bbb-b729efe8bf01-LjSg62 {
+  background-color    : rgba(255,255,255,0);
+  cursor              : pointer;
+  height              : 48px;
+  left                : 1028px;
+  position            : absolute;
+  top                 : 549px;
+  transform           : rotate(0deg);
+  width               : 120px;
+}
+.aboutopenaccount .group-100-9fd4f6c0-62c6-4ba5-afcd-558ac19f279d-wIslSw {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 131px;
+  justify-content     : flex-start;
+  margin-left         : 238px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.aboutopenaccount .chrislim63-4553af1d-4bd7-49bc-9863-63ae15f14173-PF8PVh {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-top          : 23px;
+  min-height          : 22px;
+  min-width           : 117px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.aboutopenaccount .ellipse-17-4963236f-3df8-4f20-9ed7-358ed3e8e932-Z7Qwkj {
+  background-color    : rgba(255,255,255,0);
+  cursor              : pointer;
+  flex-shrink         : 0;
+  height              : 89px;
+  margin-right        : 2.0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 89px;
+}
+.aboutopenaccount .log-out-9da41aed-8fb4-47c1-a38d-d6253da08783-NYk7RA {
+  align-self          : center;
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 15.0px;
+  height              : auto;
+  line-height         : 15.0px;
+  margin-bottom       : 36.0px;
+  margin-left         : 36px;
+  min-height          : 21px;
+  min-width           : 81px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.aboutopenaccount .down-icon-98237ac3-e542-4473-b420-d2ec3434a016-X9sz9x {
+  background-color    : rgba(255,255,255,0);
+  height              : 24px;
+  left                : 0px;
+  pointer-events      : auto;
+  position            : absolute;
+  top                 : 97px;
+  transform           : rotate(90.0000000286deg);
+  transition          : all 0.2s ease;
+  width               : 38px;
+}
+.aboutopenaccount .down-icon-98237ac3-e542-4473-b420-d2ec3434a016-X9sz9x:hover {
+  transform           : translate(-5px, 0);
+}
+.aboutopenaccount .bx-chevron-down-942c88df-c2af-4ad1-b1d1-c575e9a383cd-5BxQD3 {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 38px;
+  justify-content     : flex-end;
+  left                : 7px;
+  min-width           : 24px;
+  position            : absolute;
+  top                 : -7px;
+  transform           : rotate(-90.0000000286deg);
+  width               : auto;
+}
+.aboutopenaccount .path-12-b82eac64-ddb4-4fb4-b206-e8790a0f9a2c-pFm7Ex {
+  background-color    : rgba(177,181,190,0);
+  flex-shrink         : 0;
+  height              : 38px;
+  margin-top          : -7.02px;
+  position            : relative;
+  width               : 24px;
+}
+.aboutopenaccount .return-to-dashboard-58434b0c-2d30-4f57-8c82-70f1f2d74eef-IX44gN {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  cursor              : pointer;
+  font-size           : 14.0px;
+  height              : auto;
+  left                : 43px;
+  line-height         : 14.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 101px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.aboutopenaccount {
+  align-items         : flex-start;
+  background-color    : var(--auto-palette-color-2);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  height              : auto;
+  justify-content     : flex-start;
+  min-height          : 1080px;
+  overflow            : hidden;
+  padding             : 22.0px 0;
+  position            : relative;
+  width               : 1440.0px;
+}
+.aboutopenaccount .group-10-81ae5285-2b92-4971-9600-79e4ef8a6f2c-xiRsu5 {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 20px;
+  justify-content     : flex-start;
+  margin-left         : 135px;
+  margin-top          : 24.0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.aboutopenaccount .services-ac515c82-1507-4842-9624-da8df7b05531-EhxazZ {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 42px;
+  min-height          : 22px;
+  min-width           : 80px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.aboutopenaccount .discover-eda49f03-9a71-4b6c-9b3c-72aa94257fb9-b733Bi {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  min-height          : 22px;
+  min-width           : 84px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.aboutopenaccount .apply-572815a3-b129-437a-9c41-58363e75744c-5OlbRL {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 44px;
+  min-height          : 22px;
+  min-width           : 60px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.aboutopenaccount .contact-059546a1-7323-456c-9f7d-9d125024a5cf-VgIZXS {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 41px;
+  min-height          : 22px;
+  min-width           : 79px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.aboutopenaccount .razer-logo-3c6d017d-87bb-47e9-bf75-a43964f7a191-bytBCB {
+  background-color    : rgba(255,255,255,0);
+  height              : 128px;
+  left                : 27px;
+  position            : absolute;
+  top                 : 0px;
+  width               : 228px;
+}
+.aboutopenaccount .group-93-bded2833-98ad-4fa2-8476-6b9bcf05a599-H9YYTC {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 671px;
+  margin-left         : -56.0px;
+  margin-top          : 27px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 1399px;
+}

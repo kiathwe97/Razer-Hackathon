@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% load static %}<link href="{%static '/img/favicon.png' %}" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=1440, maximum-scale=1.0" name="viewport"/>
+        <link href="{%static '/css/openaccountapproved.css'%}" rel="stylesheet" type="text/css"/>
+        <meta content="AnimaApp.com - Design to code, Automated." name="author">
+        </meta>
+    </head>
+    <body style="margin: 0;
+ background: rgba(255, 255, 255, 1.0);">
+        <input id="anPageName" name="page" type="hidden" value="openaccountapproved"/>
+        <div class="anima-container-center-horizontal">
+            <div class="openaccountapproved anima-flexbox-container anima-screen ">
+                <img anima-src="{%static '/img/razer-logo-10@1x.png' %}" class="razer-logo-efa47c6a-86f5-442e-985f-b1dc40711035-hgdT3i" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <div class="auto-flex-1lKxzb anima-flexbox-container">
+                    <div class="group-10-781f1fd9-9db0-4915-bc3a-2166e93c1a7b-8AWH4i anima-flexbox-container">
+                        <div class="discover-59379d4d-625c-4389-8a6f-828f8be63267-o30HIS font-class-1">
+                            Discover
+                        </div>
+                        <div class="services-bb4379c0-b3eb-41de-b441-574315081880-u5ccVt font-class-1">
+                            Services
+                        </div>
+                        <div class="apply-3116786a-663d-42bf-872a-d786741675de-j7w7xT font-class-1">
+                            Apply
+                        </div>
+                        <div class="contact-8c902681-0b18-4549-90d5-830365c3f95e-jBIgey font-class-1">
+                            Contact
+                        </div>
+                    </div>
+                    <div class="group-96-66fe0ac9-ed3a-4e63-8c04-07c6c249f6c9-b7eUC4 anima-flexbox-container">
+                        <div class="application-id-2551441291-1eeff658-45fd-45ff-b807-f93f03468e8c-DKmxOd font-class-1">
+                            Application ID: 2551441291
+                        </div>
+                        <div class="congratulations-your-application-has-been-approved-0e9ae2aa-df34-4140-9202-9500c6925116-UJCsVN font-class-1">
+                            Congratulations!<br />Your application has been approved
+                        </div>
+                        <div class="go-to-my-accounts-to-view-your-account-a450aafa-25a9-4b31-94d4-09369b63f0c6-XWj4Ip font-class-1">
+                            Go to “My Accounts” to view your account.
+                        </div>
+                        <div class="auto-flex1-cAoiPa anima-flexbox-container">
+                            <a href="dashboard.html">
+                                <div class="group-87-3b3aa17f-0afd-49ff-83c3-6261ac25f4a9-Mgy5qx">
+                                    <img anima-src="{%static '/img/rectangle-105-12@1x.png' %}" class="rectangle-105-a22f59d7-139a-4e0d-8b30-394b07d68c25-V9hdem" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <div class="return-to-dashboard-0ef8da12-b88d-45f9-8c08-69f41bf77efe-KxxRzu font-class-1">
+                                        Return to Dashboard
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="myaccount.html">
+                                <div class="group-82-87198aa3-d7fb-43ec-bbc0-badcc552d105-LIf7CL">
+                                    <img anima-src="{%static '/img/rectangle-105-11@1x.png' %}" class="rectangle-105-0e332b30-2397-43ad-87a6-fc73fd8213ff-dpuxtg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <div class="my-accounts-4b4c8d38-9141-40ee-ac07-226debea2d20-ibaxxF font-class-1">
+                                        My Accounts
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="group-100-d0367e88-be68-478f-90f9-298c5faf1ef0-j19uYs anima-flexbox-container">
+                    <div class="auto-flex2-cDbbM0 anima-flexbox-container">
+                        <a href="myaccount.html">
+                            <img anima-src="{%static '/img/ellipse-17-10@1x.png' %}" class="ellipse-17-6cf1702a-86bd-4eff-857e-47e18e1d867b-DNIhZm" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </a>
+                        <div class="chrislim63-41d15d75-ffe1-45a8-b8c0-678d0d7302c0-VHV16H font-class-1">
+                            CHRISLIM63
+                        </div>
+                    </div>
+                    <div class="log-out-98a0f5ef-068e-43dc-8eb4-e2317cecc7d1-kjBhmp font-class-1">
+                        LOG OUT
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script>
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+        </script>
+        <!-- End of Scripts -->
+    </body>
+</html>

@@ -1,0 +1,2721 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500|Montserrat:300');
+
+
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  animation-delay     : 0s;
+}
+@keyframes anima-reveal {
+  from {
+    opacity             : 0;
+  }
+  to {
+    opacity             : 1;
+  }
+}
+a {
+  text-decoration     : none;
+}
+.anima-flexbox-container a {
+  line-height         : 0;
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-component-wrapper a,
+.anima-screen a {
+  text-decoration     : none;
+}
+.anima-flexbox-container a {
+  line-height         : 0;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+.anima-screen textarea:focus,
+.anima-screen input:focus {
+  outline             : none;
+}
+.anima-screen div {
+  -webkit-text-size-adjust: none;
+}
+.anima-container-center-vertical,
+.anima-container-center-horizontal {
+  pointer-events      : none;
+  display             : flex;
+  flex-direction      : row;
+  padding             : 0;
+  margin              : 0;
+}
+.anima-container-center-vertical {
+  align-items         : center;
+  height              : 100%;
+}
+.anima-container-center-horizontal {
+  justify-content     : center;
+  width               : 100%;
+}
+.anima-container-center-vertical > *,
+.anima-container-center-horizontal > * {
+  pointer-events      : auto;
+  flex-shrink         : 0;
+}
+.anima-component-wrapper ,
+.anima-screen {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.anima-auto-animated div,
+.anima-auto-animated span {
+  opacity             : 0;
+  position            : absolute;
+  --anima-z-index: -1;
+}
+/* ANIMA screen - homepage */
+.font-class-1 {
+  font-family         : Montserrat, Helvetica, Arial, serif;
+  font-style          : normal;
+  font-weight         : 300;
+}
+.font-class-2 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.20px;
+  line-height         : 21.0px;
+}
+.font-class-3 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.54px;
+  line-height         : 16.0px;
+}
+.font-class-4 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.19px;
+  line-height         : 20.0px;
+}
+.font-class-5 {
+  color               : var(--auto-palette-color-1);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  font-style          : normal;
+  font-weight         : 500;
+  letter-spacing      : 1.51px;
+  line-height         : 17.0px;
+}
+.font-class-6 {
+  color               : var(--auto-palette-color-1);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  font-style          : normal;
+  font-weight         : 500;
+  letter-spacing      : 1.07px;
+  line-height         : 12.0px;
+}
+:root {
+  --auto-palette-color-1: rgba(0,0,0,1.0);
+  --auto-palette-color-2: rgba(255,255,255,1.0);
+  --auto-palette-color-3: rgba(122,132,248,1.0);
+  --auto-palette-color-4: rgba(0,229,1,1.0);
+  --auto-palette-color-5: rgba(186,194,255,1.0);
+  --auto-palette-color-6: rgba(143,152,248,1.0);
+  --auto-palette-color-7: rgba(227,6,19,1.0);
+}
+.homepage .overlap-group-W2mN2v {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 156px;
+  position            : relative;
+  width               : 49px;
+}
+.homepage .overlap-group1-9UGx2s {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 631px;
+  margin-left         : 15px;
+  position            : relative;
+  width               : 804px;
+}
+.homepage .overlap-group2-rQ4F4A {
+  align-self          : flex-end;
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 926px;
+  position            : relative;
+  width               : 1247px;
+}
+.homepage .overlap-group3-F1K31c {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 877px;
+  margin-left         : 1.57px;
+  margin-top          : 370px;
+  position            : relative;
+  width               : 1366px;
+}
+.homepage .overlap-group4-5Q7Sl3 {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 38px;
+  margin-left         : 656px;
+  position            : relative;
+  width               : 133px;
+}
+.homepage .auto-flex4-soqr9B {
+  align-items         : center;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 631px;
+  justify-content     : flex-start;
+  margin-left         : 84.72px;
+  margin-top          : 43px;
+  position            : relative;
+  width               : auto;
+}
+.homepage .auto-flex1-t5q8Pb {
+  align-items         : center;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  margin-right        : 1.53px;
+  margin-top          : 97px;
+  position            : relative;
+  width               : 1442px;
+}
+.homepage .auto-flex-NJ62Do {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 38px;
+  justify-content     : flex-start;
+  margin-left         : 70.96px;
+  margin-top          : 218px;
+  position            : relative;
+  width               : auto;
+}
+.homepage .auto-flex2-CJlPxF {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 144px;
+  justify-content     : flex-start;
+  margin-right        : 39.65px;
+  position            : relative;
+  width               : auto;
+}
+.homepage .auto-flex3-Q7lxLj {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  margin-bottom       : 26.73px;
+  position            : relative;
+  width               : 400px;
+}
+.homepage .overlap-group-Uv6Ly7 {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 156px;
+  position            : relative;
+  width               : 49px;
+}
+.homepage .overlap-group-iEGJBY {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 156px;
+  position            : relative;
+  width               : 49px;
+}
+.homepage .overlap-group2-Vo8kJU {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 53px;
+  position            : relative;
+  width               : 99px;
+}
+.homepage .overlap-group-2Yc88g {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 156px;
+  position            : relative;
+  width               : 49px;
+}
+.homepage .overlap-group-98HsSG {
+  align-self          : flex-start;
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 459px;
+  margin-top          : 233px;
+  position            : relative;
+  width               : 1429px;
+}
+.homepage .group-55-af0e95da-e4c0-47f2-b2c4-5e0587f29045-7MI6GR {
+  background-color    : rgba(255,255,255,0);
+  cursor              : pointer;
+  height              : 44px;
+  left                : 290px;
+  position            : absolute;
+  top                 : 696px;
+  transform           : rotate(0deg);
+  width               : 154px;
+}
+.homepage .rectangle-39-791f9d88-e1d1-45ce-b6c9-0742bc8c2c4b-EDdpYh {
+  background-color    : var(--auto-palette-color-4);
+  border-radius       : 28.0px;
+  height              : 44px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 154px;
+}
+.homepage .get-started-9bcb4c06-eb6f-404e-af20-45487fca9a4b-iMiPEM {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 13.0px;
+  height              : auto;
+  left                : 37px;
+  line-height         : 13.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 14px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .group-58-28690abf-4894-4c5b-bccb-345744ff77a1-7yxH9O {
+  background-color    : rgba(255,255,255,0);
+  cursor              : pointer;
+  height              : 44px;
+  left                : 936px;
+  position            : absolute;
+  top                 : 696px;
+  transform           : rotate(0deg);
+  width               : 154px;
+}
+.homepage .rectangle-39-fb4b942b-cde7-4440-8863-0a6ad3ef6ff1-Hjg8Kk {
+  background-color    : var(--auto-palette-color-4);
+  border-radius       : 28.0px;
+  height              : 44px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 154px;
+}
+.homepage .get-started-55c704ad-8b67-49a0-aee8-d53cfb92b630-hitzcW {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 13.0px;
+  height              : auto;
+  left                : 37px;
+  line-height         : 13.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 14px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .razer-logo-581c9ef1-7752-4b96-97eb-5cdf2d4972f5-tG6zTs {
+  align-self          : flex-end;
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 128px;
+  position            : relative;
+  width               : 229px;
+}
+.homepage .path-63-77344b85-3903-453c-9104-f86df9f35351-QgPyWw {
+  background-color    : rgba(255,173,200,0);
+  height              : 13px;
+  left                : 95px;
+  position            : absolute;
+  top                 : 26px;
+  transform           : rotate(0deg);
+  width               : 7px;
+}
+.homepage .group-49-06ffc59d-c61a-4616-8456-36bba3112355-QGgRxA {
+  background-color    : rgba(255,255,255,0);
+  height              : 132px;
+  left                : 459px;
+  position            : absolute;
+  top                 : 16px;
+  transform           : rotate(0deg);
+  width               : 88px;
+}
+.homepage .path-64-0f706298-97a8-4053-8c26-a9dc4417ecdb-8vaqyr {
+  background-color    : rgba(90,102,212,0);
+  height              : 12px;
+  left                : 9px;
+  position            : absolute;
+  top                 : 107px;
+  transform           : rotate(0deg);
+  width               : 23px;
+}
+.homepage .path-65-9a79b64a-9fd8-48cc-a41b-13d93f3bfdd9-Rkmmgx {
+  background-color    : rgba(255,173,200,0);
+  height              : 9px;
+  left                : 16px;
+  position            : absolute;
+  top                 : 107px;
+  transform           : rotate(0deg);
+  width               : 16px;
+}
+.homepage .path-66-2bb03023-8d48-47dc-88c6-23f4786ffe32-fUHlFm {
+  background-color    : rgba(90,102,212,0);
+  height              : 18px;
+  left                : 43px;
+  position            : absolute;
+  top                 : 113px;
+  transform           : rotate(0deg);
+  width               : 12px;
+}
+.homepage .path-67-20d1fcd4-fa40-4509-a1cf-422e77be5d66-orxXZq {
+  background-color    : rgba(255,173,200,0);
+  height              : 11px;
+  left                : 43px;
+  position            : absolute;
+  top                 : 113px;
+  transform           : rotate(0deg);
+  width               : 7px;
+}
+.homepage .path-68-6c3a508a-afc2-4753-8d84-f3694bbff772-kgyjbZ {
+  background-color    : rgba(60,129,227,0);
+  height              : 19px;
+  left                : 25px;
+  position            : absolute;
+  top                 : 70px;
+  transform           : rotate(0deg);
+  width               : 34px;
+}
+.homepage .path-69-425c74d9-48de-4370-aabb-3a3d011d3f13-VzMSmw {
+  background-color    : rgba(255,173,200,0);
+  height              : 19px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 12px;
+  transform           : rotate(0deg);
+  width               : 15px;
+}
+.homepage .path-70-5d2db051-cf01-4ad0-96c0-0b64f827e7f1-1paOVV {
+  background-color    : rgba(255,173,200,0);
+  height              : 7px;
+  left                : 69px;
+  position            : absolute;
+  top                 : 81px;
+  transform           : rotate(0deg);
+  width               : 19px;
+}
+.homepage .path-71-d6e0b5c2-0988-48d7-8b4a-d8313b48086a-XjVpq8 {
+  background-color    : rgba(255,94,133,0);
+  height              : 46px;
+  left                : 53px;
+  position            : absolute;
+  top                 : 37px;
+  transform           : rotate(0deg);
+  width               : 23px;
+}
+.homepage .path-72-07e91ae7-e93f-46db-9804-7cc1b734a17c-1xu2Vc {
+  background-color    : rgba(255,94,133,0);
+  height              : 24px;
+  left                : 4px;
+  position            : absolute;
+  top                 : 29px;
+  transform           : rotate(0deg);
+  width               : 24px;
+}
+.homepage .path-73-3e9f573a-a6d4-4863-9f23-78df7e4be6cd-j7VO7x {
+  background-color    : rgba(44,57,85,0);
+  height              : 32px;
+  left                : 28px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 27px;
+}
+.homepage .path-74-edf90af4-b2ca-40bb-93b6-518101098e0a-MHYf4f {
+  background-color    : rgba(255,173,200,0);
+  height              : 8px;
+  left                : 38px;
+  position            : absolute;
+  top                 : 25px;
+  transform           : rotate(0deg);
+  width               : 8px;
+}
+.homepage .path-75-82faba37-88e1-4273-94bb-962fef0227a9-pFidvu {
+  background-color    : rgba(255,173,200,0);
+  height              : 10px;
+  left                : 33px;
+  position            : absolute;
+  top                 : 32px;
+  transform           : rotate(0deg);
+  width               : 16px;
+}
+.homepage .group-48-0502b5ad-8aef-48bf-ba82-2643a74d3778-L9Ve9i {
+  align-items         : center;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 6px;
+  justify-content     : flex-start;
+  left                : 30px;
+  min-width           : 22px;
+  position            : absolute;
+  top                 : 15px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .path-76-10a8c204-2db6-43f2-b962-e99d53ce3fb1-wnFWNX {
+  background-color    : rgba(255,173,200,0);
+  flex-shrink         : 0;
+  height              : 6px;
+  margin-left         : 0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 4px;
+}
+.homepage .path-77-21c1f0b3-b503-4ece-adb0-4382a301c741-zpXcbz {
+  background-color    : rgba(255,173,200,0);
+  flex-shrink         : 0;
+  height              : 6px;
+  margin-left         : 13px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 4px;
+}
+.homepage .path-78-84dfefbf-1e21-4923-978f-e20754da221a-IgL3EP {
+  background-color    : rgba(255,173,200,0);
+  height              : 23px;
+  left                : 33px;
+  position            : absolute;
+  top                 : 4px;
+  transform           : rotate(0deg);
+  width               : 18px;
+}
+.homepage .path-79-582930a4-67f6-4763-98dc-f35136d4cfd3-HcZZV7 {
+  background-color    : rgba(44,57,85,0);
+  height              : 11px;
+  left                : 32px;
+  position            : absolute;
+  top                 : 4px;
+  transform           : rotate(0deg);
+  width               : 19px;
+}
+.homepage .path-80-1fd8c410-79b9-4da8-b28a-c15e90841561-Ukjj7T {
+  background-color    : rgba(191,196,248,0);
+  height              : 41px;
+  left                : 31px;
+  position            : absolute;
+  top                 : 33px;
+  transform           : rotate(0deg);
+  width               : 23px;
+}
+.homepage .path-81-b8eb3d41-7179-49cc-8123-458b8a66e2de-kDZrQs {
+  background-color    : rgba(255,94,133,0);
+  height              : 44px;
+  left                : 46px;
+  position            : absolute;
+  top                 : 33px;
+  transform           : rotate(0deg);
+  width               : 13px;
+}
+.homepage .path-82-907f5cf5-6e9c-48c6-806c-fd46c5c3e8be-LopaBE {
+  background-color    : rgba(255,94,133,0);
+  height              : 44px;
+  left                : 24px;
+  position            : absolute;
+  top                 : 33px;
+  transform           : rotate(0deg);
+  width               : 13px;
+}
+.homepage .path-83-722f0e9b-4e57-4717-81bb-0f4a15e0c8b8-PSQ2QX {
+  background-color    : rgba(60,129,227,0);
+  height              : 40px;
+  left                : 30px;
+  position            : absolute;
+  top                 : 77px;
+  transform           : rotate(0deg);
+  width               : 18px;
+}
+.homepage .path-84-4a10eee3-33a7-411f-addb-ea9429d3e45f-Vtyl3z {
+  background-color    : rgba(68,145,255,0);
+  height              : 41px;
+  left                : 25px;
+  position            : absolute;
+  top                 : 69px;
+  transform           : rotate(0deg);
+  width               : 30px;
+}
+.homepage .group-52-133e31b0-4b45-43d9-940d-d4af28219372-nEJs4d {
+  align-items         : center;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  height              : auto;
+  justify-content     : flex-start;
+  left                : 215px;
+  min-height          : 75px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 99px;
+}
+.homepage .ellipse-16-f00b5e85-ea63-44af-b66b-a6c895373c02-wuSn36 {
+  background-color    : rgba(255,184,200,0);
+  flex-shrink         : 0;
+  height              : 22px;
+  margin-right        : 0.45px;
+  margin-top          : 0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 22px;
+}
+.homepage .group-50-139287ee-934c-46bc-bca6-8a6d6f6d1a05-o3d03n {
+  background-color    : rgba(255,255,255,0);
+  height              : 35px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 99px;
+}
+.homepage .group-51-cf8aa065-bc9f-4c1b-a0f3-ec9b76fa35af-2RnvVf {
+  background-color    : rgba(255,255,255,0);
+  height              : 28px;
+  left                : 18px;
+  position            : absolute;
+  top                 : 25px;
+  transform           : rotate(0deg);
+  width               : 63px;
+}
+.homepage .mask-group-3-d515e302-cf9c-4096-b042-4682c00f4079-2BVbcW {
+  background-color    : rgba(255,255,255,0);
+  height              : 926px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  width               : 1247px;
+}
+.homepage .path-87-4fdfbbfb-3746-4438-8ec2-67947975f47c-IsOx7x {
+  background-color    : rgba(0,0,0,0);
+  height              : 400px;
+  left                : -127px;
+  position            : absolute;
+  top                 : -107px;
+  width               : 751px;
+}
+.homepage .path-88-2e4dd673-6ffb-4882-8669-83a413d9de85-qCqiXo {
+  background-color    : rgba(0,229,1,0);
+  height              : 444px;
+  left                : 499px;
+  position            : absolute;
+  top                 : 644px;
+  width               : 934px;
+}
+.homepage .rectangle-101-f2c6b2c7-9c7b-42ec-bb7c-18b5258f40c9-LsDOXb {
+  background-color    : rgba(90,102,212,0);
+  border-radius       : 20.0px;
+  height              : 926px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  width               : 1247px;
+}
+.homepage .group-54-a4398414-f91d-42d5-8213-2aef9842e17e-lhGPOt {
+  background-color    : rgba(255,255,255,0);
+  height              : 111px;
+  left                : 548px;
+  position            : absolute;
+  top                 : 352px;
+  transform           : rotate(0deg);
+  width               : 631px;
+}
+.homepage .rectangle-102-18846806-0e24-42ea-a936-2f1ab4d88653-G0QGoJ {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 10.0px;
+  height              : 201px;
+  left                : -45px;
+  position            : absolute;
+  top                 : -42px;
+  transform           : rotate(0deg);
+  width               : 721px;
+}
+.homepage .see-what-you-can-do-with-razer-bank-a12180ed-70a3-4229-adf1-b7087b1ce617-DcNuyH {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 23.0px;
+  height              : auto;
+  left                : 55px;
+  line-height         : 23.0px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 40px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .down-icon-d1d29cf2-db97-443f-82ac-c0ede074cb26-KVpcDJ {
+  background-color    : rgba(255,255,255,0);
+  height              : 24px;
+  left                : 109px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 24px;
+}
+.homepage .bx-chevron-down-d86d03f6-cd62-493c-8325-996e7b01eaf8-y94wmf {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 7px;
+  justify-content     : flex-end;
+  left                : 6px;
+  min-width           : 11px;
+  position            : absolute;
+  top                 : 8px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .path-12-26b22bec-a328-449c-88f2-f6bfc26c37c6-sNZDrr {
+  background-color    : rgba(177,181,190,0);
+  flex-shrink         : 0;
+  height              : 7px;
+  margin-top          : -0.0px;
+  position            : relative;
+  width               : 11px;
+}
+.homepage .rectangle-37-a740ea54-2c8b-48e5-b6a5-15f5fd850c00-its6Kb {
+  background-color    : rgba(255,255,255,0);
+  height              : 24px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 24px;
+}
+.homepage .path-40-6a16160e-153b-4555-b68a-1f99ec506d93-qcKlxP {
+  background-color    : rgba(143,152,248,0);
+  height              : 23px;
+  left                : 92px;
+  position            : absolute;
+  top                 : 318px;
+  transform           : rotate(0deg);
+  width               : 33px;
+}
+.homepage .group-40-13362357-5ce0-4f6c-92d0-02f73c035952-wDMqPx {
+  background-color    : rgba(255,255,255,0);
+  height              : 49px;
+  left                : 122px;
+  position            : absolute;
+  top                 : 245px;
+  transform           : rotate(0deg);
+  width               : 49px;
+}
+.homepage .ellipse-13-c6720452-ffb0-47a0-ac23-c9b69353d516-1yLGsw {
+  background-color    : rgba(184,190,255,0);
+  height              : 49px;
+  left                : -0px;
+  position            : absolute;
+  top                 : -0px;
+  transform           : rotate(0deg);
+  width               : 49px;
+}
+.homepage .ellipse-14-de918a3a-dce4-4ad0-8981-dc2a047c3079-0qtES5 {
+  background-color    : rgba(143,152,248,0);
+  height              : 33px;
+  left                : 8px;
+  position            : absolute;
+  top                 : 8px;
+  transform           : rotate(0deg);
+  width               : 33px;
+}
+.homepage .group-42-d812cfef-e3a1-4a10-93ff-70cf741427d0-Hg12xI {
+  background-color    : rgba(255,255,255,0);
+  height              : 109px;
+  left                : 355px;
+  position            : absolute;
+  top                 : 391px;
+  transform           : rotate(0deg);
+  width               : 178px;
+}
+.homepage .rectangle-94-bfed4a56-c8c9-4a52-939d-5f28c97a75b1-AUsMik {
+  background-color    : rgba(255,130,160,0);
+  border-radius       : 25.9px;
+  height              : 109px;
+  left                : -0px;
+  position            : absolute;
+  top                 : -0px;
+  transform           : rotate(0deg);
+  width               : 178px;
+}
+.homepage .rectangle-95-d3ac1b85-357d-4e90-9608-a2a3e20964a5-91soJm {
+  background-color    : rgba(26,0,61,1.0);
+  height              : 21px;
+  left                : 0px;
+  opacity             : 0.4;
+  position            : absolute;
+  top                 : 22px;
+  transform           : rotate(0deg);
+  width               : 178px;
+}
+.homepage .rectangle-96-45d184c8-8aab-4a81-98da-c87ebae3f988-FnMeza {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 14.0px;
+  height              : 17px;
+  left                : 14px;
+  position            : absolute;
+  top                 : 53px;
+  transform           : rotate(0deg);
+  width               : 94px;
+}
+.homepage .rectangle-97-52cc5a0a-c23a-4fc1-ac30-289e2a40ddf3-gfPqVt {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 14.0px;
+  height              : 17px;
+  left                : 118px;
+  position            : absolute;
+  top                 : 53px;
+  transform           : rotate(0deg);
+  width               : 42px;
+}
+.homepage .path-41-20acdf52-8514-442b-ad68-3c4337f3e08d-fXxp1T {
+  background-color    : rgba(226,230,255,0);
+  height              : 5px;
+  left                : 78px;
+  position            : absolute;
+  top                 : 79px;
+  transform           : rotate(0deg);
+  width               : 82px;
+}
+.homepage .group-41-fd274db6-48cd-4356-a165-fcac7d09054d-tUSWe1 {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 5px;
+  justify-content     : flex-end;
+  left                : 16px;
+  min-width           : 143px;
+  position            : absolute;
+  top                 : 90px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .path-42-31a3ee27-e95b-4819-b0c9-0c1ccb77b740-Ojbo7x {
+  background-color    : rgba(226,230,255,0);
+  flex-shrink         : 0;
+  height              : 5px;
+  margin-left         : 7px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 42px;
+}
+.homepage .path-43-dce8eaf6-2df3-47b8-a462-ee9472fca5c2-SBpYcZ {
+  background-color    : rgba(226,230,255,0);
+  flex-shrink         : 0;
+  height              : 5px;
+  margin-left         : 11px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 24px;
+}
+.homepage .path-44-a613f2dd-4a65-49f3-9498-8da5792749e1-HdEPCZ {
+  background-color    : rgba(226,230,255,0);
+  flex-shrink         : 0;
+  height              : 5px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 59px;
+}
+.homepage .group-43-5f213b94-2321-4be5-bb1b-ff8f092592ac-QQ4GkS {
+  background-color    : rgba(255,255,255,0);
+  height              : 71px;
+  left                : 552px;
+  position            : absolute;
+  top                 : 153px;
+  transform           : rotate(0deg);
+  width               : 137px;
+}
+.homepage .rectangle-98-2980aeea-8d88-4960-a462-253c2efd6d86-7hIq51 {
+  background-color    : rgba(255,153,177,1.0);
+  border-radius       : 2.2px;
+  height              : 71px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 137px;
+}
+.homepage .path-45-bbcbeded-41db-44f0-a87e-37709e9f7428-Gppy2K {
+  background-color    : rgba(255,230,236,0);
+  height              : 55px;
+  left                : 8px;
+  position            : absolute;
+  top                 : 8px;
+  transform           : rotate(0deg);
+  width               : 121px;
+}
+.homepage .ellipse-15-67bfb54a-75d7-4acc-9a5f-9bee1dc37845-xlFZA5 {
+  background-color    : rgba(255,153,177,0);
+  height              : 44px;
+  left                : 46px;
+  position            : absolute;
+  top                 : 14px;
+  transform           : rotate(0deg);
+  width               : 44px;
+}
+.homepage .group-44-8beb80ef-b111-410e-b7a4-a5cd1220add0-xjxpiP {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 55px;
+  justify-content     : flex-start;
+  left                : 105px;
+  padding             : 0 0.0px;
+  position            : absolute;
+  top                 : 241px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .path-46-b0dca4ef-f787-4e07-b8f5-b4a0be023d26-lMQOE8 {
+  background-color    : rgba(226,230,255,0);
+  flex-shrink         : 0;
+  height              : 55px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 7px;
+}
+.homepage .group-45-00cb71de-30f7-43ea-8b75-7d80c8b2edcf-4qPLGx {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 41px;
+  justify-content     : center;
+  left                : 85px;
+  min-width           : 7px;
+  position            : absolute;
+  top                 : 266px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .path-47-a3ce5d88-9fa0-4e9d-a1dc-4d8278e9f6f9-spafVb {
+  background-color    : rgba(226,230,255,0);
+  flex-shrink         : 0;
+  height              : 41px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 7px;
+}
+.homepage .group-47-7a1406f2-056c-4faa-b8e1-eef7bc7f3ba6-2d66P3 {
+  background-color    : rgba(255,255,255,0);
+  height              : 199px;
+  left                : 227px;
+  position            : absolute;
+  top                 : 337px;
+  transform           : rotate(0deg);
+  width               : 101px;
+}
+.homepage .group-46-f8117571-e6df-4cba-991a-8ebd65ac51d8-hFJqvJ {
+  background-color    : rgba(255,255,255,0);
+  height              : 27px;
+  left                : 78px;
+  position            : absolute;
+  top                 : 14px;
+  transform           : rotate(0deg);
+  width               : 19px;
+}
+.homepage .rectangle-99-4d3a85c1-0035-4d5d-8f02-19465847edb3-7Q7DgG {
+  background-color    : rgba(44,57,85,1.0);
+  border-radius       : 1.9px;
+  height              : 25px;
+  left                : 2px;
+  position            : absolute;
+  top                 : 1px;
+  transform           : rotate(8.59325820816deg);
+  width               : 15px;
+}
+.homepage .rectangle-100-cd304b0a-50cc-409f-9647-a6561c19149e-FiekU0 {
+  background-color    : rgba(226,230,255,1.0);
+  border-radius       : 1.2px;
+  height              : 12px;
+  left                : -1px;
+  position            : absolute;
+  top                 : 8px;
+  transform           : rotate(98.5932582082deg);
+  width               : 20px;
+}
+.homepage .path-48-5b7630e3-b6d8-4b16-ae9a-81c506e51626-x5YriI {
+  background-color    : rgba(44,57,85,0);
+  height              : 11px;
+  left                : 46px;
+  position            : absolute;
+  top                 : 188px;
+  transform           : rotate(0deg);
+  width               : 29px;
+}
+.homepage .path-49-e277e4a4-e219-4784-9e24-640bb9ac1a0c-FEci9d {
+  background-color    : rgba(44,57,85,0);
+  height              : 11px;
+  left                : 18px;
+  position            : absolute;
+  top                 : 188px;
+  transform           : rotate(0deg);
+  width               : 29px;
+}
+.homepage .path-50-e287221e-9025-424c-93ad-58e67356141a-KDXXcm {
+  background-color    : rgba(71,75,202,0);
+  height              : 94px;
+  left                : 33px;
+  position            : absolute;
+  top                 : 97px;
+  transform           : rotate(0deg);
+  width               : 31px;
+}
+.homepage .path-51-8f347094-6e5b-4304-bd8f-202ea4f3aed4-HbBLVV {
+  background-color    : rgba(71,75,202,0);
+  height              : 89px;
+  left                : 15px;
+  position            : absolute;
+  top                 : 101px;
+  transform           : rotate(0deg);
+  width               : 27px;
+}
+.homepage .path-52-f15974e7-daf3-4c94-b00e-d0b3e65174e4-u19DXc {
+  background-color    : rgba(68,145,255,0);
+  height              : 54px;
+  left                : -0px;
+  position            : absolute;
+  top                 : 45px;
+  transform           : rotate(0deg);
+  width               : 21px;
+}
+.homepage .path-53-2de7f9e7-7261-41b8-a72b-d0b1c616d2fb-OxRf0n {
+  background-color    : rgba(255,173,200,0);
+  height              : 33px;
+  left                : 30px;
+  position            : absolute;
+  top                 : 2px;
+  transform           : rotate(0deg);
+  width               : 26px;
+}
+.homepage .path-54-21bd0141-bab8-4fcb-873e-f875f7752839-LPxsnM {
+  background-color    : rgba(255,173,200,0);
+  height              : 22px;
+  left                : 32px;
+  position            : absolute;
+  top                 : 26px;
+  transform           : rotate(0deg);
+  width               : 15px;
+}
+.homepage .path-55-d98c026b-72b6-4266-ae50-3a86fe0ae2fa-goHSnr {
+  background-color    : rgba(44,57,85,0);
+  height              : 34px;
+  left                : 29px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 31px;
+}
+.homepage .path-56-9bbeb020-0da9-46b5-b8fc-94241ace20f5-xMzErL {
+  background-color    : rgba(44,57,85,0);
+  height              : 14px;
+  left                : 47px;
+  position            : absolute;
+  top                 : 9px;
+  transform           : rotate(0deg);
+  width               : 6px;
+}
+.homepage .path-57-bd0705fa-d661-4a12-8d17-1e626e6bd542-ronvwZ {
+  background-color    : rgba(212,218,233,0);
+  height              : 10px;
+  left                : 29px;
+  position            : absolute;
+  top                 : 35px;
+  transform           : rotate(0deg);
+  width               : 26px;
+}
+.homepage .path-58-0adeef44-8d48-43da-a770-1bd553b8dde8-A3qDHl {
+  background-color    : rgba(68,145,255,0);
+  height              : 73px;
+  left                : 13px;
+  position            : absolute;
+  top                 : 39px;
+  transform           : rotate(0deg);
+  width               : 49px;
+}
+.homepage .path-59-ff8b3f74-2685-446b-acde-9e0992eb8682-x0eVDR {
+  background-color    : rgba(255,173,200,0);
+  height              : 23px;
+  left                : 84px;
+  position            : absolute;
+  top                 : 28px;
+  transform           : rotate(0deg);
+  width               : 17px;
+}
+.homepage .path-60-24f8769c-8ea0-4b38-9f6d-9d53a9f0d1fa-5uvbCV {
+  background-color    : rgba(212,218,233,0);
+  height              : 11px;
+  left                : 83px;
+  position            : absolute;
+  top                 : 45px;
+  transform           : rotate(0deg);
+  width               : 12px;
+}
+.homepage .path-61-01a8dc37-9652-4ddd-aec7-68ab8e0900c8-pfuIzG {
+  background-color    : rgba(68,145,255,0);
+  height              : 44px;
+  left                : 58px;
+  position            : absolute;
+  top                 : 47px;
+  transform           : rotate(0deg);
+  width               : 37px;
+}
+.homepage .path-62-8bd7499b-f48f-45de-9ff0-845770a5d1cf-xMPdDk {
+  background-color    : rgba(255,173,200,0);
+  height              : 9px;
+  left                : 45px;
+  position            : absolute;
+  top                 : 16px;
+  transform           : rotate(0deg);
+  width               : 4px;
+}
+.homepage .rectangle-81-6c2b3db0-948b-4072-84f1-b86ebd8763f7-VzlP1H {
+  background-color    : var(--auto-palette-color-3);
+  border-radius       : 5.1px;
+  flex-shrink         : 0;
+  height              : 130px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 6px;
+}
+.homepage .rectangle-82-ca14d217-d30e-491f-a514-dadb273661af-Kxsikl {
+  background-color    : var(--auto-palette-color-3);
+  border-radius       : 5.1px;
+  flex-shrink         : 0;
+  height              : 130px;
+  margin-left         : 10px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 6px;
+}
+.homepage .rectangle-83-5e2cf0be-f8c2-4762-be0c-b16585c4ac1d-0GQCqR {
+  background-color    : var(--auto-palette-color-3);
+  height              : 7px;
+  left                : 203px;
+  position            : absolute;
+  top                 : 146px;
+  transform           : rotate(0deg);
+  width               : 305px;
+}
+.homepage .ellipse-10-dd02314c-14af-497b-b617-3a653f9e573d-n1MBvx {
+  background-color    : rgba(255,94,133,0);
+  height              : 60px;
+  left                : 325px;
+  position            : absolute;
+  top                 : 74px;
+  transform           : rotate(0deg);
+  width               : 60px;
+}
+.homepage .path-21-6999a4f0-1cf5-4ab6-b668-562a90381821-3Zoda1 {
+  background-color    : rgba(226,230,255,0);
+  height              : 45px;
+  left                : 343px;
+  position            : absolute;
+  top                 : 81px;
+  transform           : rotate(0deg);
+  width               : 24px;
+}
+.homepage .group-36-9f7ac5e2-6139-4264-9141-5beb40b3fbd9-GQk4W6 {
+  background-color    : rgba(255,255,255,0);
+  height              : 216px;
+  left                : 504px;
+  position            : absolute;
+  top                 : 237px;
+  transform           : rotate(0deg);
+  width               : 117px;
+}
+.homepage .rectangle-84-205751a3-afe3-45d3-bd59-f52795f1643c-XH4mvs {
+  background-color    : rgba(90,102,212,1.0);
+  border-radius       : 25.8px;
+  height              : 216px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 117px;
+}
+.homepage .rectangle-85-29127513-71ed-4420-b621-c0630443177a-02IX4P {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 3.5px;
+  height              : 177px;
+  left                : 7px;
+  position            : absolute;
+  top                 : 23px;
+  transform           : rotate(0deg);
+  width               : 104px;
+}
+.homepage .rectangle-86-5947c2ee-1b92-449f-b405-b14205840af8-lFpOnF {
+  background-color    : var(--auto-palette-color-5);
+  border-radius       : 16.8px;
+  height              : 20px;
+  left                : 14px;
+  position            : absolute;
+  top                 : 117px;
+  transform           : rotate(0deg);
+  width               : 89px;
+}
+.homepage .rectangle-87-8b14e063-78e7-46ad-8409-72ecc45839e0-x5zNvM {
+  background-color    : rgba(26,0,61,1.0);
+  border-radius       : 4.5px;
+  height              : 5px;
+  left                : 36px;
+  opacity             : 0.4;
+  position            : absolute;
+  top                 : 10px;
+  transform           : rotate(0deg);
+  width               : 45px;
+}
+.homepage .ellipse-11-453d4dae-0970-426a-94f0-ca5c3523d0fc-Ep5rWn {
+  background-color    : rgba(26,0,61,0);
+  height              : 5px;
+  left                : 90px;
+  position            : absolute;
+  top                 : 11px;
+  transform           : rotate(0deg);
+  width               : 5px;
+}
+.homepage .rectangle-88-6a76d9a5-9b35-4b20-9128-ee350d97dcf9-bIPxlZ {
+  background-color    : var(--auto-palette-color-5);
+  border-radius       : 6.5px;
+  height              : 8px;
+  left                : 87px;
+  position            : absolute;
+  top                 : 165px;
+  transform           : rotate(0deg);
+  width               : 17px;
+}
+.homepage .rectangle-89-2f6f00c1-efb2-4c81-9419-809c9311972e-FvrdHV {
+  background-color    : rgba(186,194,255,0);
+  border-radius       : 6.5px;
+  height              : 8px;
+  left                : 80px;
+  position            : absolute;
+  top                 : 181px;
+  transform           : rotate(0deg);
+  width               : 25px;
+}
+.homepage .rectangle-90-105e55df-5be0-4c84-9093-266964eef71b-UJ71m4 {
+  background-color    : var(--auto-palette-color-5);
+  border-radius       : 6.5px;
+  height              : 8px;
+  left                : 13px;
+  position            : absolute;
+  top                 : 165px;
+  transform           : rotate(0deg);
+  width               : 49px;
+}
+.homepage .rectangle-91-f7324370-490b-4b76-b1a0-9c570e2f7a90-NhvBbk {
+  background-color    : rgba(186,194,255,0);
+  border-radius       : 6.5px;
+  height              : 8px;
+  left                : 13px;
+  position            : absolute;
+  top                 : 181px;
+  transform           : rotate(0deg);
+  width               : 42px;
+}
+.homepage .rectangle-92-be0210ac-480a-4560-a861-c24f7c66b2bc-xmyfbc {
+  background-color    : rgba(186,194,255,0);
+  border-radius       : 6.5px;
+  height              : 8px;
+  left                : 77px;
+  position            : absolute;
+  top                 : 149px;
+  transform           : rotate(0deg);
+  width               : 27px;
+}
+.homepage .group-35-b4142343-908c-4a7c-a9cc-a9cd27b93020-Gyo3NY {
+  background-color    : rgba(255,255,255,0);
+  height              : 77px;
+  left                : 36px;
+  position            : absolute;
+  top                 : 31px;
+  transform           : rotate(0deg);
+  width               : 45px;
+}
+.homepage .group-34-e712d6ea-1fa2-497c-84d2-aea0c866411f-BiuGzo {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 39px;
+  justify-content     : flex-start;
+  left                : 6px;
+  padding             : 0 0.0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .path-22-45fa9928-fbca-46f0-8028-a09c4feab048-jq1J4e {
+  background-color    : rgba(122,132,248,0);
+  flex-shrink         : 0;
+  height              : 39px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 33px;
+}
+.homepage .rectangle-93-c7b1013c-364f-4889-95f9-ddf27d280ae7-X7CgGc {
+  background-color    : rgba(255,130,160,1.0);
+  border-radius       : 9.1px;
+  height              : 45px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 32px;
+  transform           : rotate(0deg);
+  width               : 45px;
+}
+.homepage .path-23-b8f8698f-e26e-4774-8e76-36c342752677-aplEQC {
+  background-color    : rgba(90,102,212,0);
+  height              : 24px;
+  left                : 15px;
+  position            : absolute;
+  top                 : 42px;
+  transform           : rotate(0deg);
+  width               : 14px;
+}
+.homepage .group-37-d44cb34a-6d15-4f92-b550-3dc657359dff-olf8P2 {
+  background-color    : rgba(255,255,255,0);
+  height              : 181px;
+  left                : 575px;
+  position            : absolute;
+  top                 : 311px;
+  transform           : rotate(0deg);
+  width               : 88px;
+}
+.homepage .path-24-c060f721-abab-4b6b-a4df-d31c4c4aef8e-HP66wb {
+  background-color    : rgba(71,75,202,0);
+  height              : 10px;
+  left                : 17px;
+  position            : absolute;
+  top                 : 171px;
+  transform           : rotate(0deg);
+  width               : 26px;
+}
+.homepage .path-25-9ea0a015-0dbd-4148-893f-10cd8e9e499c-QNClIf {
+  background-color    : rgba(71,75,202,0);
+  height              : 10px;
+  left                : 58px;
+  position            : absolute;
+  top                 : 171px;
+  transform           : rotate(0deg);
+  width               : 26px;
+}
+.homepage .path-26-a1bb374e-7774-4532-aa0a-422cfbe113ca-6PmUrF {
+  background-color    : rgba(68,145,255,0);
+  height              : 86px;
+  left                : 31px;
+  position            : absolute;
+  top                 : 88px;
+  transform           : rotate(0deg);
+  width               : 23px;
+}
+.homepage .path-27-5b4ad438-1fc2-4391-aa17-28e4d72008f3-0JJFsN {
+  background-color    : rgba(68,145,255,0);
+  height              : 82px;
+  left                : 51px;
+  position            : absolute;
+  top                 : 90px;
+  transform           : rotate(0deg);
+  width               : 19px;
+}
+.homepage .path-28-1de89674-66a2-4c91-960d-7eb76437a6d7-CrTitf {
+  background-color    : rgba(255,173,200,0);
+  height              : 9px;
+  left                : 35px;
+  position            : absolute;
+  top                 : 15px;
+  transform           : rotate(0deg);
+  width               : 5px;
+}
+.homepage .path-29-54161c8a-44e2-4b87-8455-3a5fd9e0f641-MxAk2W {
+  background-color    : rgba(255,173,200,0);
+  height              : 12px;
+  left                : 44px;
+  position            : absolute;
+  top                 : 30px;
+  transform           : rotate(0deg);
+  width               : 12px;
+}
+.homepage .path-30-70e0dea9-8871-4317-bbe0-92814f8a9ffc-qB2l5m {
+  background-color    : rgba(255,173,200,0);
+  height              : 29px;
+  left                : 38px;
+  position            : absolute;
+  top                 : 4px;
+  transform           : rotate(0deg);
+  width               : 23px;
+}
+.homepage .path-31-ae244ef0-d97d-4a5b-b514-820c00bfcb8a-iCXdtN {
+  background-color    : rgba(255,173,200,0);
+  height              : 50px;
+  left                : 70px;
+  position            : absolute;
+  top                 : 62px;
+  transform           : rotate(0deg);
+  width               : 18px;
+}
+.homepage .path-32-801f8d49-4c72-4bd6-bf51-03481a2c9a39-xywQ8k {
+  background-color    : rgba(44,57,85,0);
+  height              : 34px;
+  left                : 35px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 33px;
+}
+.homepage .path-33-9efb9a19-588a-4fc8-8269-4d818442b912-wNHt2I {
+  background-color    : rgba(255,173,200,0);
+  height              : 41px;
+  left                : -0px;
+  position            : absolute;
+  top                 : 26px;
+  transform           : rotate(0deg);
+  width               : 24px;
+}
+.homepage .path-34-5a3e048f-008f-48a2-9a9a-04245b339a8a-Fo7Apx {
+  background-color    : rgba(255,94,133,0);
+  height              : 24px;
+  left                : 19px;
+  position            : absolute;
+  top                 : 42px;
+  transform           : rotate(0deg);
+  width               : 18px;
+}
+.homepage .path-35-ab81f5ff-0f1b-44fe-a4c6-ca44313fb64d-CSwGRe {
+  background-color    : rgba(255,94,133,0);
+  height              : 25px;
+  left                : 68px;
+  position            : absolute;
+  top                 : 44px;
+  transform           : rotate(0deg);
+  width               : 12px;
+}
+.homepage .path-36-74cdf503-05be-48e5-b3f0-d92a82fa7df1-rzHbNS {
+  background-color    : rgba(255,94,133,0);
+  height              : 56px;
+  left                : 32px;
+  position            : absolute;
+  top                 : 38px;
+  transform           : rotate(0deg);
+  width               : 37px;
+}
+.homepage .group-38-c0a71b35-9217-4e41-a655-d78ead994ab3-w2v0uH {
+  background-color    : rgba(255,255,255,0);
+  height              : 176px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 318px;
+  transform           : rotate(0deg);
+  width               : 216px;
+}
+.homepage .path-37-e654f5cc-5fd2-4d2f-b6d2-ef5659fc67ed-PbuzyU {
+  background-color    : rgba(255,130,160,0);
+  height              : 176px;
+  left                : -0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 216px;
+}
+.homepage .ellipse-12-20bddf1e-eee0-4191-b287-f5ea41186ae9-CJpydF {
+  background-color    : rgba(44,57,85,0);
+  height              : 17px;
+  left                : 36px;
+  position            : absolute;
+  top                 : 41px;
+  transform           : rotate(0deg);
+  width               : 17px;
+}
+.homepage .group-39-5bb8aba3-e205-4ebb-8f40-6b2555af9038-I7GC9T {
+  background-color    : rgba(255,255,255,0);
+  height              : 13px;
+  left                : 80px;
+  position            : absolute;
+  top                 : 330px;
+  transform           : rotate(0deg);
+  width               : 56px;
+}
+.homepage .path-39-7976c90e-a31a-41e1-879c-537f8353976d-RfWEWO {
+  background-color    : rgba(184,190,255,0);
+  height              : 33px;
+  left                : 84px;
+  position            : absolute;
+  top                 : 310px;
+  transform           : rotate(0deg);
+  width               : 49px;
+}
+.homepage .path-18-9d27949c-2170-401f-bbf5-6ddec7f5d111-iwUi5T {
+  background-color    : rgba(255,255,255,0);
+  height              : 13px;
+  left                : 316px;
+  position            : absolute;
+  top                 : 442px;
+  transform           : rotate(0deg);
+  width               : 13px;
+}
+.homepage .group-18-4c8c7a68-cdc2-4a8a-bb4b-95309a98458c-yP9ekK {
+  background-color    : rgba(255,255,255,0);
+  height              : 71px;
+  left                : 512px;
+  position            : absolute;
+  top                 : 117px;
+  transform           : rotate(0deg);
+  width               : 137px;
+}
+.homepage .rectangle-56-0011e5f0-4120-45e0-b88e-569bad1376b2-RJmOsc {
+  background-color    : rgba(255,184,200,1.0);
+  border-radius       : 2.2px;
+  height              : 71px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 137px;
+}
+.homepage .path-19-fde6a585-2927-43a8-a5e0-d7682031f063-BxLeO5 {
+  background-color    : rgba(255,230,236,0);
+  height              : 55px;
+  left                : 8px;
+  position            : absolute;
+  top                 : 8px;
+  transform           : rotate(0deg);
+  width               : 121px;
+}
+.homepage .ellipse-9-d5089f79-a384-413f-a729-6446b74e2b1d-zUxi42 {
+  background-color    : rgba(255,184,200,0);
+  height              : 44px;
+  left                : 46px;
+  position            : absolute;
+  top                 : 14px;
+  transform           : rotate(0deg);
+  width               : 44px;
+}
+.homepage .group-20-0ab08ffd-a34b-4011-806f-95e0da10e767-m7wEyW {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 302px;
+  justify-content     : flex-start;
+  left                : 111px;
+  position            : absolute;
+  top                 : 101px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .group-19-ef66985a-b086-4818-bb7b-3ab04fa9d9e8-qd4Wvr {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 302px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 489px;
+}
+.homepage .rectangle-57-61fda4df-66ce-4da7-926a-55e53698f443-FAk57y {
+  background-color    : rgba(90,102,212,0);
+  border-radius       : 30.4px;
+  height              : 274px;
+  left                : 39px;
+  position            : absolute;
+  top                 : -0px;
+  transform           : rotate(0deg);
+  width               : 410px;
+}
+.homepage .rectangle-58-5459e9f2-04e6-4c38-b1fc-6870dbcca5dd-FNZnCc {
+  background-color    : rgba(255,255,255,0);
+  height              : 229px;
+  left                : 62px;
+  position            : absolute;
+  top                 : 22px;
+  transform           : rotate(0deg);
+  width               : 365px;
+}
+.homepage .rectangle-59-b135eee5-2f38-4c59-9163-4dd24c2ccdd9-UnNDsh {
+  background-color    : rgba(143,152,248,0);
+  border-radius       : 8.3px;
+  height              : 28px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 274px;
+  transform           : rotate(0deg);
+  width               : 489px;
+}
+.homepage .rectangle-60-63661990-d015-4350-8ed9-c64859a1613c-XF9v0d {
+  background-color    : rgba(117,128,248,0);
+  height              : 14px;
+  left                : 136px;
+  position            : absolute;
+  top                 : 274px;
+  transform           : rotate(0deg);
+  width               : 216px;
+}
+.homepage .rectangle-61-33c0ee48-87e3-45c0-b42a-f7fb943f608f-bljqiE {
+  background-color    : var(--auto-palette-color-6);
+  height              : 19px;
+  left                : 203px;
+  position            : absolute;
+  top                 : 334px;
+  transform           : rotate(0deg);
+  width               : 305px;
+}
+.homepage .rectangle-62-62af2ae9-2bd3-4354-be11-b778e39b2ec0-Nfru0y {
+  background-color    : var(--auto-palette-color-6);
+  height              : 19px;
+  left                : 196px;
+  position            : absolute;
+  top                 : 152px;
+  transform           : rotate(0deg);
+  width               : 317px;
+}
+.homepage .path-20-b62c6da6-0004-4071-95a5-0b209ebc8689-Z5sIT7 {
+  background-color    : rgba(143,152,248,0);
+  height              : 108px;
+  left                : 203px;
+  position            : absolute;
+  top                 : 44px;
+  transform           : rotate(0deg);
+  width               : 305px;
+}
+.homepage .group-33-cdeeaa71-6f22-4f91-8378-8e6ac1115a6e-vAk3oz {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 165px;
+  justify-content     : flex-start;
+  left                : 219px;
+  min-width           : 272px;
+  position            : absolute;
+  top                 : 171px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .group-23-5f35fa47-7d1b-46d3-9345-08cd14caee1e-ggNncX {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 165px;
+  justify-content     : flex-start;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .group-22-2c9d7bad-0ae3-49e5-b982-c82093febb27-bODt66 {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  min-height          : 165px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 49px;
+}
+.homepage .rectangle-63-dc2d5c02-6919-4173-90da-af2a5116a227-BXgLkc {
+  background-color    : var(--auto-palette-color-3);
+  flex-shrink         : 0;
+  height              : 9px;
+  margin-top          : 0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 49px;
+}
+.homepage .rectangle-64-3c90dabb-0d4c-40b1-b3e1-11da00bfa2f6-XQocGv {
+  background-color    : var(--auto-palette-color-3);
+  height              : 9px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 49px;
+}
+.homepage .rectangle-65-a1d5ea01-3a37-4e94-9932-58a03ff3b304-awiPXB {
+  background-color    : var(--auto-palette-color-6);
+  height              : 147px;
+  left                : 5px;
+  position            : absolute;
+  top                 : 9px;
+  transform           : rotate(0deg);
+  width               : 39px;
+}
+.homepage .group-21-70b136fc-4d24-46e1-b922-f48b8526ce05-3WOpak {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 130px;
+  justify-content     : flex-start;
+  left                : 13px;
+  position            : absolute;
+  top                 : 18px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .rectangle-66-d80e4e97-a833-4e2b-b700-cf028326863a-4DCaVW {
+  background-color    : var(--auto-palette-color-3);
+  border-radius       : 5.1px;
+  flex-shrink         : 0;
+  height              : 130px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 6px;
+}
+.homepage .rectangle-67-b9138a99-2ffd-4e87-bd1e-68ce3d78a35c-dZ4sdy {
+  background-color    : var(--auto-palette-color-3);
+  border-radius       : 5.1px;
+  flex-shrink         : 0;
+  height              : 130px;
+  margin-left         : 10px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 6px;
+}
+.homepage .group-26-b67beaff-dfd8-4a81-a32a-25c65297fe08-5DuVhB {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 165px;
+  justify-content     : flex-start;
+  margin-left         : 25px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .group-25-fa1aa401-76a5-45f5-9a00-f376ae1a5265-nSGwMq {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  min-height          : 165px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 49px;
+}
+.homepage .rectangle-68-637dec13-b819-4f6e-a7fb-e2d3fb13e5cd-jXYrJ3 {
+  background-color    : var(--auto-palette-color-3);
+  flex-shrink         : 0;
+  height              : 9px;
+  margin-top          : 0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 49px;
+}
+.homepage .rectangle-69-6cf6daba-f77f-44f1-953b-142a0b84aa1b-JYJV48 {
+  background-color    : var(--auto-palette-color-3);
+  height              : 9px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 49px;
+}
+.homepage .rectangle-70-84df3293-4d81-4aa2-894a-8570d2b9b677-LnWxgJ {
+  background-color    : var(--auto-palette-color-6);
+  height              : 147px;
+  left                : 5px;
+  position            : absolute;
+  top                 : 9px;
+  transform           : rotate(0deg);
+  width               : 39px;
+}
+.homepage .group-24-7df0a4ed-e5e5-406d-a7fc-5340a1e2e402-FK8taX {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 130px;
+  justify-content     : flex-start;
+  left                : 13px;
+  position            : absolute;
+  top                 : 18px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .rectangle-71-b8eca6fc-7925-43c4-b045-d0da2cff67b5-jmk3wj {
+  background-color    : var(--auto-palette-color-3);
+  border-radius       : 5.1px;
+  flex-shrink         : 0;
+  height              : 130px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 6px;
+}
+.homepage .rectangle-72-0adf2595-5695-41b3-9268-75afcecdbb68-x01mx3 {
+  background-color    : var(--auto-palette-color-3);
+  border-radius       : 5.1px;
+  flex-shrink         : 0;
+  height              : 130px;
+  margin-left         : 10px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 6px;
+}
+.homepage .group-29-15ad9d58-be5b-4765-9e83-5418402f91ff-Z02zIZ {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 165px;
+  justify-content     : flex-start;
+  margin-left         : 25px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .group-28-fd049b93-157b-4d0a-92ee-21660655985c-S6Ovff {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  min-height          : 165px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 49px;
+}
+.homepage .rectangle-73-0666f2a5-c623-4273-a053-10e74b7a1c51-3zn4Hd {
+  background-color    : var(--auto-palette-color-3);
+  flex-shrink         : 0;
+  height              : 9px;
+  margin-top          : 0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 49px;
+}
+.homepage .rectangle-74-162a0d37-5a7c-4f6d-894d-c97c6db5ccbc-Nz40hT {
+  background-color    : var(--auto-palette-color-3);
+  height              : 9px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 49px;
+}
+.homepage .rectangle-75-d58c8574-7036-4ee8-a00a-300bddd314d8-BdbyhF {
+  background-color    : var(--auto-palette-color-6);
+  height              : 147px;
+  left                : 5px;
+  position            : absolute;
+  top                 : 9px;
+  transform           : rotate(0deg);
+  width               : 39px;
+}
+.homepage .group-27-9887e0df-31eb-47e3-9b32-440ded93bf11-B70l5x {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 130px;
+  justify-content     : flex-start;
+  left                : 13px;
+  position            : absolute;
+  top                 : 18px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .rectangle-76-1b471e7f-56e3-4f2c-86b4-1d20923c8f11-lxwggd {
+  background-color    : var(--auto-palette-color-3);
+  border-radius       : 5.1px;
+  flex-shrink         : 0;
+  height              : 130px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 6px;
+}
+.homepage .rectangle-77-3e5cfd3d-7c15-4733-902d-a7296576ee76-aRVPAn {
+  background-color    : var(--auto-palette-color-3);
+  border-radius       : 5.1px;
+  flex-shrink         : 0;
+  height              : 130px;
+  margin-left         : 10px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 6px;
+}
+.homepage .group-32-90a5c05b-d9d1-4b1c-a101-087e8f13c9c1-O6ioEW {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 165px;
+  justify-content     : flex-start;
+  margin-left         : 25px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .group-31-74425a92-91ad-4ec2-bab4-e16c5aedf294-lI8WIx {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  min-height          : 165px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 49px;
+}
+.homepage .rectangle-78-8d951452-5721-45fc-9977-90ddd78df6de-lFbdyy {
+  background-color    : var(--auto-palette-color-3);
+  flex-shrink         : 0;
+  height              : 9px;
+  margin-top          : 0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 49px;
+}
+.homepage .rectangle-79-53bf53cd-5e95-48ed-a987-735aa16c03d9-21kYmu {
+  background-color    : var(--auto-palette-color-3);
+  height              : 9px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 49px;
+}
+.homepage .rectangle-80-1028ae99-3652-49a1-8cce-bcd2a170e350-lLdx5B {
+  background-color    : var(--auto-palette-color-6);
+  height              : 147px;
+  left                : 5px;
+  position            : absolute;
+  top                 : 9px;
+  transform           : rotate(0deg);
+  width               : 39px;
+}
+.homepage .group-30-20fd606a-8300-4c62-8631-a22221c7ffe2-BmJwHH {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 130px;
+  justify-content     : flex-start;
+  left                : 13px;
+  position            : absolute;
+  top                 : 18px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .group-11-4535ecde-38c2-4794-9088-090ad00b6ba7-Ax6O7C {
+  background-color    : rgba(255,255,255,0);
+  cursor              : pointer;
+  flex-shrink         : 0;
+  height              : 51px;
+  margin-left         : 152px;
+  pointer-events      : auto;
+  position            : relative;
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease;
+  width               : 173px;
+}
+.homepage .group-11-4535ecde-38c2-4794-9088-090ad00b6ba7-Ax6O7C:hover {
+  transform           : scale(1.1);
+}
+.homepage .rectangle-39-15aa9074-2dba-473f-9f26-0fef559cb317-kTMSDY {
+  background-color    : var(--auto-palette-color-4);
+  border-radius       : 28.0px;
+  height              : 51px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 173px;
+}
+.homepage .get-started-9d3c9bd1-114d-4bf7-979f-4c23a64a9b8f-vHCYC9 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 15.0px;
+  height              : auto;
+  left                : 41px;
+  line-height         : 15.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 17px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .group-12-44303a2e-6b59-4b8e-a2eb-2cae65636967-MFo2ld {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 70px;
+  margin-left         : 0.69px;
+  margin-top          : 33px;
+  pointer-events      : auto;
+  position            : relative;
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease;
+  width               : 261px;
+}
+.homepage .group-12-44303a2e-6b59-4b8e-a2eb-2cae65636967-MFo2ld:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.homepage .path-13-65b6b3c4-02e1-4615-a699-3238eba96e90-7MEvPB {
+  background-color    : rgba(0,229,1,0);
+  height              : 70px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 261px;
+}
+.homepage .learn-more-8fecf3e4-b4be-4aae-868c-0f845444410f-TsS1N1 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 15.0px;
+  height              : auto;
+  left                : 84px;
+  line-height         : 15.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 26px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .group-13-5524302a-c8f0-443b-81f7-bc4dfec24396-UAyYQK {
+  background-color    : rgba(255,255,255,0);
+  cursor              : pointer;
+  height              : 70px;
+  left                : 599px;
+  position            : absolute;
+  top                 : 282px;
+  transform           : rotate(0deg);
+  width               : 261px;
+}
+.homepage .path-13-508ce5cb-68c6-4892-89c6-c93ee2a32abf-5D0f6M {
+  background-color    : rgba(0,229,1,0);
+  height              : 70px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 261px;
+}
+.homepage .get-started-81f8c2f6-ed81-4a60-b216-61961e27bc35-x0CBOw {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 15.0px;
+  height              : auto;
+  left                : 84px;
+  line-height         : 15.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 26px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .group-14-e4fc6860-0993-420c-a796-822c937f305a-0r02xP {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  height              : auto;
+  justify-content     : flex-start;
+  left                : 198px;
+  min-height          : 191px;
+  padding             : 3.3px 0;
+  position            : absolute;
+  top                 : 488px;
+  transform           : rotate(0deg);
+  width               : 355px;
+}
+.homepage .open-an-account-with-razer-bb4b4cf9-17a0-4c87-a737-e0764f6080f3-cICyHr {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 36.0px;
+  height              : auto;
+  line-height         : 36.0px;
+  margin-left         : 6.02px;
+  min-height          : 90px;
+  min-width           : 330px;
+  position            : relative;
+  text-align          : center;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-dolore-magna-aliquyam-erat-sed-diam-f066b04c-df88-422d-8aa1-2e08a8f3a141-fUfzDs {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : 76px;
+  line-height         : 27.6px;
+  margin-top          : 13px;
+  min-height          : 76px;
+  opacity             : 0.8;
+  overflow            : hidden;
+  position            : relative;
+  text-align          : center;
+  transform           : rotate(0deg);
+  width               : 355px;
+}
+.homepage .group-15-685c442e-6561-4fe6-a374-4621c06f9ee8-RL4jux {
+  align-items         : center;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  height              : auto;
+  justify-content     : flex-start;
+  left                : 831px;
+  min-height          : 191px;
+  padding             : 3.3px 0;
+  position            : absolute;
+  top                 : 488px;
+  transform           : rotate(0deg);
+  width               : 355px;
+}
+.homepage .apply-for-a-loan-online-c24d6995-c193-4c2d-8edf-5e6030f23355-F5iKGI {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 36.0px;
+  height              : auto;
+  line-height         : 36.0px;
+  margin-right        : 20.87px;
+  min-height          : 90px;
+  min-width           : 288px;
+  position            : relative;
+  text-align          : center;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-dolore-magna-aliquyam-erat-sed-diam-aebcd3a8-fe7f-4437-9dd2-b7e14dedc86f-ETNZXb {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : 76px;
+  line-height         : 27.6px;
+  margin-top          : 13px;
+  min-height          : 76px;
+  opacity             : 0.8;
+  overflow            : hidden;
+  position            : relative;
+  text-align          : center;
+  transform           : rotate(0deg);
+  width               : 355px;
+}
+.homepage .group-53-9573e724-9e55-44d7-bc88-8dcc1356324a-TxZnGl {
+  background-color    : rgba(255,255,255,0);
+  height              : 543px;
+  left                : 80px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 689px;
+}
+.homepage .ellipse-1-398f8c52-33e8-4a0c-80c3-7ed016778444-lmxagW {
+  background-color    : rgba(26,0,61,0);
+  height              : 24px;
+  left                : 12px;
+  position            : absolute;
+  top                 : 481px;
+  transform           : rotate(0deg);
+  width               : 189px;
+}
+.homepage .ellipse-2-b8a07502-d0fd-40c1-bd62-ff066c637fad-sa1NMQ {
+  background-color    : rgba(26,0,61,0);
+  height              : 24px;
+  left                : 220px;
+  position            : absolute;
+  top                 : 518px;
+  transform           : rotate(0deg);
+  width               : 99px;
+}
+.homepage .ellipse-3-821d5e9a-8a04-4da4-a3f5-2017e942848d-7E1CwZ {
+  background-color    : rgba(26,0,61,0);
+  height              : 24px;
+  left                : 575px;
+  position            : absolute;
+  top                 : 481px;
+  transform           : rotate(0deg);
+  width               : 99px;
+}
+.homepage .ellipse-4-192d5e84-5796-4ff5-8c1c-ab7e2ffd835f-mVUO4o {
+  background-color    : rgba(26,0,61,0);
+  height              : 24px;
+  left                : 338px;
+  position            : absolute;
+  top                 : 487px;
+  transform           : rotate(0deg);
+  width               : 203px;
+}
+.homepage .ellipse-5-90fd6fac-cea3-4ecf-b7f1-e1757de63f08-QCfnK9 {
+  background-color    : rgba(26,0,61,0);
+  height              : 24px;
+  left                : 487px;
+  position            : absolute;
+  top                 : 441px;
+  transform           : rotate(0deg);
+  width               : 165px;
+}
+.homepage .ellipse-6-7d91c8da-2ac8-4e15-b051-0d183bf4d5e0-TpxT4Y {
+  background-color    : rgba(26,0,61,0);
+  height              : 41px;
+  left                : 114px;
+  position            : absolute;
+  top                 : 385px;
+  transform           : rotate(0deg);
+  width               : 478px;
+}
+.homepage .group-17-6fc0fd05-8954-47b9-a698-a4a2cb9e0ad4-3dAQbb {
+  background-color    : rgba(255,255,255,0);
+  height              : 130px;
+  left                : 72px;
+  position            : absolute;
+  top                 : 48px;
+  transform           : rotate(0deg);
+  width               : 121px;
+}
+.homepage .path-14-41415a91-0c1b-4bd3-9348-dfa75a25795a-AvQj3D {
+  background-color    : rgba(226,230,255,0);
+  height              : 130px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 104px;
+}
+.homepage .path-15-8b016a80-20d4-45f0-8f7c-544882ce86e0-xIhonX {
+  background-color    : rgba(143,152,248,0);
+  height              : 48px;
+  left                : 86px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 35px;
+}
+.homepage .group-16-e8a492b8-66ff-4ffe-8c66-935f1b37ab40-LgKc0j {
+  background-color    : rgba(255,255,255,0);
+  height              : 25px;
+  left                : 7px;
+  position            : absolute;
+  top                 : 86px;
+  transform           : rotate(0deg);
+  width               : 16px;
+}
+.homepage .rectangle-46-0b6ed1a6-6c9f-49a7-b4bf-16e95b923f40-dMljuN {
+  background-color    : rgba(186,194,255,0);
+  border-radius       : 4.9px;
+  height              : 6px;
+  left                : 26px;
+  position            : absolute;
+  top                 : 18px;
+  transform           : rotate(0deg);
+  width               : 50px;
+}
+.homepage .rectangle-47-98c99370-7607-4c77-ba30-8d675f6432d6-bBRxfS {
+  background-color    : var(--auto-palette-color-5);
+  border-radius       : 4.9px;
+  height              : 6px;
+  left                : 44px;
+  position            : absolute;
+  top                 : 35px;
+  transform           : rotate(180deg);
+  width               : 31px;
+}
+.homepage .rectangle-48-d71712aa-41e0-4f6a-a7db-34404f7ac299-8zXT9a {
+  background-color    : var(--auto-palette-color-5);
+  border-radius       : 4.9px;
+  height              : 6px;
+  left                : 7px;
+  position            : absolute;
+  top                 : 35px;
+  transform           : rotate(180deg);
+  width               : 13px;
+}
+.homepage .rectangle-49-60b12309-1b3e-4676-a309-6263fae26fc9-8ig4E3 {
+  background-color    : var(--auto-palette-color-5);
+  border-radius       : 4.9px;
+  height              : 6px;
+  left                : 7px;
+  position            : absolute;
+  top                 : 59px;
+  transform           : rotate(180deg);
+  width               : 13px;
+}
+.homepage .rectangle-50-69f622f9-48ea-4d2b-b13a-0675f898a0ac-uV3bp0 {
+  background-color    : var(--auto-palette-color-5);
+  border-radius       : 4.9px;
+  height              : 6px;
+  left                : 7px;
+  position            : absolute;
+  top                 : 71px;
+  transform           : rotate(180deg);
+  width               : 19px;
+}
+.homepage .rectangle-51-5369904d-c261-426a-b3ce-4680fa2039b2-SK6wVj {
+  background-color    : var(--auto-palette-color-5);
+  border-radius       : 4.9px;
+  height              : 6px;
+  left                : 52px;
+  position            : absolute;
+  top                 : 47px;
+  transform           : rotate(180deg);
+  width               : 24px;
+}
+.homepage .rectangle-52-7140b754-e3cd-4de6-a58f-92547781d972-o3NrxS {
+  background-color    : var(--auto-palette-color-5);
+  border-radius       : 4.9px;
+  height              : 6px;
+  left                : 39px;
+  position            : absolute;
+  top                 : 59px;
+  transform           : rotate(180deg);
+  width               : 37px;
+}
+.homepage .rectangle-53-3cb7ef5e-f9c0-4274-a52f-aa998ee21c69-8lrLju {
+  background-color    : var(--auto-palette-color-5);
+  border-radius       : 4.9px;
+  height              : 6px;
+  left                : 44px;
+  position            : absolute;
+  top                 : 71px;
+  transform           : rotate(180deg);
+  width               : 31px;
+}
+.homepage .rectangle-54-ff712c70-98d2-4adf-860e-65cc0e648681-wkNeYG {
+  background-color    : rgba(255,130,160,1.0);
+  border-radius       : 4.9px;
+  height              : 6px;
+  left                : 44px;
+  position            : absolute;
+  top                 : 96px;
+  transform           : rotate(180deg);
+  width               : 31px;
+}
+.homepage .rectangle-55-9ea1f28e-5c09-4ee6-bfad-db03a5fc2ba2-mIzaxb {
+  background-color    : rgba(186,194,255,0);
+  border-radius       : 4.9px;
+  height              : 6px;
+  left                : 7px;
+  position            : absolute;
+  top                 : 47px;
+  transform           : rotate(0deg);
+  width               : 21px;
+}
+.homepage .ellipse-7-1c18ae4d-f48a-406f-8887-2478c9ad7cac-WYN4ZT {
+  background-color    : rgba(255,163,190,0);
+  height              : 10px;
+  left                : 574px;
+  position            : absolute;
+  top                 : 58px;
+  transform           : rotate(0deg);
+  width               : 10px;
+}
+.homepage .ellipse-8-dc0515e4-6633-43da-9c6e-43844f65a341-ZD4gKQ {
+  background-color    : rgba(226,230,255,0);
+  height              : 10px;
+  left                : 103px;
+  position            : absolute;
+  top                 : 218px;
+  transform           : rotate(0deg);
+  width               : 10px;
+}
+.homepage .path-17-fe72e584-c64a-44c7-bb42-846063c87a29-f4EozM {
+  background-color    : rgba(191,196,248,0);
+  height              : 13px;
+  left                : 417px;
+  position            : absolute;
+  top                 : 17px;
+  transform           : rotate(0deg);
+  width               : 13px;
+}
+.homepage .group-10-a026f624-9687-4b65-959b-844b13e7330e-MISrEf {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 19px;
+  justify-content     : flex-start;
+  margin-left         : 157px;
+  margin-top          : 13.18px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .services-22875c6d-49d0-4bb4-9179-2459dd2e475b-bP4KoH {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 15.0px;
+  height              : auto;
+  line-height         : 15.0px;
+  margin-bottom       : -4.0px;
+  margin-left         : 52px;
+  min-height          : 21px;
+  min-width           : 72px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .discover-829fe5ff-2220-47bb-bc2d-49729bd2e591-vfL28M {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 15.0px;
+  height              : auto;
+  line-height         : 15.0px;
+  margin-bottom       : -4.0px;
+  min-height          : 21px;
+  min-width           : 75px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .apply-ac65a0a0-326e-4c71-94e7-fa314dc00fee-49X5h5 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  cursor              : pointer;
+  flex-shrink         : 0;
+  font-size           : 15.0px;
+  height              : auto;
+  line-height         : 15.0px;
+  margin-bottom       : -4.0px;
+  margin-left         : 52px;
+  min-height          : 21px;
+  min-width           : 55px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .contact-085c7324-9782-4a9b-bd38-6c7619103fc8-jIFZwy {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 15.0px;
+  height              : auto;
+  line-height         : 15.0px;
+  margin-bottom       : -4.0px;
+  margin-left         : 46px;
+  min-height          : 21px;
+  min-width           : 71px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .razers-first-online-banking-platform-af4255da-24ef-4a3a-ad4f-97a31a00b9d6-YWirRT {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 41.0px;
+  height              : auto;
+  line-height         : 41.0px;
+  min-height          : 102px;
+  min-width           : 392px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-dolore-magna-aliquyam-erat-sed-diam-6853b1ec-6f61-46ac-89d9-ff3b14364d68-H8M2m9 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : 86px;
+  line-height         : 27.6px;
+  margin-top          : 14px;
+  min-height          : 86px;
+  opacity             : 0.8;
+  overflow            : hidden;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : 400px;
+}
+.homepage .rectangle-40-787b4aa0-38ae-405f-8c48-5f289147e32b-GL2odE {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 20.0px;
+  height              : 605px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 26px;
+  width               : 804px;
+}
+.homepage .rectangle-41-e1b986f1-5d09-42c8-8d91-49b888253674-Fpsszu {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 20.0px;
+  height              : 926px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  width               : 1247px;
+}
+.homepage .razer-bank-online-635259fb-408b-4cca-b165-e7881b74803d-XnQgod {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 41.0px;
+  height              : auto;
+  left                : 33px;
+  line-height         : 41.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 334px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-dolore-magna-aliquyam-erat-sed-diam-3760abb5-181f-4f5a-806b-1e9e8e1ce841-9HkYhy {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 17.0px;
+  height              : 86px;
+  left                : 23px;
+  line-height         : 27.6px;
+  opacity             : 0.8;
+  position            : absolute;
+  text-align          : left;
+  top                 : 444px;
+  transform           : rotate(0deg);
+  width               : 453px;
+}
+.homepage .lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-dolore-magna-aliquyam-9193235c-22ba-4b4b-a404-b2fc7b354392-8fX0GU {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 17.0px;
+  height              : 93px;
+  left                : 23px;
+  line-height         : 27.6px;
+  opacity             : 0.8;
+  position            : absolute;
+  text-align          : left;
+  top                 : 558px;
+  transform           : rotate(0deg);
+  width               : 453px;
+}
+.homepage .rectangle-42-9c163d22-2050-4c4b-b83b-aa69e49648a4-mgHDL0 {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 10.0px;
+  height              : 877px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  width               : 734px;
+}
+.homepage .rectangle-43-f6e5ff78-f916-4954-82bc-fca7f894f3bd-EjmDJk {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 10.0px;
+  height              : 877px;
+  left                : 633px;
+  position            : absolute;
+  top                 : 0px;
+  width               : 734px;
+}
+.homepage .group-9-6629e049-699e-42b3-8e13-eca66f5047fe-sl6Hap {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  height              : auto;
+  justify-content     : flex-start;
+  left                : 534px;
+  min-height          : 215px;
+  padding             : 3.3px 0;
+  position            : absolute;
+  top                 : 37px;
+  transform           : rotate(0deg);
+  width               : 400px;
+}
+.homepage .open-an-account-with-razer-f7c0d1cf-90a7-4047-a54c-f9a1bb9bc238-AAK4x4 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 41.0px;
+  height              : auto;
+  line-height         : 41.0px;
+  margin-left         : 5.66px;
+  min-height          : 102px;
+  min-width           : 374px;
+  position            : relative;
+  text-align          : center;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.homepage .lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-dolore-magna-aliquyam-erat-sed-diam-670172d8-c6cc-4342-bdf7-1201572275f1-JhVzqT {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : 86px;
+  line-height         : 27.6px;
+  margin-top          : 14px;
+  min-height          : 86px;
+  opacity             : 0.8;
+  overflow            : hidden;
+  position            : relative;
+  text-align          : center;
+  transform           : rotate(0deg);
+  width               : 400px;
+}
+.homepage .c-team-zobos-2020-75414718-43ed-4f38-9df3-d72fb45ef66c-TaqlDB {
+  align-self          : flex-end;
+  background-color    : rgba(177,181,190,0);
+  color               : rgba(177,181,190,1.0);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : 35px;
+  line-height         : 17.0px;
+  min-height          : 35px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : 186px;
+}
+.homepage .english-dd6f8016-aa97-4860-a755-59707b9dd337-iIWSEL {
+  background-color    : rgba(177,181,190,0);
+  color               : rgba(177,181,190,1.0);
+  font-size           : 17.0px;
+  height              : 35px;
+  left                : 0px;
+  line-height         : 17.0px;
+  position            : absolute;
+  text-align          : right;
+  top                 : 3px;
+  transform           : rotate(0deg);
+  width               : 124px;
+}
+.homepage {
+  align-items         : center;
+  background-color    : var(--auto-palette-color-2);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  height              : auto;
+  justify-content     : flex-start;
+  min-height          : 4069px;
+  overflow            : hidden;
+  padding             : 32.8px 0;
+  position            : relative;
+  width               : 1440.0px;
+}
+.homepage .path-89-c86a9026-0fb9-4090-af41-5aedb29d7080-ZyINJa {
+  background-color    : rgba(255,255,255,0);
+  height              : 459px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  width               : 1429px;
+}

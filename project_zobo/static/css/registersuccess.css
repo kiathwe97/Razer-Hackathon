@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500|Montserrat:300');
+
+
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  animation-delay     : 0s;
+}
+@keyframes anima-reveal {
+  from {
+    opacity             : 0;
+  }
+  to {
+    opacity             : 1;
+  }
+}
+a {
+  text-decoration     : none;
+}
+.anima-flexbox-container a {
+  line-height         : 0;
+}
+* {
+  box-sizing          : border-box;
+}
+.align-self-flex-end {
+  align-self          : flex-end;
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-component-wrapper a,
+.anima-screen a {
+  text-decoration     : none;
+}
+.anima-flexbox-container a {
+  line-height         : 0;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+.anima-screen textarea:focus,
+.anima-screen input:focus {
+  outline             : none;
+}
+.anima-screen div {
+  -webkit-text-size-adjust: none;
+}
+.anima-container-center-vertical,
+.anima-container-center-horizontal {
+  pointer-events      : none;
+  display             : flex;
+  flex-direction      : row;
+  padding             : 0;
+  margin              : 0;
+}
+.anima-container-center-vertical {
+  align-items         : center;
+  height              : 100%;
+}
+.anima-container-center-horizontal {
+  justify-content     : center;
+  width               : 100%;
+}
+.anima-container-center-vertical > *,
+.anima-container-center-horizontal > * {
+  pointer-events      : auto;
+  flex-shrink         : 0;
+}
+.anima-component-wrapper ,
+.anima-screen {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.anima-auto-animated div,
+.anima-auto-animated span {
+  opacity             : 0;
+  position            : absolute;
+  --anima-z-index: -1;
+}
+/* ANIMA screen - registersuccess */
+.font-class-1 {
+  font-family         : Montserrat, Helvetica, Arial, serif;
+  font-style          : normal;
+  font-weight         : 300;
+}
+.font-class-2 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.20px;
+  line-height         : 21.0px;
+}
+.font-class-3 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.54px;
+  line-height         : 16.0px;
+}
+.font-class-4 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.19px;
+  line-height         : 20.0px;
+}
+.font-class-5 {
+  color               : var(--auto-palette-color-1);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  font-style          : normal;
+  font-weight         : 500;
+  letter-spacing      : 1.51px;
+  line-height         : 17.0px;
+}
+.font-class-6 {
+  color               : var(--auto-palette-color-1);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  font-style          : normal;
+  font-weight         : 500;
+  letter-spacing      : 1.07px;
+  line-height         : 12.0px;
+}
+:root {
+  --auto-palette-color-1: rgba(0,0,0,1.0);
+  --auto-palette-color-2: rgba(255,255,255,1.0);
+  --auto-palette-color-3: rgba(122,132,248,1.0);
+  --auto-palette-color-4: rgba(0,229,1,1.0);
+  --auto-palette-color-5: rgba(186,194,255,1.0);
+  --auto-palette-color-6: rgba(143,152,248,1.0);
+  --auto-palette-color-7: rgba(227,6,19,1.0);
+}
+.registersuccess .overlap-group-Y7zamN {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 895px;
+  margin-left         : -93.96px;
+  margin-top          : 19px;
+  position            : relative;
+  width               : 1580px;
+}
+.registersuccess .overlap-group1-aMUVll {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 75px;
+  margin-top          : 51px;
+  position            : relative;
+  width               : 563px;
+}
+.registersuccess .auto-flex-1lKxzb {
+  align-items         : flex-start;
+  align-self          : center;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 144px;
+  justify-content     : flex-start;
+  margin-right        : 114.0px;
+  position            : relative;
+  width               : auto;
+}
+.registersuccess {
+  align-items         : flex-start;
+  background-color    : var(--auto-palette-color-2);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  height              : auto;
+  justify-content     : flex-start;
+  min-height          : 1080px;
+  overflow            : hidden;
+  padding             : 33.0px 0;
+  position            : relative;
+  width               : 1440.0px;
+}
+.registersuccess .path-89-f3417e3d-02fa-4a8b-8828-753a3866955d-GdoURC {
+  background-color    : rgba(255,255,255,0);
+  height              : 458px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 101px;
+  width               : 1580px;
+}
+.registersuccess .rectangle-40-8b7f3b62-b8ff-4f65-bbba-5d1c4a4adfc3-gB5pH7 {
+  background-color    : rgba(0,0,0,0);
+  border-radius       : 20.0px;
+  height              : 895px;
+  left                : 604px;
+  position            : absolute;
+  top                 : 0px;
+  width               : 881px;
+}
+.registersuccess .register-8daf394f-7253-464f-be03-7f16a2a7197e-BHacRy {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  font-size           : 30.0px;
+  height              : auto;
+  left                : 865px;
+  line-height         : 30.0px;
+  opacity             : 0.5;
+  position            : absolute;
+  text-align          : left;
+  top                 : 95px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.registersuccess .log-in-a44e4c43-c62f-4fb3-b46e-7deb355d93f2-uoi8Vo {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  cursor              : pointer;
+  font-size           : 30.0px;
+  height              : auto;
+  left                : 1130px;
+  line-height         : 30.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 95px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.registersuccess .path-990-37d09d30-8b8f-4705-9842-cebbd3bc81bb-d1EGDu {
+  background-color    : rgba(255,255,255,0);
+  height              : 6px;
+  left                : 843px;
+  position            : absolute;
+  top                 : 137px;
+  width               : 194px;
+}
+.registersuccess .group-10-54f99f0c-ff10-421a-a33a-fa8cb11f12ac-fFjfGE {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  cursor              : pointer;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 20px;
+  justify-content     : flex-start;
+  margin-left         : 135px;
+  margin-top          : 13.0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.registersuccess .services-9feb77ee-a9a8-4394-83d4-b993600fb233-FpFCnQ {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 42px;
+  min-height          : 22px;
+  min-width           : 80px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.registersuccess .discover-b5e1da29-922a-461d-8b1a-dc2f936788cc-e6nOZm {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  min-height          : 22px;
+  min-width           : 84px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.registersuccess .apply-9a8e16be-e33b-48dd-abde-d243d87fd5c1-UwIaVG {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 44px;
+  min-height          : 22px;
+  min-width           : 60px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.registersuccess .contact-d701c086-47e3-4828-b7ff-1ac2b26d4cb2-CgRNdv {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 41px;
+  min-height          : 22px;
+  min-width           : 79px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.registersuccess .group-11-7827f597-2aac-48dc-95dc-de9c11136a5b-ByhKV9 {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 50px;
+  margin-left         : 71px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 173px;
+}
+.registersuccess .rectangle-39-c4f18376-a7cc-41bc-b32d-72b3793eb7b2-dujwpc {
+  background-color    : var(--auto-palette-color-4);
+  border-radius       : 28.0px;
+  height              : 50px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 173px;
+}
+.registersuccess .get-started-4bee9a7b-9b61-4877-9c20-36def3775b9f-jZSidK {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 17.0px;
+  height              : auto;
+  left                : 41px;
+  line-height         : 17.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 16px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.registersuccess .razer-logo-ca7bcfa9-a910-42fc-9bef-df0cba8f9b63-fH9NZe {
+  align-self          : flex-end;
+  background-color    : rgba(255,255,255,0);
+  cursor              : pointer;
+  flex-shrink         : 0;
+  height              : 128px;
+  position            : relative;
+  width               : 228px;
+}
+.registersuccess .group-84-668bf713-7a92-42da-afa6-04fbe8d21858-MK5Jpo {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 233px;
+  justify-content     : flex-start;
+  left                : 763px;
+  position            : absolute;
+  top                 : 307px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.registersuccess .text-field-outlined-unfilled-enabled-77d1561b-a7d0-4eaf-bceb-10fdf22173e4-xGTCY4 {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  margin-bottom       : -0.0px;
+  min-height          : 233px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 563px;
+}
+.registersuccess .surface-2185df6e-bbb2-4f93-9d7e-af63779b86be-zjXFQ6 {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-2);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 75px;
+  left                : 0px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 563px;
+}
+.registersuccess .verification-code-6761b03e-69a3-4357-8208-e23fbf8a11e0-eh0LtK {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  height              : auto;
+  left                : 21px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 25px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.registersuccess .resend-aadc937a-7354-422b-a86b-2f787cd5d2fc-0riHuG {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  flex-shrink         : 0;
+  height              : auto;
+  margin-left         : 21.0px;
+  margin-top          : 54px;
+  min-height          : 23px;
+  min-width           : 76px;
+  opacity             : 0.5;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.registersuccess .a-text-message-has-been-sent-to-65-9123-5677-b88750e5-8537-4fe4-9dda-39d221439948-qJ1jp2 {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  flex-shrink         : 0;
+  height              : auto;
+  margin-left         : 21.0px;
+  min-height          : 30px;
+  min-width           : 476px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.registersuccess .buttons-contained-enabled-595da512-7240-4b3c-8e01-0f25ffa7d443-LqHCKF {
+  background-color    : rgba(255,255,255,0);
+  cursor              : pointer;
+  height              : 71px;
+  left                : 766px;
+  pointer-events      : auto;
+  position            : absolute;
+  top                 : 630px;
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease;
+  width               : 535px;
+}
+.registersuccess .buttons-contained-enabled-595da512-7240-4b3c-8e01-0f25ffa7d443-LqHCKF:hover {
+  transform           : scale(1.1);
+}
+.registersuccess .rectangle-377-23ae791b-0bf2-43a1-838a-01753e82b294-qQmq19 {
+  background-color    : rgba(0,229,1,0);
+  border-radius       : 4.0px;
+  height              : 80px;
+  left                : -4px;
+  position            : absolute;
+  top                 : -4px;
+  transform           : rotate(0deg);
+  width               : 544px;
+}
+.registersuccess .confirm-d6e64d95-7661-45d1-9515-c0dc4be90a72-mfAs53 {
+  background-color    : rgba(0,0,0,0);
+  height              : auto;
+  left                : 223px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 26px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.registersuccess .register-031382d5-beaa-4f70-9860-41039d39235f-S5LRnZ {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 42.0px;
+  height              : auto;
+  left                : 258px;
+  line-height         : 42.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 131px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.registersuccess .log-in-to-your-razer-account-to-open-bank-accounts-and-apply-for-loans-with-ease-0be4542f-9d75-4b57-897a-4f674dd5c148-pBliTj {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 17.0px;
+  height              : 86px;
+  left                : 258px;
+  line-height         : 27.6px;
+  opacity             : 0.8;
+  position            : absolute;
+  text-align          : left;
+  top                 : 206px;
+  transform           : rotate(0deg);
+  width               : 400px;
+}

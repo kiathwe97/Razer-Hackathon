@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500|Montserrat:300');
+
+
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  animation-delay     : 0s;
+}
+@keyframes anima-reveal {
+  from {
+    opacity             : 0;
+  }
+  to {
+    opacity             : 1;
+  }
+}
+a {
+  text-decoration     : none;
+}
+.anima-flexbox-container a {
+  line-height         : 0;
+}
+* {
+  box-sizing          : border-box;
+}
+.align-self-flex-end {
+  align-self          : flex-end;
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-component-wrapper a,
+.anima-screen a {
+  text-decoration     : none;
+}
+.anima-flexbox-container a {
+  line-height         : 0;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+.anima-screen textarea:focus,
+.anima-screen input:focus {
+  outline             : none;
+}
+.anima-screen div {
+  -webkit-text-size-adjust: none;
+}
+.anima-container-center-vertical,
+.anima-container-center-horizontal {
+  pointer-events      : none;
+  display             : flex;
+  flex-direction      : row;
+  padding             : 0;
+  margin              : 0;
+}
+.anima-container-center-vertical {
+  align-items         : center;
+  height              : 100%;
+}
+.anima-container-center-horizontal {
+  justify-content     : center;
+  width               : 100%;
+}
+.anima-container-center-vertical > *,
+.anima-container-center-horizontal > * {
+  pointer-events      : auto;
+  flex-shrink         : 0;
+}
+.anima-component-wrapper ,
+.anima-screen {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.anima-auto-animated div,
+.anima-auto-animated span {
+  opacity             : 0;
+  position            : absolute;
+  --anima-z-index: -1;
+}
+/* ANIMA screen - login */
+.font-class-1 {
+  font-family         : Montserrat, Helvetica, Arial, serif;
+  font-style          : normal;
+  font-weight         : 300;
+}
+.font-class-2 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.20px;
+  line-height         : 21.0px;
+}
+.font-class-3 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.54px;
+  line-height         : 16.0px;
+}
+.font-class-4 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.19px;
+  line-height         : 20.0px;
+}
+.font-class-5 {
+  color               : var(--auto-palette-color-1);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  font-style          : normal;
+  font-weight         : 500;
+  letter-spacing      : 1.51px;
+  line-height         : 17.0px;
+}
+.font-class-6 {
+  color               : var(--auto-palette-color-1);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  font-style          : normal;
+  font-weight         : 500;
+  letter-spacing      : 1.07px;
+  line-height         : 12.0px;
+}
+:root {
+  --auto-palette-color-1: rgba(0,0,0,1.0);
+  --auto-palette-color-2: rgba(255,255,255,1.0);
+  --auto-palette-color-3: rgba(122,132,248,1.0);
+  --auto-palette-color-4: rgba(0,229,1,1.0);
+  --auto-palette-color-5: rgba(186,194,255,1.0);
+  --auto-palette-color-6: rgba(143,152,248,1.0);
+  --auto-palette-color-7: rgba(227,6,19,1.0);
+}
+.login .overlap-group-Y7zamN {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 895px;
+  margin-left         : -93.96px;
+  margin-top          : 19px;
+  position            : relative;
+  width               : 1580px;
+}
+.login .overlap-group1-exNhIy {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 75px;
+  position            : relative;
+  width               : 563px;
+}
+.login .auto-flex-1lKxzb {
+  align-items         : flex-start;
+  align-self          : center;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 144px;
+  justify-content     : flex-start;
+  margin-right        : 114.0px;
+  position            : relative;
+  width               : auto;
+}
+.login .log-in-e8a32186-1bf5-4a6e-a4b6-195d9bbdf6bd-1fwMLt {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 42.0px;
+  height              : auto;
+  left                : 258px;
+  line-height         : 42.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 132px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.login .log-in-to-your-razer-account-to-open-bank-accounts-and-apply-for-loans-with-ease-69106af9-3eac-4f3b-9ce0-f08c3b538e90-UZS1Zj {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 17.0px;
+  height              : 86px;
+  left                : 258px;
+  line-height         : 27.6px;
+  opacity             : 0.8;
+  position            : absolute;
+  text-align          : left;
+  top                 : 206px;
+  transform           : rotate(0deg);
+  width               : 400px;
+}
+.login .rectangle-40-2f53f4d8-f066-497c-813d-0f7d4a81c27c-gegHj8 {
+  background-color    : rgba(0,0,0,0);
+  border-radius       : 20.0px;
+  height              : 895px;
+  left                : 581px;
+  position            : absolute;
+  top                 : 0px;
+  width               : 881px;
+}
+.login .group-11-1ec0bbec-96d8-4c5e-a095-d514a8c62689-R0gjQA {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 50px;
+  margin-left         : 71px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 173px;
+}
+.login .rectangle-39-00db2ee3-fafd-4297-ab80-e1400d704bbc-jCBMcf {
+  background-color    : var(--auto-palette-color-4);
+  border-radius       : 28.0px;
+  height              : 50px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 173px;
+}
+.login .get-started-85a67e12-ab99-46b3-b397-9db10b8e10dc-xtncCM {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 17.0px;
+  height              : auto;
+  left                : 41px;
+  line-height         : 17.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 16px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.login .register-b23ec64e-84cd-4483-8431-15e09962a26d-IxPKMS {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  cursor              : pointer;
+  font-size           : 30.0px;
+  height              : auto;
+  left                : 814px;
+  line-height         : 30.0px;
+  opacity             : 0.5;
+  pointer-events      : auto;
+  position            : absolute;
+  text-align          : left;
+  top                 : 95px;
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease;
+  width               : auto;
+}
+.login .register-b23ec64e-84cd-4483-8431-15e09962a26d-IxPKMS:hover {
+  box-shadow          : 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+.login .log-in-257385eb-4759-42b5-9e0d-b9220124e0d0-XLm8Px {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  font-size           : 30.0px;
+  height              : auto;
+  left                : 1056px;
+  line-height         : 30.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 95px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.login .path-990-886c9fe2-8e70-434e-8490-f6cdaf39e15a-kSPZxR {
+  background-color    : rgba(255,255,255,0);
+  height              : 6px;
+  left                : 1012px;
+  position            : absolute;
+  top                 : 137px;
+  width               : 194px;
+}
+.login .razer-logo-b1863e03-9340-4028-ad18-a1eeb88e8d9e-Aof0cU {
+  align-self          : flex-end;
+  background-color    : rgba(255,255,255,0);
+  cursor              : pointer;
+  flex-shrink         : 0;
+  height              : 128px;
+  position            : relative;
+  width               : 228px;
+}
+.login .group-84-c05bbb3d-cc90-4fec-8db9-f3b73966072a-I8ie9V {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  cursor              : pointer;
+  display             : flex;
+  flex-direction      : column;
+  height              : auto;
+  justify-content     : flex-start;
+  left                : 728px;
+  min-height          : 305px;
+  position            : absolute;
+  top                 : 206px;
+  transform           : rotate(0deg);
+  width               : 563px;
+}
+.login .text-field-outlined-active-d6789988-ba79-4914-b5b6-27816abb56a3-MWi2F8 {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 92px;
+  margin-left         : 0.08px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 563px;
+}
+.login .surface-f6acc77a-d5e4-4b64-a63a-944f25a6a1b4-sYTgl3 {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-2);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 2.0px;
+  cursor              : pointer;
+  height              : 75px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 17px;
+  transform           : rotate(0deg);
+  width               : 563px;
+}
+.login .adrian-8cce96a6-82cc-4dae-8b71-a06924583e33-CPLcQT {
+  background-color    : rgba(0,0,0,0);
+  color               : rgba(0,0,0,0.380392156863);
+  height              : auto;
+  left                : 22px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 42px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.login .rectangle-597-2f808686-0fed-403d-8110-8dd06d3f80f0-AWjfxj {
+  background-color    : var(--auto-palette-color-1);
+  height              : 3px;
+  left                : 15px;
+  position            : absolute;
+  top                 : 17px;
+  transform           : rotate(0deg);
+  width               : 114px;
+}
+.login .username-330a5620-ee6a-4136-89db-8ddf6d479d93-iZeAUM {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  height              : auto;
+  left                : 25px;
+  letter-spacing      : 0.67px;
+  line-height         : 20.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 3px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.login .input-883c280f-78b0-4476-ae5d-f460bc45f970-z6QyWT {
+  background-color    : rgba(97,0,237,1.0);
+  height              : 23px;
+  left                : 20px;
+  position            : absolute;
+  top                 : 44px;
+  transform           : rotate(0deg);
+  width               : 2px;
+}
+.login .text-field-outlined-unfilled-enabled-9a088463-b1d1-4472-b2f3-71472b20842d-MQd8zW {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  margin-top          : 117px;
+  min-height          : 96px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 563px;
+}
+.login .surface-841729aa-7ae1-45df-8ac0-f813a781ab05-aYKK86 {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-2);
+  border-radius       : 4.0px;
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 75px;
+  left                : 0px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 563px;
+}
+.login .password-6c516f88-24af-482c-b30e-c78153f3b005-CYfkVu {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  height              : auto;
+  left                : 21px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 24px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.login .forgot-password-a253c2df-edfb-4ced-ab08-9d8603f77be9-BP1E9i {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-2);
+  flex-shrink         : 0;
+  height              : auto;
+  margin-left         : 0.08px;
+  margin-top          : 2px;
+  min-height          : 23px;
+  min-width           : 149px;
+  opacity             : 0.5;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.login .icon-visibility-filled-819929d9-b685-4738-be7f-30376fe9caf0-JxWGjk {
+  background-color    : rgba(255,255,255,0);
+  height              : 32px;
+  left                : 515px;
+  opacity             : 0.5;
+  position            : absolute;
+  top                 : 21px;
+  transform           : rotate(0deg);
+  width               : 32px;
+}
+.login .path-988-d750d5a8-cc64-48db-85e7-1cb1383e4dc3-KvPYVO {
+  background-color    : rgba(255,255,255,0);
+  height              : 20px;
+  left                : 1px;
+  position            : absolute;
+  top                 : 7px;
+  transform           : rotate(0deg);
+  width               : 29px;
+}
+.login .box-689ca463-cabb-4f6a-bac9-5c2b3cc5363f-ohhpyH {
+  background-color    : rgba(255,255,255,0);
+  height              : 32px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 32px;
+}
+.login .buttons-contained-enabled-e61a6507-0e81-40f6-8e5d-52c91e941f99-ATSFMM {
+  background-color    : rgba(255,255,255,0);
+  cursor              : pointer;
+  height              : 71px;
+  left                : 742px;
+  pointer-events      : auto;
+  position            : absolute;
+  top                 : 578px;
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease;
+  width               : 535px;
+}
+.login .buttons-contained-enabled-e61a6507-0e81-40f6-8e5d-52c91e941f99-ATSFMM:hover {
+  transform           : scale(1.1);
+}
+.login .rectangle-377-941bc65f-43eb-4d3a-bf24-64673d01c030-UujoDs {
+  background-color    : rgba(0,229,1,0);
+  border-radius       : 4.0px;
+  height              : 80px;
+  left                : -4px;
+  position            : absolute;
+  top                 : -4px;
+  transform           : rotate(0deg);
+  width               : 544px;
+}
+.login .log-in-ff9dfb92-f117-4d60-9e46-675d665285d0-6wrVKJ {
+  background-color    : rgba(0,0,0,0);
+  height              : auto;
+  left                : 235px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 26px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.login {
+  align-items         : flex-start;
+  background-color    : var(--auto-palette-color-2);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  height              : auto;
+  justify-content     : flex-start;
+  min-height          : 1080px;
+  overflow            : hidden;
+  padding             : 33.0px 0;
+  position            : relative;
+  width               : 1440.0px;
+}
+.login .path-89-008fb445-d94f-416b-b0a5-48370dd72df0-jZu4yW {
+  background-color    : rgba(255,255,255,0);
+  height              : 458px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 101px;
+  width               : 1580px;
+}
+.login .group-10-56dde30c-afa4-455d-b001-ed42eb2f97dd-B2M7tm {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 20px;
+  justify-content     : flex-start;
+  margin-left         : 135px;
+  margin-top          : 13.0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.login .services-3ea59e0c-d223-4f2e-8aeb-9de2efe400e1-bCKobi {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  cursor              : pointer;
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 42px;
+  min-height          : 22px;
+  min-width           : 80px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.login .discover-5f42ab4e-8d3c-4b08-9108-173cde4c6443-xCVPX7 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  cursor              : pointer;
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  min-height          : 22px;
+  min-width           : 84px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.login .apply-24ad8cca-aa45-4d5a-8b73-efede2abfab3-FyAx0A {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 44px;
+  min-height          : 22px;
+  min-width           : 60px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.login .contact-3f52d3cf-3b15-4aa4-9efb-5bcab51cf6cf-XMxTJA {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 41px;
+  min-height          : 22px;
+  min-width           : 79px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}

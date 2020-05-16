@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500|Montserrat:300');
+
+
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  animation-delay     : 0s;
+}
+@keyframes anima-reveal {
+  from {
+    opacity             : 0;
+  }
+  to {
+    opacity             : 1;
+  }
+}
+a {
+  text-decoration     : none;
+}
+.anima-flexbox-container a {
+  line-height         : 0;
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-component-wrapper a,
+.anima-screen a {
+  text-decoration     : none;
+}
+.anima-flexbox-container a {
+  line-height         : 0;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+.anima-screen textarea:focus,
+.anima-screen input:focus {
+  outline             : none;
+}
+.anima-screen div {
+  -webkit-text-size-adjust: none;
+}
+.anima-container-center-vertical,
+.anima-container-center-horizontal {
+  pointer-events      : none;
+  display             : flex;
+  flex-direction      : row;
+  padding             : 0;
+  margin              : 0;
+}
+.anima-container-center-vertical {
+  align-items         : center;
+  height              : 100%;
+}
+.anima-container-center-horizontal {
+  justify-content     : center;
+  width               : 100%;
+}
+.anima-container-center-vertical > *,
+.anima-container-center-horizontal > * {
+  pointer-events      : auto;
+  flex-shrink         : 0;
+}
+.anima-component-wrapper ,
+.anima-screen {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.anima-auto-animated div,
+.anima-auto-animated span {
+  opacity             : 0;
+  position            : absolute;
+  --anima-z-index: -1;
+}
+/* ANIMA screen - loanstatus */
+.font-class-1 {
+  font-family         : Montserrat, Helvetica, Arial, serif;
+  font-style          : normal;
+  font-weight         : 300;
+}
+.font-class-2 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.20px;
+  line-height         : 21.0px;
+}
+.font-class-3 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.54px;
+  line-height         : 16.0px;
+}
+.font-class-4 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.19px;
+  line-height         : 20.0px;
+}
+.font-class-5 {
+  color               : var(--auto-palette-color-1);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  font-style          : normal;
+  font-weight         : 500;
+  letter-spacing      : 1.51px;
+  line-height         : 17.0px;
+}
+.font-class-6 {
+  color               : var(--auto-palette-color-1);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  font-style          : normal;
+  font-weight         : 500;
+  letter-spacing      : 1.07px;
+  line-height         : 12.0px;
+}
+:root {
+  --auto-palette-color-1: rgba(0,0,0,1.0);
+  --auto-palette-color-2: rgba(255,255,255,1.0);
+  --auto-palette-color-3: rgba(122,132,248,1.0);
+  --auto-palette-color-4: rgba(0,229,1,1.0);
+  --auto-palette-color-5: rgba(186,194,255,1.0);
+  --auto-palette-color-6: rgba(143,152,248,1.0);
+  --auto-palette-color-7: rgba(227,6,19,1.0);
+}
+.loanstatus .overlap-group-Uaxejn {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 197px;
+  margin-left         : -75.0px;
+  margin-top          : 226px;
+  position            : relative;
+  width               : 1229px;
+}
+.loanstatus .auto-flex-9KUpiT {
+  align-items         : center;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  margin-bottom       : -3.5px;
+  position            : relative;
+  width               : 107px;
+}
+.loanstatus .auto-flex1-XgXCtm {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 24px;
+  justify-content     : flex-start;
+  margin-left         : -6.66px;
+  position            : relative;
+  width               : auto;
+}
+.loanstatus .date-of-application-8ed026d3-44df-41cb-986f-ec74c8bcdffd-qKGh3L {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 17.0px;
+  height              : auto;
+  left                : 257px;
+  line-height         : 17.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 4px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanstatus .type-of-loan-1c5453fc-57ab-4a59-8448-d6a011b6f4b0-jW9mkG {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 17.0px;
+  height              : auto;
+  left                : 481px;
+  line-height         : 17.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 4px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanstatus .status-1e7f18e0-cedb-4ef9-b0a6-d17e24171f01-vektRo {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 17.0px;
+  height              : auto;
+  left                : 956px;
+  line-height         : 17.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 4px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanstatus .a2551441291-d2873cf5-9010-4171-9d66-8026ba7098b3-zSgSm8 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 15.0px;
+  height              : auto;
+  left                : 110px;
+  line-height         : 15.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 73px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanstatus .rectangle-112-5be9fd19-139e-4e99-9eb1-a4c603d3a409-5cvnFK {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 20.0px;
+  height              : 197px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 1229px;
+}
+.loanstatus .a04-may-2020-a90098e7-5855-44d4-b035-1475994ab9ef-QrkxCj {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 11.0px;
+  height              : auto;
+  left                : 265px;
+  line-height         : 11.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 76px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanstatus .student-loan-ac9cfc16-57ca-42e5-ae02-5048269c4aaa-h9fLJ4 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 15.0px;
+  height              : auto;
+  left                : 481px;
+  line-height         : 15.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 73px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanstatus .pending-8b4dfa20-8c94-4515-9d64-e1075a444702-r2VsxT {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  cursor              : pointer;
+  font-size           : 15.0px;
+  height              : auto;
+  left                : 954px;
+  line-height         : 15.0px;
+  opacity             : 0.6;
+  position            : absolute;
+  text-align          : left;
+  top                 : 73px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanstatus .group-86-f168f82e-1f24-4a22-9b11-42f09980b9d8-5kZW29 {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 24px;
+  pointer-events      : auto;
+  position            : relative;
+  transform           : rotate(-90deg);
+  transition          : all 0.2s ease;
+  width               : 38px;
+}
+.loanstatus .group-86-f168f82e-1f24-4a22-9b11-42f09980b9d8-5kZW29:hover {
+  transform           : translate(-5px, 0);
+}
+.loanstatus .down-icon-a1674617-294e-42f9-9bf7-72e444743c44-xVjoKj {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 24px;
+  justify-content     : flex-start;
+  left                : 0px;
+  padding             : 0 7.0px;
+  position            : relative;
+  top                 : -0px;
+  transform           : rotate(180deg);
+  width               : auto;
+}
+.loanstatus .bx-chevron-down-1ac4467d-b306-41ad-9fda-a5f1d0ea410a-H1FJQQ {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 38px;
+  justify-content     : flex-end;
+  margin-top          : -7.02px;
+  min-width           : 24px;
+  position            : relative;
+  transform           : rotate(-90deg);
+  width               : auto;
+}
+.loanstatus .path-12-95f095ff-8188-4d89-9fb1-e91c705c91f1-jMmjrx {
+  background-color    : rgba(177,181,190,0);
+  flex-shrink         : 0;
+  height              : 38px;
+  margin-top          : -7.02px;
+  position            : relative;
+  width               : 24px;
+}
+.loanstatus .return-to-dashboard-1853442a-1897-42f1-b810-22276216c1bb-S7Dxiv {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  cursor              : pointer;
+  flex-shrink         : 0;
+  font-size           : 13.0px;
+  height              : auto;
+  line-height         : 13.0px;
+  margin-bottom       : 0.6px;
+  margin-left         : 3px;
+  min-height          : 18px;
+  min-width           : 148px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanstatus .loans-ec27b429-03b4-4616-8f8d-40223e242192-5zJVY7 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 29.0px;
+  height              : auto;
+  left                : 171px;
+  line-height         : 29.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 297px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanstatus .line-11-8250ef57-3274-4bd3-9e47-05045d43f92f-IFChXZ {
+  background-color    : rgba(255,255,255,0);
+  height              : 5px;
+  left                : 137px;
+  position            : absolute;
+  top                 : 336px;
+  width               : 170px;
+}
+.loanstatus {
+  background-color    : var(--auto-palette-color-2);
+  height              : 1080.0px;
+  overflow            : hidden;
+  position            : relative;
+  width               : 1440.0px;
+}
+.loanstatus .group-10-1d367f85-d4e2-460a-ac18-a154dc4ace72-xLMssp {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 20px;
+  justify-content     : flex-start;
+  left                : 527px;
+  position            : absolute;
+  top                 : 46px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanstatus .services-7573a29e-f929-4c86-9e8a-4fe4f9f209fd-KCpTHO {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 42px;
+  min-height          : 22px;
+  min-width           : 80px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanstatus .discover-6e05ad9e-aacf-47f2-81e8-41a214cae3ee-bPeF3v {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  min-height          : 22px;
+  min-width           : 84px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanstatus .apply-b3a5feaa-7a73-428a-a82c-0c5771c0962a-SBbJHe {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 44px;
+  min-height          : 22px;
+  min-width           : 60px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanstatus .contact-6b8dcd69-644e-4cdf-ba8d-647068e657b9-jU0PS6 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 41px;
+  min-height          : 22px;
+  min-width           : 79px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanstatus .razer-logo-d089705e-2c2f-42b9-9bbe-31014782dfb7-AExRF6 {
+  background-color    : rgba(255,255,255,0);
+  height              : 128px;
+  left                : 164px;
+  position            : absolute;
+  top                 : 49px;
+  width               : 228px;
+}
+.loanstatus .group-100-6e899c44-2d34-4d56-ad90-a19d00ed64f1-YAIhnA {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  cursor              : pointer;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 131px;
+  justify-content     : flex-start;
+  left                : 1156px;
+  position            : absolute;
+  top                 : 22px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanstatus .chrislim63-65e2993d-1734-4433-a9d7-1cb0e5735249-l2RqaU {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-top          : 23px;
+  min-height          : 22px;
+  min-width           : 117px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanstatus .ellipse-17-e73c048e-dc18-4596-aad5-de390774aaed-fKY0Sq {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 89px;
+  margin-right        : 2.0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 89px;
+}
+.loanstatus .log-out-2058a9ba-f27c-42d9-a3ba-05b28195e88e-JTIm8M {
+  align-self          : center;
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 15.0px;
+  height              : auto;
+  line-height         : 15.0px;
+  margin-bottom       : 36.0px;
+  margin-left         : 36px;
+  min-height          : 21px;
+  min-width           : 81px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.loanstatus .rectangle-608-1484cb93-3125-4c0d-a01c-5927004e049b-2KeblM {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 10.0px;
+  height              : 849px;
+  left                : 66px;
+  position            : absolute;
+  top                 : 197px;
+  width               : 1260px;
+}
+.loanstatus .group-105-019343eb-4a01-41a4-951d-440208d287bc-UakunP {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  height              : auto;
+  justify-content     : flex-start;
+  left                : 149px;
+  min-height          : 366px;
+  position            : absolute;
+  top                 : 124px;
+  transform           : rotate(0deg);
+  width               : 1079px;
+}
+.loanstatus .application-id-303b8416-8c22-48f3-85e3-b841fb32577b-WB8ly3 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 17.0px;
+  height              : auto;
+  left                : 91px;
+  line-height         : 17.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 4px;
+  transform           : rotate(0deg);
+  width               : auto;
+}

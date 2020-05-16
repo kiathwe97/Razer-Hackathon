@@ -1,0 +1,1207 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500|Montserrat:300');
+
+
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  animation-delay     : 0s;
+}
+@keyframes anima-reveal {
+  from {
+    opacity             : 0;
+  }
+  to {
+    opacity             : 1;
+  }
+}
+a {
+  text-decoration     : none;
+}
+.anima-flexbox-container a {
+  line-height         : 0;
+}
+.align-self-flex-start {
+  align-self          : flex-start;
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-component-wrapper a,
+.anima-screen a {
+  text-decoration     : none;
+}
+.anima-flexbox-container a {
+  line-height         : 0;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+.anima-screen textarea:focus,
+.anima-screen input:focus {
+  outline             : none;
+}
+.anima-screen div {
+  -webkit-text-size-adjust: none;
+}
+.anima-container-center-vertical,
+.anima-container-center-horizontal {
+  pointer-events      : none;
+  display             : flex;
+  flex-direction      : row;
+  padding             : 0;
+  margin              : 0;
+}
+.anima-container-center-vertical {
+  align-items         : center;
+  height              : 100%;
+}
+.anima-container-center-horizontal {
+  justify-content     : center;
+  width               : 100%;
+}
+.anima-container-center-vertical > *,
+.anima-container-center-horizontal > * {
+  pointer-events      : auto;
+  flex-shrink         : 0;
+}
+.anima-component-wrapper ,
+.anima-screen {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.anima-auto-animated div,
+.anima-auto-animated span {
+  opacity             : 0;
+  position            : absolute;
+  --anima-z-index: -1;
+}
+/* ANIMA screen - myaccount */
+.font-class-1 {
+  font-family         : Montserrat, Helvetica, Arial, serif;
+  font-style          : normal;
+  font-weight         : 300;
+}
+.font-class-2 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.20px;
+  line-height         : 21.0px;
+}
+.font-class-3 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.54px;
+  line-height         : 16.0px;
+}
+.font-class-4 {
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  letter-spacing      : 0.19px;
+  line-height         : 20.0px;
+}
+.font-class-5 {
+  color               : var(--auto-palette-color-1);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  font-style          : normal;
+  font-weight         : 500;
+  letter-spacing      : 1.51px;
+  line-height         : 17.0px;
+}
+.font-class-6 {
+  color               : var(--auto-palette-color-1);
+  font-family         : Roboto, Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  font-style          : normal;
+  font-weight         : 500;
+  letter-spacing      : 1.07px;
+  line-height         : 12.0px;
+}
+:root {
+  --auto-palette-color-1: rgba(0,0,0,1.0);
+  --auto-palette-color-2: rgba(255,255,255,1.0);
+  --auto-palette-color-3: rgba(122,132,248,1.0);
+  --auto-palette-color-4: rgba(0,229,1,1.0);
+  --auto-palette-color-5: rgba(186,194,255,1.0);
+  --auto-palette-color-6: rgba(143,152,248,1.0);
+  --auto-palette-color-7: rgba(227,6,19,1.0);
+}
+.myaccount .overlap-group-ZQYfmC {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 1365px;
+  margin-left         : -33.83px;
+  margin-top          : 0px;
+  position            : relative;
+  width               : 1260px;
+}
+.myaccount .overlap-group2-V8WOtB {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 34px;
+  margin-top          : 29px;
+  position            : relative;
+  width               : 341px;
+}
+.myaccount .overlap-group1-MYaGGM {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 46px;
+  margin-left         : 3.23px;
+  margin-top          : 314px;
+  position            : relative;
+  width               : 236px;
+}
+.myaccount .auto-flex-hxJhfv {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  margin-left         : 4px;
+  position            : relative;
+  width               : 239px;
+}
+.myaccount .auto-flex2-pxpHEW {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 385px;
+  justify-content     : flex-start;
+  margin-left         : -7.02px;
+  position            : relative;
+  width               : auto;
+}
+.myaccount .auto-flex1-VJ7BjN {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  margin-bottom       : 3.0px;
+  margin-left         : 465px;
+  position            : relative;
+  width               : 341px;
+}
+.myaccount .auto-flex3-djnE0E {
+  align-items         : center;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  margin-left         : 848px;
+  position            : relative;
+  width               : 107px;
+}
+.myaccount .credit-statements-06e4f658-abd3-45b4-b5a2-820bf174b018-uKwDrD {
+  background-color    : rgba(0,0,0,0);
+  height              : auto;
+  left                : 12px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 15px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .path-993-a565e7d9-61fe-4180-96cc-c370df8fdb84-nKnUNo {
+  background-color    : rgba(255,255,255,0);
+  height              : 1px;
+  left                : 81px;
+  position            : absolute;
+  top                 : 335px;
+  transform           : rotate(0deg);
+  width               : 1104px;
+}
+.myaccount .path-994-3663f7f1-4dde-4cae-ad7a-e98b908566de-qDOEy7 {
+  background-color    : rgba(255,255,255,0);
+  height              : 1px;
+  left                : 78px;
+  position            : absolute;
+  top                 : 586px;
+  transform           : rotate(0deg);
+  width               : 1104px;
+}
+.myaccount .loan-id-4631ca50-a157-4590-823c-217e9516af78-dezuUx {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 21.0px;
+  height              : auto;
+  left                : 128px;
+  line-height         : 21.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 742px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .loan-type-fd35b830-a2e9-422c-92f4-84f7e656fb83-uxWpvp {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 21.0px;
+  height              : auto;
+  left                : 480px;
+  line-height         : 21.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 742px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .status-150b9d94-6193-422b-b97f-0c3d476ee167-Cs47Ez {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 21.0px;
+  height              : auto;
+  left                : 822px;
+  line-height         : 21.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 742px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .a2551441291-72c12c52-a88f-45ef-a14c-06124af96b24-zg2wIk {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 128px;
+  line-height         : 18.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 799px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .student-loan-ec5007f9-d00d-4639-8366-0f1a3f66a507-orsx6x {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 477px;
+  line-height         : 18.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 799px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .disbursed-189c3b33-54ba-4ac8-b3f1-322d0a78776b-bXxHuU {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 810px;
+  line-height         : 29.0px;
+  position            : absolute;
+  text-align          : right;
+  top                 : 794px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .path-995-f47022bf-9d01-487f-8822-b75418da5001-tKjW0a {
+  background-color    : rgba(255,255,255,0);
+  height              : 1px;
+  left                : 81px;
+  position            : absolute;
+  top                 : 837px;
+  transform           : rotate(0deg);
+  width               : 1104px;
+}
+.myaccount .loan-details-f624799d-387f-4b52-8587-75a8294d6001-k45KMW {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 1010px;
+  line-height         : 29.0px;
+  position            : absolute;
+  text-align          : right;
+  text-decoration     : underline;
+  top                 : 794px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .what-does-this-mean-0d16618a-24e0-4334-b4bf-964d6e8670b5-QaXLPr {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 910px;
+  line-height         : 29.0px;
+  position            : absolute;
+  text-align          : right;
+  text-decoration     : underline;
+  top                 : 24px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .sgd-50-91f68384-0dc8-4228-92d2-90914a54bea6-WgCPwg {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 1029px;
+  line-height         : 35.0px;
+  position            : absolute;
+  text-align          : right;
+  top                 : 346px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .sgd-2500-00-3ec02e0a-43b4-4236-ba3b-6a012e6c69ab-DrR8Mk {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 976px;
+  line-height         : 35.0px;
+  position            : absolute;
+  text-align          : right;
+  top                 : 378px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .bill-date-20-apr-2020-9f91e8fb-8a4a-46ba-9891-53aaab35d6ad-NhFoyZ {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 369px;
+  line-height         : 18.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 494px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .payment-due-date-14-may-2020-b120bad3-c9ff-47c9-ae0f-1273b29b2816-gIeW0P {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 735px;
+  line-height         : 18.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 494px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .credit-limit-fa7c5599-4da8-41a4-a5f0-ef2b0438dd44-N3Xu2m {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 369px;
+  line-height         : 35.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 350px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .sgd-25000-00-983d219d-f0c0-40b5-9286-775ea6cae689-QkUVIB {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 495px;
+  line-height         : 35.0px;
+  position            : absolute;
+  text-align          : right;
+  top                 : 352px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .sgd-22000-00-71d161dd-fbbf-4221-ade1-5b1865b268b1-lGh65i {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 495px;
+  line-height         : 35.0px;
+  position            : absolute;
+  text-align          : right;
+  top                 : 383px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .available-192e34c6-b240-4a50-8ea6-2f25ff045930-Q6DDCf {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 369px;
+  line-height         : 35.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 383px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .sgd-500-00-b2ec0339-ddf1-4d5c-b1f6-09021a5bd1bd-TZmtdV {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 990px;
+  line-height         : 35.0px;
+  position            : absolute;
+  text-align          : right;
+  top                 : 410px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .buttons-contained-enabled-292292f3-00cd-47fe-99b2-74f7961f113c-pPG76T {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  cursor              : pointer;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 19px;
+  justify-content     : flex-start;
+  left                : 1109px;
+  position            : absolute;
+  top                 : 349px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .group-89-59f961c3-ead7-4a70-8ba9-c2b04101638a-uUITLk {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 19px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 48px;
+}
+.myaccount .rectangle-377-fade9e98-3e54-447f-bbc9-aa896413d396-PyAnQy {
+  background-color    : rgba(0,229,1,0);
+  border-radius       : 4.0px;
+  height              : 28px;
+  left                : -4px;
+  position            : absolute;
+  top                 : -4px;
+  transform           : rotate(0deg);
+  width               : 57px;
+}
+.myaccount .pay-f6628c5f-bb56-45e7-9e27-33b833f574c3-s4vVIy {
+  background-color    : rgba(0,0,0,0);
+  height              : auto;
+  left                : 12px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 3px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .buttons-contained-enabled-628b4d20-f076-454b-97f1-72bb9d4392c6-TmUxjf {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  cursor              : pointer;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 19px;
+  justify-content     : flex-start;
+  left                : 1109px;
+  position            : absolute;
+  top                 : 383px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .group-89-20783dd0-288f-431c-928b-a875cf03fe9f-5fxnvA {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 19px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 48px;
+}
+.myaccount .rectangle-377-67128edb-28d9-40ed-a86d-c3a3c1907e2e-FkbxBR {
+  background-color    : rgba(0,229,1,0);
+  border-radius       : 4.0px;
+  height              : 28px;
+  left                : -4px;
+  position            : absolute;
+  top                 : -4px;
+  transform           : rotate(0deg);
+  width               : 57px;
+}
+.myaccount .pay-235844ea-3a8f-4512-8860-e2c9e6c15ce9-JTUisJ {
+  background-color    : rgba(0,0,0,0);
+  height              : auto;
+  left                : 12px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 3px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .group-100-2064d8c8-d99b-4d3c-85fa-36a2424fd85e-Qw0Dbd {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 424px;
+  justify-content     : flex-start;
+  left                : 176px;
+  position            : absolute;
+  top                 : 22px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .chrislim63-a0dc8a2c-c19d-41df-8533-cc260391e9ba-Ea8OnN {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-top          : 23px;
+  min-height          : 22px;
+  min-width           : 117px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .ellipse-17-332f09dc-2a1f-4280-8aa5-0a1b0c67ab75-8V1bLu {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 89px;
+  margin-right        : 2.0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 89px;
+}
+.myaccount .log-out-0b8f98b4-9a2f-4f45-92a0-807fcd003f2e-LXxoFz {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 15.0px;
+  height              : auto;
+  line-height         : 15.0px;
+  margin-left         : 36px;
+  margin-top          : 37.0px;
+  min-height          : 21px;
+  min-width           : 81px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .ellipse-17-4e2951b7-b027-43c8-a306-3b70af822bef-JDFHY3 {
+  align-self          : flex-end;
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 132px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 132px;
+}
+.myaccount .contact-f5e41c18-e249-413c-980f-c04acfe0df44-Wn2u2D {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 41px;
+  min-height          : 22px;
+  min-width           : 79px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .razer-logo-51d1bb3d-09c7-461c-b4b4-273c6333f5f6-cr4isk {
+  background-color    : rgba(255,255,255,0);
+  height              : 128px;
+  left                : 164px;
+  position            : absolute;
+  top                 : 49px;
+  width               : 228px;
+}
+.myaccount .group-92-8fdf42c4-5cca-403d-8432-e122cdbb0a28-34YiVs {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  height              : auto;
+  justify-content     : flex-start;
+  left                : 144px;
+  min-height          : 1667px;
+  position            : absolute;
+  top                 : 138px;
+  transform           : rotate(0deg);
+  width               : 1151px;
+}
+.myaccount .member-since-may-2020-249855dd-1059-4b35-8fc2-d00494628e60-MIJ0bs {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 22.0px;
+  height              : auto;
+  left                : 76px;
+  line-height         : 22.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 30px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .chirislim63-56bd08ab-d070-47e2-8c61-f21709e522b6-jTKyT1 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 36.0px;
+  height              : auto;
+  left                : 2px;
+  line-height         : 36.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .line-4-4dd4aa7d-de98-4a4f-acc6-f60a265d2524-ri3MmK {
+  background-color    : rgba(255,255,255,0);
+  height              : 6px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 39px;
+  transform           : rotate(0deg);
+  width               : 203px;
+}
+.myaccount .rectangle-43-162550ae-be09-4423-b7fb-f1b01e1ee1d4-TKxzmi {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 10.0px;
+  height              : 1324px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 41px;
+  transform           : rotate(0deg);
+  width               : 1260px;
+}
+.myaccount .credit-score-0f395eee-de22-4f85-92ba-09961781ccab-ykFPy5 {
+  align-self          : center;
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 36.0px;
+  height              : auto;
+  line-height         : 36.0px;
+  margin-right        : 4.0px;
+  min-height          : 46px;
+  min-width           : 229px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .rectangle-598-34ee60e6-ec03-4b23-86b5-278421b63ab4-C5SFxp {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 20.0px;
+  height              : 34px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 341px;
+}
+.myaccount .line-5-a3a7fda6-e2fc-407e-9177-c2f2035cddc9-6OuNeM {
+  background-color    : rgba(255,255,255,0);
+  height              : 34px;
+  left                : 55px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 1px;
+}
+.myaccount .path-992-66eff6a1-1079-4e6e-8198-33b8685353f6-mV0AAT {
+  background-color    : rgba(255,255,255,0);
+  height              : 34px;
+  left                : 283px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 1px;
+}
+.myaccount .line-7-f1d11181-ed14-4885-85fa-0bd5f729f50a-2rxPdJ {
+  background-color    : rgba(255,255,255,0);
+  height              : 34px;
+  left                : 133px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 1px;
+}
+.myaccount .line-8-328256e0-095b-4216-9d30-3cbcfcbfdab7-x7Gubu {
+  background-color    : rgba(255,255,255,0);
+  height              : 34px;
+  left                : 211px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 1px;
+}
+.myaccount .down-icon-246e247c-0084-413b-8de7-7bd8f2638a28-U8XdSH {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 24px;
+  margin-right        : 73.82px;
+  margin-top          : 0px;
+  position            : relative;
+  transform           : rotate(180deg);
+  width               : 26px;
+}
+.myaccount .bx-chevron-down-15b00a5f-8fce-4ec6-a06b-daf43754acc5-jnxs4p {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 16px;
+  justify-content     : flex-end;
+  left                : 0px;
+  min-width           : 26px;
+  position            : absolute;
+  top                 : 4px;
+  transform           : rotate(-180deg);
+  width               : auto;
+}
+.myaccount .path-12-e740b443-6dc6-4608-b5b2-3e00a5792357-49lShr {
+  background-color    : rgba(0,0,0,0);
+  flex-shrink         : 0;
+  height              : 16px;
+  margin-bottom       : -0.0px;
+  position            : relative;
+  width               : 26px;
+}
+.myaccount .rectangle-37-ed0516db-236b-499a-8c51-3770ff4c1e5c-oj1Pcx {
+  background-color    : rgba(255,255,255,0);
+  height              : 24px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 24px;
+}
+.myaccount .grade-bb-01ac29a3-ba6c-4a4e-84fc-09b7c5d58d4b-4IpWf3 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 986px;
+  line-height         : 18.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .group-86-524b07a0-686a-4228-aae0-0955535bb0d4-ys1m4d {
+  align-self          : flex-start;
+  background-color    : rgba(255,255,255,0);
+  cursor              : pointer;
+  flex-shrink         : 0;
+  height              : 24px;
+  pointer-events      : auto;
+  position            : relative;
+  transform           : rotate(-90deg);
+  transition          : all 0.2s ease;
+  width               : 38px;
+}
+.myaccount .group-86-524b07a0-686a-4228-aae0-0955535bb0d4-ys1m4d:hover {
+  transform           : translate(-5px, 0);
+}
+.myaccount .down-icon-975a37ec-4e6a-474c-8340-f972907ed68c-PGqJWW {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 24px;
+  justify-content     : flex-start;
+  left                : 0px;
+  padding             : 0 7.0px;
+  position            : relative;
+  top                 : -0px;
+  transform           : rotate(180deg);
+  width               : auto;
+}
+.myaccount .bx-chevron-down-f748117f-9c27-45be-a110-1140dedd85f4-2fJvxM {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 38px;
+  justify-content     : flex-end;
+  margin-top          : -7.02px;
+  min-width           : 24px;
+  position            : relative;
+  transform           : rotate(-90deg);
+  width               : auto;
+}
+.myaccount .path-12-d96f2e45-6e7a-41f4-97ca-8c3cbb0d9a65-hDcn1k {
+  background-color    : rgba(177,181,190,0);
+  flex-shrink         : 0;
+  height              : 38px;
+  margin-top          : -7.02px;
+  position            : relative;
+  width               : 24px;
+}
+.myaccount .return-to-dashboard-74d8f210-8a0b-4a68-9bb3-513213d5798b-isgItT {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  cursor              : pointer;
+  flex-shrink         : 0;
+  font-size           : 14.0px;
+  height              : auto;
+  line-height         : 14.0px;
+  min-height          : 20px;
+  min-width           : 158px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .accounts-653d8b23-cddc-40af-a3cd-3647e0f4d356-zWvQhy {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 29.0px;
+  height              : auto;
+  left                : 96px;
+  line-height         : 29.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 150px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .account-name-2381fe9e-33c4-4082-a0d1-0c3957678ef3-3r0M3u {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 21.0px;
+  height              : auto;
+  left                : 113px;
+  line-height         : 21.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 213px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .loans-ed0d1c99-7ce2-4b49-9825-e25cc06a2501-mmFy8O {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 29.0px;
+  height              : auto;
+  left                : 96px;
+  line-height         : 29.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 674px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .details-63980884-b44b-4884-ba86-a789ab282160-xg7hB2 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 21.0px;
+  height              : auto;
+  left                : 465px;
+  line-height         : 21.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 213px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .amount-eea237ab-f657-4a4a-af68-4435c8a66033-Xv8IYL {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 21.0px;
+  height              : auto;
+  left                : 935px;
+  line-height         : 21.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 213px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .a123-231424-4-30718700-5d69-41c0-b5df-5669dccd97d5-vcWhgB {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 117px;
+  line-height         : 18.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 264px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .current-account-3b74eae1-aebb-46cd-ba8e-440d9e8ca3b3-r7P5KL {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 117px;
+  line-height         : 18.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 294px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .current-balance-1ad63f89-5b90-463f-828c-c11dc8658df4-Ep1FkV {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 815px;
+  line-height         : 29.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 269px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .sgd-23430-20-afd6c3d4-0830-45ff-8d9e-c8cc2fe56f9e-WJZsIK {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 976px;
+  line-height         : 29.0px;
+  position            : absolute;
+  text-align          : right;
+  top                 : 269px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .line-9-23f1aad8-c713-44a5-8e11-78dce80db510-YUxpxX {
+  background-color    : rgba(255,255,255,0);
+  height              : 5px;
+  left                : 73px;
+  position            : absolute;
+  top                 : 181px;
+  transform           : rotate(0deg);
+  width               : 170px;
+}
+.myaccount .line-10-631a9448-6ad1-4b99-b626-427bef88b860-hHnMAI {
+  background-color    : rgba(255,255,255,0);
+  height              : 5px;
+  left                : 73px;
+  position            : absolute;
+  top                 : 706px;
+  transform           : rotate(0deg);
+  width               : 170px;
+}
+.myaccount .xxxxxxxxxxxx2347-26eddb7a-83c8-4ff5-8da0-c2c68f87b0f0-BqEwf6 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 113px;
+  line-height         : 18.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 360px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .credit-card-07884bcb-6ddb-476f-b2b9-96ec6bfa065b-xExNWa {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 113px;
+  line-height         : 18.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 386px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .minimum-to-pay-amount-used-billed-amount-used-unbilled-7f97be65-76ed-4420-9fc7-5e73eea5013b-MS4RO8 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 736px;
+  line-height         : 35.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 346px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .buttons-contained-enabled-81cadb7e-7bf6-47cb-818c-269fd7188a99-4hCF4P {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 43px;
+  justify-content     : flex-start;
+  left                : 110px;
+  position            : absolute;
+  top                 : 482px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .group-89-5f595051-e8ce-42e2-828f-a1fbd00c583f-PGnSxW {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 43px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 165px;
+}
+.myaccount .rectangle-377-d44ced3e-7627-4ca4-bf0a-89235459257b-GJGqTr {
+  background-color    : rgba(255,255,255,0);
+  border-radius       : 4.0px;
+  height              : 52px;
+  left                : -4px;
+  position            : absolute;
+  top                 : -4px;
+  transform           : rotate(0deg);
+  width               : 174px;
+}
+.myaccount {
+  background-color    : var(--auto-palette-color-2);
+  height              : 1974.0px;
+  overflow            : hidden;
+  position            : relative;
+  width               : 1440.0px;
+}
+.myaccount .group-10-d59d9ba0-5cf3-4caf-a6b8-29e3c5fff1e2-xIlLdr {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 20px;
+  justify-content     : flex-start;
+  left                : 527px;
+  position            : absolute;
+  top                 : 46px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .services-5a1524fb-3f62-4b54-b875-cf8fbce6bb10-UlS7Ao {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 42px;
+  min-height          : 22px;
+  min-width           : 80px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .discover-0a0f3517-4d0b-4db4-961e-f535da0fa5f0-3TnFwx {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  min-height          : 22px;
+  min-width           : 84px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.myaccount .apply-f68cda5c-baf2-438b-ab1b-0f66560f76da-2ayku8 {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 44px;
+  min-height          : 22px;
+  min-width           : 60px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}

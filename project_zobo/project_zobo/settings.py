@@ -25,7 +25,7 @@ SECRET_KEY = 'hol#8k(eea-0g)@l!zls1d9!m^pwoyp4z$u#wsdxrjoih%3-8q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["http://ec2-3-1-201-75.ap-southeast-1.compute.amazonaws.com"]
+ALLOWED_HOSTS = ["http://ec2-3-1-201-75.ap-southeast-1.compute.amazonaws.com", "127.0.0.1"]
 
 
 # Application definition
@@ -122,3 +122,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+MEDIA_URL =  '/img/'
+MEDIA_PATH = "img"
+
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')
+]
