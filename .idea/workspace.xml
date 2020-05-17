@@ -2,8 +2,187 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f17d61e-693e-4bef-9700-8edb61fb0730" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/project_zobo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/project_zobo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/bx-chevron-down-10@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/bx-chevron-down-11@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/bx-chevron-down-16@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/bx-chevron-down-17@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/bx-chevron-down-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/bx-chevron-down-21@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/bx-chevron-down-3@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/bx-chevron-down-5@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/bx-chevron-down@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/download-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/download-2@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/download@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/ellipse-10@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/ellipse-11@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/ellipse-12@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/ellipse-13@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/ellipse-14@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/ellipse-15@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/ellipse-16@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/ellipse-17-10@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/ellipse-17-2@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/ellipse-18@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/ellipse-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/ellipse-2@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/ellipse-4@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/ellipse-5@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/ellipse-6@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/ellipse-7@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/ellipse-8@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/ellipse-9@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/group-37@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/group-3@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/group-91@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/image-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/line-10-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/line-4-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/line-4-2@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/line-4-3@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/line-5@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/loanofferletter-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/mask-group-3@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/myinfo-3-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/myinfo-3@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-12-10@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-13-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-13-2@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-13-3@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-13-5@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-14@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-15@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-16@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-17@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-18@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-19@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-21@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-22@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-23@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-37@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-38@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-39@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-41@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-42@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-43@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-44@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-45@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-46@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-47@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-48@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-49@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-50@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-51@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-52@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-53@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-54@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-55@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-56@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-57@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-58@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-59@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-60@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-61@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-62@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-63@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-64@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-65@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-66@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-67@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-68@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-69@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-70@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-71@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-72@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-73@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-74@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-75@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-77@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-78@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-79@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-80@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-81@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-82@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-83@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-84@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-85@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-86@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-87@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-88@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-89-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-89@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-92-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-92-3@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-988-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-988-2@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-988@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-989-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-990-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-991-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-993@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-994@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-996-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-997@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/path-998@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/razer-logo-10@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/razer-logo-18@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/razer-logo@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-101@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-102@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-104-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-104@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-105-10@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-105-11@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-105-12@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-105-13@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-105-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-105-5@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-105-8@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-105-9@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-105@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-112-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-112@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-377-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-377-2@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-377-3@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-377-6@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-40-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-41@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-42@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-43-10@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-43-12@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-43-1@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-43-2@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-43-3@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-43-5@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-43-6@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-43-7@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-43-9@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-43@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-46@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-55@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-57@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-58@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-598@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-599@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-59@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-603@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-605@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-60@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-85@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-89@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-91@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-92@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-94@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-96@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/rectangle-97@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/images/screenshot-2020-05-16-at-5-35-36-pm@1x.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +205,7 @@
         <counts>
           <entry key="Python Console" value="46" />
           <entry key="html" value="2199" />
-          <entry key="py" value="6564" />
+          <entry key="py" value="6582" />
           <entry key="vmoptions" value="2" />
         </counts>
       </usages-collector>
@@ -34,7 +213,7 @@
         <counts>
           <entry key="HTML" value="2199" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="6610" />
+          <entry key="Python" value="6628" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -65,8 +244,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+            <state relative-caret-position="574">
+              <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -163,10 +342,10 @@
         <option value="$PROJECT_DIR$/project_zobo/loan_status/views.py" />
         <option value="$PROJECT_DIR$/project_zobo/my_account/views.py" />
         <option value="$PROJECT_DIR$/project_zobo/project_zobo/urls.py" />
-        <option value="$PROJECT_DIR$/project_zobo/project_zobo/settings.py" />
         <option value="$PROJECT_DIR$/project_zobo/open_account/views.py" />
         <option value="$PROJECT_DIR$/project_zobo/project_zobo/templates/myaccount.html" />
         <option value="$PROJECT_DIR$/project_zobo/project_zobo/templates/verifyloginmobile.html" />
+        <option value="$PROJECT_DIR$/project_zobo/project_zobo/settings.py" />
       </list>
     </option>
   </component>
@@ -200,6 +379,12 @@
               <item name="Django_hackathon" type="462c0819:PsiDirectoryNode" />
               <item name="project_zobo" type="462c0819:PsiDirectoryNode" />
               <item name="project_zobo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_hackathon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_hackathon" type="462c0819:PsiDirectoryNode" />
+              <item name="project_zobo" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Django_hackathon" type="b2602c69:ProjectViewProjectNode" />
@@ -300,7 +485,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16111112" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -404,6 +588,109 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="373" column="38" selection-start-line="373" selection-start-column="38" selection-end-line="373" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#4;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#5;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#2;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#3;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#6;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#7;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#8;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#9;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#2;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#3;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#10;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#11;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#12;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#7;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#1;n#div#7;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#2;n#div#7;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#3;n#div#7;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#4;n#div#7;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#5;n#div#7;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#5;n#div#7;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#13;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#8;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#1;n#div#8;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#14;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#15;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#10;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#1;n#div#10;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#11;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#1;n#div#11;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#2;n#div#11;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#3;n#div#11;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#1;n#div#11;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#1;n#div#1;n#div#11;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#2;n#div#1;n#div#11;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#12;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#1;n#div#12;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#13;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#14;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#15;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#1;n#div#15;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#2;n#div#15;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#3;n#div#15;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#4;n#div#15;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#5;n#div#15;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#6;n#div#15;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#7;n#div#15;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#8;n#div#15;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#9;n#div#15;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#10;n#div#15;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#11;n#div#15;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#12;n#div#15;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#13;n#div#15;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#14;n#div#15;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#15;n#div#15;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#1;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#2;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#3;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#4;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#5;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#6;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#7;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#8;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#9;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#10;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#11;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#1;n#div#0;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#12;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#13;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#14;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#15;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#16;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#17;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#18;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#17;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#17;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#17;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#1;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#3;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#1;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#2;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#a#0;n#div#2;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -425,6 +712,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -455,12 +745,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#src#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/templates/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
           <caret line="78" column="38" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#a#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#a#1;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#a#2;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#a#3;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -499,6 +806,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1467">
           <caret line="113" column="2" selection-start-line="113" selection-start-column="2" selection-end-line="113" selection-end-column="2" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#10;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#16;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -506,6 +824,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1407">
           <caret line="100" column="2" selection-start-line="100" selection-start-column="2" selection-end-line="100" selection-end-column="2" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -534,6 +862,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -617,8 +956,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        <state relative-caret-position="574">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
         </state>
       </provider>
     </entry>
