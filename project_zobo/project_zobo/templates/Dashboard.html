@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        {% load static %}<link href="{%static '/img/favicon.png' %}" rel="shortcut icon"/>
+        {% load static %}<link href="{% static 'img/favicon.png' %}" rel="shortcut icon"/>
         <meta charset="utf-8"/>
         <meta content="width=1440, maximum-scale=1.0" name="viewport"/>
-        <link href="{%static '/css/dashboard.css'%}" rel="stylesheet" type="text/css"/>
+        <link href="{% static 'css/dashboard.css' %}" rel="stylesheet" type="text/css"/>
         <meta content="AnimaApp.com - Design to code, Automated." name="author">
         </meta>
     </head>
@@ -14,51 +14,84 @@
         <div class="anima-container-center-horizontal">
             <div class="dashboard anima-flexbox-container anima-screen ">
                 <div class="auto-flex-1lKxzb anima-flexbox-container">
-                    <img anima-src="{%static '/img/razer-logo-10@1x.png' %}" class="razer-logo-e62e1fd3-61e9-4c47-a569-a3a823eaf0ac-v5AeEG" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                    <div class="group-10-a690144c-7811-43b8-843b-8243cdbabea7-hinnfy anima-flexbox-container">
-                        <div class="discover-d89a1d19-942a-49d5-aa04-ece45234b11c-lk77Me font-class-1">
+                    <img anima-src="{% static 'img/razer-logo-10@1x.png' %}" class="razer-logo-ea5ceb03-6b1f-4229-9084-da9f60cd43ef-jGQ26s" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="group-10-9223210b-cfc5-4f7d-993b-a89c44592244-mQUi3Z anima-flexbox-container">
+                        <div class="discover-919b6cb4-03bb-497d-973a-c60ec63435a6-G7TiiQ font-class-1">
                             Discover
                         </div>
-                        <div class="services-00def1b2-7233-4dcc-b56a-077c8bbf93b1-SEGQ6B font-class-1">
+                        <div class="services-cd0757a6-47cb-4a39-b99a-15abd208345c-IURaRZ font-class-1">
                             Services
                         </div>
-                        <div class="apply-dd5f0dfa-f489-4bef-943f-8782629e3f1c-JryZhz font-class-1">
+                        <div class="apply-0cf4d9e5-51cf-48bb-9b56-f89f0855dbc5-oaVUpD font-class-1">
                             Apply
                         </div>
-                        <div class="contact-48f20b32-38d9-41f8-8776-7284c7513503-axrodT font-class-1">
+                        <div class="contact-169b1830-f111-4400-a92d-7def72ab7152-CLfpeP font-class-1">
                             Contact
                         </div>
                     </div>
-                    <div class="group-11-dfa8f060-5e16-47b3-9add-45b63d9f31f8-dzitoy anima-flexbox-container">
-                        <div class="group-100-d2c80f2a-42ad-4647-81db-d78a32eec140-P0E26r anima-flexbox-container">
-                            <div class="auto-flex1-g8LO3x anima-flexbox-container">
-                                <a href="myaccount.html">
-                                    <img anima-src="{%static '/img/ellipse-17-10@1x.png' %}" class="ellipse-17-1c7d7e15-55e1-48ff-b7f3-82d561d24e1e-b8Qpmx" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="group-11-e6a6e565-1df1-49ff-bffc-adc9e3cb90ee-YHCEHO anima-flexbox-container">
+                        <div class="group-100-4308f104-5e8b-472f-ad0b-ce97e3b4a26c-JrrX4O anima-flexbox-container">
+                            <div class="auto-flex1-GHqnIL anima-flexbox-container">
+                                <a href="myaccount">
+                                    <img anima-src="{% static 'img/ellipse-17-10@1x.png' %}" class="ellipse-17-6ab87254-f3bf-47c4-8b8f-66a5d48b5aa9-Z6LO89" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                                 </a>
-                                <div class="chrislim63-5760e950-3769-474c-ad4f-9d30c3646a70-xTDdbF font-class-1">
+                                <div class="chrislim63-a0d0e294-0a53-475d-a883-a8ff244e24ea-AllFVm font-class-1">
                                     CHRISLIM63
                                 </div>
                             </div>
-                            <div class="log-out-b314dca2-f4dc-4fb4-9efb-7b16a1b58d3b-m4IC52 font-class-1">
-                                LOG OUT
-                            </div>
+                            <a class="align-self-flex-center" href="login">
+                                <div class="log-out-a749849a-5207-4b0f-bb99-b403cdc6fe9f-oX9QXB font-class-1">
+                                    LOG OUT
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="overlap-group-Y7zamN">
-                    <div class="chirislim63-708c579b-2136-4ca0-af18-7d8ea44d5184-w0Ptie font-class-1">
+                    <div class="chirislim63-67888404-e39b-4614-aaf0-67a814bb1196-qtM0qT font-class-1">
                         CHIRISLIM63
                     </div>
-                    <img anima-src="{%static '/img/line-4-3@1x.png' %}" class="line-4-4c653b20-2957-4539-9361-226f3acf09e2-nw3EzJ" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{% static 'img/line-4-3@1x.png' %}" class="line-4-b45fb7d7-9293-4ec5-a0cd-e49abdc88c83-4VrWA4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
-                <div class="welcome-to-your-dashboard-d7423fd6-7237-4b1a-8699-373101656174-rdPCRG font-class-1">
+                <div class="welcome-to-your-dashboard-cf4f6183-572d-46b4-8ad4-a404404d78f2-zEKyxr font-class-1">
                     Welcome to your Dashboard
                 </div>
-                <div class="register-for-a-razer-account-to-be-eligible-to-open-a-razer-bank-account-and-apply-for-loans-hassle-free-05b49b98-05b1-4b7c-9f38-c06f74b9c41c-ZSRM3Y font-class-1">
+                <div class="register-for-a-razer-account-to-be-eligible-to-open-a-razer-bank-account-and-apply-for-loans-hassle-free-c2b69545-6dc7-4c83-81fc-e43a8aa36568-Hczfue font-class-1">
                     Register for a Razer Account to be eligible to open a Razer Bank account and apply for loans hassle free.
                 </div>
-                <a href="loanapplication">
-                    <img anima-src="{%static '/img/group-91@1x.png' %}" class="group-91-1503f96a-427e-4fad-8608-a7203fc889fb-dX9JPl" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/></a>
+                <div class="overlap-group1-yBpAcz">
+                    <div class="make-payment-4a779c20-9a83-4b19-b0f7-4ed882c69f3d-ZjJJma font-class-1">
+                        Make Payment
+                    </div>
+                    <a href="myaccount">
+                        <img anima-src="{% static 'img/rectangle-104@1x.png' %}" class="rectangle-104-ae02f058-05e1-4dee-8d41-ab8492358760-v7X1xA" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    </a>
+                    <div class="my-accounts-d3a40a67-6de5-4140-b864-87a25bad8685-4mG927 font-class-1">
+                        My Accounts
+                    </div>
+                    <a href="aboutloan">
+                        <img anima-src="{% static 'img/rectangle-599@1x.png' %}" class="rectangle-599-50ebc288-e12a-4756-97d9-fe374abdf897-zDJRxR" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    </a>
+                    <a href="aboutopenaccount">
+                        <img anima-src="{% static 'img/rectangle-599@1x.png' %}" class="rectangle-601-d3e6d251-675a-464e-8449-1cdf7937e111-MiWWH0" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    </a>
+                    <img anima-src="{% static 'img/rectangle-603@1x.png' %}" class="rectangle-603-e43de290-9e29-43c0-8227-88f01670bca5-HnLsTu" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <a href="myaccount">
+                        <img anima-src="{% static 'img/rectangle-605@1x.png' %}" class="rectangle-605-20e41398-ac6d-4d20-95bc-113c6d3c25df-h2QyGv" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    </a>
+                    <div class="take-a-loan-with-razer-bank-abc4ddf3-20af-4d1c-87d5-1bd8ec0e9de4-QFiNxQ font-class-1">
+                        Take A Loan<br />With Razer Bank
+                    </div>
+                    <div class="make-payment-3f041142-efec-4772-9844-b812c183663d-RnmjNU font-class-1">
+                        Make Payment
+                    </div>
+                    <div class="open-a-current-account-with-razer-42c4f01a-7983-4017-8c8e-848eadf17617-eRuCHQ font-class-1">
+                        Open A Current Account with Razer
+                    </div>
+                    <div class="frequently-asked-questions-7c7ded04-b687-45fd-988a-aee682800ef7-sFlP1G font-class-1">
+                        Frequently Asked Questions
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Scripts -->

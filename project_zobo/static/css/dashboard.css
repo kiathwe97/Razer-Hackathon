@@ -29,6 +29,9 @@ a {
 .anima-flexbox-container a {
   line-height         : 0;
 }
+.align-self-flex-center {
+  align-self          : center;
+}
 .anima-component-wrapper,
 .anima-component-wrapper * {
   pointer-events      : none;
@@ -170,8 +173,9 @@ a {
   --auto-palette-color-5: rgba(186,194,255,1.0);
   --auto-palette-color-6: rgba(143,152,248,1.0);
   --auto-palette-color-7: rgba(227,6,19,1.0);
+  --auto-palette-color-8: rgba(19,155,20,1.0);
 }
-.dashboard .auto-flex1-g8LO3x {
+.dashboard .auto-flex1-GHqnIL {
   align-items         : center;
   background-color    : rgba(255,255,255,0);
   box-sizing          : border-box;
@@ -193,6 +197,15 @@ a {
   position            : relative;
   width               : 326px;
 }
+.dashboard .overlap-group1-yBpAcz {
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 654px;
+  margin-left         : 0.33px;
+  margin-top          : 6px;
+  position            : relative;
+  width               : 1158px;
+}
 .dashboard .auto-flex-1lKxzb {
   align-items         : flex-start;
   align-self          : flex-end;
@@ -205,6 +218,32 @@ a {
   justify-content     : flex-start;
   position            : relative;
   width               : auto;
+}
+.dashboard .open-a-current-account-with-razer-42c4f01a-7983-4017-8c8e-848eadf17617-eRuCHQ {
+  background-color    : rgba(0,229,1,0);
+  color               : var(--auto-palette-color-4);
+  font-size           : 25.0px;
+  height              : 101px;
+  left                : 121px;
+  line-height         : 25.0px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 415px;
+  transform           : rotate(0deg);
+  width               : 332px;
+}
+.dashboard .frequently-asked-questions-7c7ded04-b687-45fd-988a-aee682800ef7-sFlP1G {
+  background-color    : rgba(0,229,1,0);
+  color               : var(--auto-palette-color-4);
+  font-size           : 25.0px;
+  height              : 73px;
+  left                : 589px;
+  line-height         : 25.0px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 411px;
+  transform           : rotate(0deg);
+  width               : 250px;
 }
 .dashboard {
   align-items         : flex-start;
@@ -220,7 +259,7 @@ a {
   position            : relative;
   width               : 1440.0px;
 }
-.dashboard .group-10-a690144c-7811-43b8-843b-8243cdbabea7-hinnfy {
+.dashboard .group-10-9223210b-cfc5-4f7d-993b-a89c44592244-mQUi3Z {
   align-items         : flex-end;
   background-color    : rgba(255,255,255,0);
   box-sizing          : border-box;
@@ -235,7 +274,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.dashboard .services-00def1b2-7233-4dcc-b56a-077c8bbf93b1-SEGQ6B {
+.dashboard .services-cd0757a6-47cb-4a39-b99a-15abd208345c-IURaRZ {
   background-color    : rgba(0,0,0,0);
   color               : var(--auto-palette-color-1);
   flex-shrink         : 0;
@@ -251,7 +290,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.dashboard .discover-d89a1d19-942a-49d5-aa04-ece45234b11c-lk77Me {
+.dashboard .discover-919b6cb4-03bb-497d-973a-c60ec63435a6-G7TiiQ {
   background-color    : rgba(0,0,0,0);
   color               : var(--auto-palette-color-1);
   flex-shrink         : 0;
@@ -266,7 +305,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.dashboard .apply-dd5f0dfa-f489-4bef-943f-8782629e3f1c-JryZhz {
+.dashboard .apply-0cf4d9e5-51cf-48bb-9b56-f89f0855dbc5-oaVUpD {
   background-color    : rgba(0,0,0,0);
   color               : var(--auto-palette-color-1);
   flex-shrink         : 0;
@@ -282,7 +321,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.dashboard .contact-48f20b32-38d9-41f8-8776-7284c7513503-axrodT {
+.dashboard .contact-169b1830-f111-4400-a92d-7def72ab7152-CLfpeP {
   background-color    : rgba(0,0,0,0);
   color               : var(--auto-palette-color-1);
   flex-shrink         : 0;
@@ -298,7 +337,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.dashboard .welcome-to-your-dashboard-d7423fd6-7237-4b1a-8699-373101656174-rdPCRG {
+.dashboard .welcome-to-your-dashboard-cf4f6183-572d-46b4-8ad4-a404404d78f2-zEKyxr {
   background-color    : rgba(0,0,0,0);
   color               : var(--auto-palette-color-1);
   flex-shrink         : 0;
@@ -314,7 +353,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.dashboard .register-for-a-razer-account-to-be-eligible-to-open-a-razer-bank-account-and-apply-for-loans-hassle-free-05b49b98-05b1-4b7c-9f38-c06f74b9c41c-ZSRM3Y {
+.dashboard .register-for-a-razer-account-to-be-eligible-to-open-a-razer-bank-account-and-apply-for-loans-hassle-free-c2b69545-6dc7-4c83-81fc-e43a8aa36568-Hczfue {
   background-color    : rgba(0,0,0,0);
   color               : var(--auto-palette-color-1);
   flex-shrink         : 0;
@@ -330,7 +369,7 @@ a {
   transform           : rotate(0deg);
   width               : 400px;
 }
-.dashboard .group-11-dfa8f060-5e16-47b3-9add-45b63d9f31f8-dzitoy {
+.dashboard .group-11-e6a6e565-1df1-49ff-bffc-adc9e3cb90ee-YHCEHO {
   align-items         : flex-start;
   background-color    : rgba(255,255,255,0);
   box-sizing          : border-box;
@@ -345,7 +384,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.dashboard .group-100-d2c80f2a-42ad-4647-81db-d78a32eec140-P0E26r {
+.dashboard .group-100-4308f104-5e8b-472f-ad0b-ce97e3b4a26c-JrrX4O {
   align-items         : flex-end;
   background-color    : rgba(255,255,255,0);
   box-sizing          : border-box;
@@ -358,7 +397,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.dashboard .chrislim63-5760e950-3769-474c-ad4f-9d30c3646a70-xTDdbF {
+.dashboard .chrislim63-a0d0e294-0a53-475d-a883-a8ff244e24ea-AllFVm {
   background-color    : rgba(0,0,0,0);
   color               : var(--auto-palette-color-1);
   flex-shrink         : 0;
@@ -373,7 +412,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.dashboard .ellipse-17-1c7d7e15-55e1-48ff-b7f3-82d561d24e1e-b8Qpmx {
+.dashboard .ellipse-17-6ab87254-f3bf-47c4-8b8f-66a5d48b5aa9-Z6LO89 {
   background-color    : rgba(255,255,255,0);
   cursor              : pointer;
   flex-shrink         : 0;
@@ -383,10 +422,11 @@ a {
   transform           : rotate(0deg);
   width               : 89px;
 }
-.dashboard .log-out-b314dca2-f4dc-4fb4-9efb-7b16a1b58d3b-m4IC52 {
+.dashboard .log-out-a749849a-5207-4b0f-bb99-b403cdc6fe9f-oX9QXB {
   align-self          : center;
   background-color    : rgba(0,0,0,0);
   color               : var(--auto-palette-color-1);
+  cursor              : pointer;
   flex-shrink         : 0;
   font-size           : 15.0px;
   height              : auto;
@@ -400,7 +440,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.dashboard .chirislim63-708c579b-2136-4ca0-af18-7d8ea44d5184-w0Ptie {
+.dashboard .chirislim63-67888404-e39b-4614-aaf0-67a814bb1196-qtM0qT {
   background-color    : rgba(0,0,0,0);
   color               : var(--auto-palette-color-1);
   font-size           : 50.0px;
@@ -413,7 +453,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.dashboard .line-4-4c653b20-2957-4539-9361-226f3acf09e2-nw3EzJ {
+.dashboard .line-4-b45fb7d7-9293-4ec5-a0cd-e49abdc88c83-4VrWA4 {
   background-color    : rgba(255,255,255,0);
   height              : 6px;
   left                : 0px;
@@ -421,7 +461,7 @@ a {
   top                 : 51px;
   width               : 272px;
 }
-.dashboard .razer-logo-e62e1fd3-61e9-4c47-a569-a3a823eaf0ac-v5AeEG {
+.dashboard .razer-logo-ea5ceb03-6b1f-4229-9084-da9f60cd43ef-jGQ26s {
   align-self          : flex-end;
   background-color    : rgba(255,255,255,0);
   flex-shrink         : 0;
@@ -429,146 +469,104 @@ a {
   position            : relative;
   width               : 228px;
 }
-.dashboard .group-91-1503f96a-427e-4fad-8608-a7203fc889fb-dX9JPl {
-  align-self          : center;
-  background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
-  height              : 504px;
-  margin-right        : 137.35px;
-  margin-top          : 66px;
-  position            : relative;
-  transform           : rotate(0deg);
-  width               : 1008px;
-}
-.dashboard .make-payment-6efea451-aabd-4d35-94e8-67dbedf0ee99-YUya0C {
+.dashboard .make-payment-4a779c20-9a83-4b19-b0f7-4ed882c69f3d-ZjJJma {
   background-color    : rgba(0,0,0,0);
   color               : var(--auto-palette-color-1);
   font-size           : 25.0px;
   height              : 37px;
-  left                : 709px;
+  left                : 784px;
   line-height         : 25.0px;
   position            : absolute;
   text-align          : center;
-  top                 : 16px;
+  top                 : 76px;
   transform           : rotate(0deg);
   width               : 254px;
 }
-.dashboard .rectangle-104-e5eeb755-87a7-45a1-82d7-830937764e40-QMGgAx {
+.dashboard .rectangle-104-ae02f058-05e1-4dee-8d41-ab8492358760-v7X1xA {
   background-color    : rgba(0,0,0,0);
   border-radius       : 20.0px;
   cursor              : pointer;
   height              : 384px;
-  left                : -75px;
+  left                : 0px;
   position            : absolute;
-  top                 : -60px;
-  transform           : rotate(0deg);
+  top                 : 0px;
   width               : 386px;
 }
-.dashboard .my-accounts-b4a47231-90e8-44f2-8e9e-f52bd58b2a53-wMZ8aC {
+.dashboard .my-accounts-d3a40a67-6de5-4140-b864-87a25bad8685-4mG927 {
   background-color    : rgba(0,229,1,0);
   color               : var(--auto-palette-color-4);
   font-size           : 25.0px;
   height              : 37px;
-  left                : 16px;
+  left                : 91px;
   line-height         : 25.0px;
   position            : absolute;
   text-align          : center;
-  top                 : 99px;
+  top                 : 159px;
   transform           : rotate(0deg);
   width               : 207px;
 }
-.dashboard .rectangle-599-e27521ce-ba63-4f0d-8e88-0852b202bbb5-8jXyLI {
+.dashboard .rectangle-599-50ebc288-e12a-4756-97d9-fe374abdf897-zDJRxR {
   background-color    : rgba(0,0,0,0);
   border-radius       : 20.0px;
   cursor              : pointer;
   height              : 384px;
-  left                : 185px;
+  left                : 260px;
   position            : absolute;
-  top                 : -60px;
-  transform           : rotate(0deg);
+  top                 : 0px;
   width               : 571px;
 }
-.dashboard .rectangle-601-608c54a0-fc03-4bc4-98b4-fb6dbabde673-xDygL9 {
+.dashboard .rectangle-601-d3e6d251-675a-464e-8449-1cdf7937e111-MiWWH0 {
   background-color    : rgba(0,0,0,0);
   border-radius       : 20.0px;
   cursor              : pointer;
   height              : 384px;
-  left                : -75px;
+  left                : 0px;
   position            : absolute;
-  top                 : 210px;
-  transform           : rotate(0deg);
+  top                 : 270px;
   width               : 571px;
 }
-.dashboard .rectangle-603-d5909f8b-1d1f-4902-98c4-9d19cdfb7111-DRHzHR {
+.dashboard .rectangle-603-e43de290-9e29-43c0-8227-88f01670bca5-HnLsTu {
   background-color    : rgba(0,0,0,0);
   border-radius       : 20.0px;
   height              : 384px;
-  left                : 395px;
+  left                : 470px;
   position            : absolute;
-  top                 : 210px;
-  transform           : rotate(0deg);
+  top                 : 270px;
   width               : 486px;
 }
-.dashboard .rectangle-605-d6d5c6ac-a26c-4b27-9576-72ab3f9fc7c9-CqzFPB {
+.dashboard .rectangle-605-20e41398-ac6d-4d20-95bc-113c6d3c25df-h2QyGv {
   background-color    : rgba(0,0,0,0);
   border-radius       : 20.0px;
   cursor              : pointer;
   height              : 384px;
-  left                : 633px;
+  left                : 708px;
   position            : absolute;
-  top                 : -60px;
-  transform           : rotate(0deg);
+  top                 : 0px;
   width               : 450px;
 }
-.dashboard .take-a-loan-with-razer-bank-bf3ee98d-3301-4f3f-a82d-074f5640acc9-16C7J7 {
+.dashboard .take-a-loan-with-razer-bank-abc4ddf3-20af-4d1c-87d5-1bd8ec0e9de4-QFiNxQ {
   background-color    : rgba(0,229,1,0);
   color               : var(--auto-palette-color-4);
   font-size           : 25.0px;
   height              : 75px;
-  left                : 346px;
+  left                : 421px;
   line-height         : 25.0px;
   position            : absolute;
   text-align          : center;
-  top                 : 80px;
+  top                 : 140px;
   transform           : rotate(0deg);
   width               : 250px;
 }
-.dashboard .make-payment-f3eab7b2-dbb5-4f2e-9276-94178db8cb1c-Ptlqxm {
+.dashboard .make-payment-3f041142-efec-4772-9844-b812c183663d-RnmjNU {
   background-color    : rgba(0,229,1,0);
   color               : var(--auto-palette-color-4);
   font-size           : 25.0px;
   height              : 75px;
-  left                : 746px;
+  left                : 821px;
   line-height         : 25.0px;
   position            : absolute;
   text-align          : center;
-  top                 : 98px;
-  transform           : rotate(0deg);
-  width               : 250px;
-}
-.dashboard .open-a-current-account-with-razer-ccb5515a-0126-4a75-bcde-1820ca593ed6-CnL0se {
-  background-color    : rgba(0,229,1,0);
-  color               : var(--auto-palette-color-4);
-  font-size           : 25.0px;
-  height              : 101px;
-  left                : 46px;
-  line-height         : 25.0px;
-  position            : absolute;
-  text-align          : center;
-  top                 : 355px;
-  transform           : rotate(0deg);
-  width               : 332px;
-}
-.dashboard .frequently-asked-questions-bd875bd4-8ff4-47c7-ac8a-72c777ae7361-Yd9Vfl {
-  background-color    : rgba(0,229,1,0);
-  color               : var(--auto-palette-color-4);
-  font-size           : 25.0px;
-  height              : 73px;
-  left                : 514px;
-  line-height         : 25.0px;
-  position            : absolute;
-  text-align          : center;
-  top                 : 351px;
+  top                 : 158px;
   transform           : rotate(0deg);
   width               : 250px;
 }

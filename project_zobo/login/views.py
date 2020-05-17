@@ -12,3 +12,6 @@ def verify_login_view(request):
 def verify_login_singpass(request):
 
     return render(request, "verifyloginsingpass.html")
+
+def verify_login_mobile(request):
+    return render(request, "verifyloginmobile.html")
