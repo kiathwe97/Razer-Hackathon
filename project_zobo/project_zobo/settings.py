@@ -28,9 +28,6 @@ DEBUG = True
 ALLOWED_HOSTS = ["ec2-3-1-201-75.ap-southeast-1.compute.amazonaws.com", "127.0.0.1"]
 
 
-
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -131,7 +128,12 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 MEDIA_URL =  '/img/'
 MEDIA_PATH = "img"
 
+#if DEBUG:
+#   STATICFILES_DIRS = [
+ #  os.path.join(BASE_DIR, 'static'),
+ #  ]
+#else:
+ #  STATIC_ROOT = os.path.join(BASE_DIR,'static')
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
-]
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')

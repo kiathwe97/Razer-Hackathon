@@ -173,19 +173,7 @@ a {
   --auto-palette-color-5: rgba(186,194,255,1.0);
   --auto-palette-color-6: rgba(143,152,248,1.0);
   --auto-palette-color-7: rgba(227,6,19,1.0);
-}
-.verifyloginmobile .auto-flex1-JVB4Qu {
-  align-items         : center;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : flex;
-  flex-direction      : column;
-  flex-shrink         : 0;
-  height              : auto;
-  justify-content     : flex-start;
-  margin-bottom       : -3.5px;
-  position            : relative;
-  width               : 107px;
+  --auto-palette-color-8: rgba(19,155,20,1.0);
 }
 .verifyloginmobile .overlap-group-Y7zamN {
   background-color    : rgba(255,255,255,0);
@@ -228,7 +216,20 @@ a {
   position            : relative;
   width               : auto;
 }
-.verifyloginmobile .overlap-group3-A2BemH {
+.verifyloginmobile .auto-flex1-EXhHym {
+  align-items         : center;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  margin-bottom       : -3.5px;
+  position            : relative;
+  width               : 107px;
+}
+.verifyloginmobile .overlap-group3-nK9DZA {
   background-color    : rgba(255,255,255,0);
   flex-shrink         : 0;
   height              : 75px;
@@ -236,7 +237,98 @@ a {
   position            : relative;
   width               : 563px;
 }
-.verifyloginmobile .for-a-safer-razer-banking-experience-a-2-factor-authentication-is-required-b66e7e1f-1a84-4d21-ab99-107b53a8ad76-mNT9BS {
+.verifyloginmobile .group-10-ededf1d0-e17d-4ca1-bc8a-d8ea1450c04e-0tYFVI {
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  flex-shrink         : 0;
+  height              : 20px;
+  justify-content     : flex-start;
+  margin-left         : 135px;
+  margin-top          : 24.0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.verifyloginmobile .services-6de3eb4e-c040-449e-ae8e-fad04031c103-sK803u {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 42px;
+  min-height          : 22px;
+  min-width           : 80px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.verifyloginmobile .discover-ad523e58-3289-46e6-a480-e006d6984c14-vdE8xh {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  min-height          : 22px;
+  min-width           : 84px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.verifyloginmobile .apply-c3631914-22c9-4217-90e0-f08cb2ceb8d0-XsCqDX {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 44px;
+  min-height          : 22px;
+  min-width           : 60px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.verifyloginmobile .contact-5ddb9a04-8ba1-40c7-841c-d02b72b9b888-AsQPBW {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  flex-shrink         : 0;
+  font-size           : 17.0px;
+  height              : auto;
+  line-height         : 17.0px;
+  margin-bottom       : -3.5px;
+  margin-left         : 41px;
+  min-height          : 22px;
+  min-width           : 79px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.verifyloginmobile .please-verify-your-identity-with-any-of-the-options-below-50c21275-6143-44be-b099-0abcf623874f-fEWAqp {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-1);
+  font-size           : 42.0px;
+  height              : auto;
+  left                : 0px;
+  line-height         : 42.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.verifyloginmobile .for-a-safer-razer-banking-experience-a-2-factor-authentication-is-required-9e2b9d86-01dd-4611-8bff-d34a3e50a6a3-xeL3Gc {
   background-color    : rgba(0,0,0,0);
   color               : var(--auto-palette-color-1);
   font-size           : 17.0px;
@@ -250,7 +342,7 @@ a {
   transform           : rotate(0deg);
   width               : 400px;
 }
-.verifyloginmobile .group-11-57d8f99e-febb-4ed4-a74d-4862df7a699b-Dyn3Ej {
+.verifyloginmobile .group-11-05e4eda8-ee97-4065-b404-1514b9a7ed2d-WuVJSX {
   align-items         : flex-start;
   background-color    : rgba(255,255,255,0);
   box-sizing          : border-box;
@@ -265,7 +357,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.verifyloginmobile .group-100-77ed7c7e-6fd9-4644-8a9b-559b22207430-PxCGvs {
+.verifyloginmobile .group-100-4534fceb-b281-4b51-8973-997d76d07685-eHJXiR {
   align-items         : flex-end;
   background-color    : rgba(255,255,255,0);
   box-sizing          : border-box;
@@ -278,7 +370,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.verifyloginmobile .chrislim63-2136ad96-96aa-4aff-9d0e-ea0ae9bde310-PUqcfI {
+.verifyloginmobile .chrislim63-e08e399a-9d58-4ad1-b67d-00c66a89b9e5-naaJry {
   background-color    : rgba(0,0,0,0);
   color               : var(--auto-palette-color-1);
   flex-shrink         : 0;
@@ -293,7 +385,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.verifyloginmobile .ellipse-17-b40eabfe-deed-4b83-ae3f-87a21b66a235-xKmRcp {
+.verifyloginmobile .ellipse-17-8d582c10-a8f3-4bc8-80f7-b11a104a0896-s7wezy {
   background-color    : rgba(255,255,255,0);
   cursor              : pointer;
   flex-shrink         : 0;
@@ -303,7 +395,7 @@ a {
   transform           : rotate(0deg);
   width               : 89px;
 }
-.verifyloginmobile .log-out-3ce09a74-cb60-43cd-8fed-474e85f6951a-mMVsK2 {
+.verifyloginmobile .log-out-1a279a8c-c0d5-4912-ab4c-3b459ed09cd3-nbYY9A {
   align-self          : center;
   background-color    : rgba(0,0,0,0);
   color               : var(--auto-palette-color-1);
@@ -320,7 +412,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.verifyloginmobile .verification-a8a17663-8a08-4095-af32-ee137f495811-xxtRtV {
+.verifyloginmobile .verification-255e51b3-f8d5-4fc4-ae06-a93bfc0d52ec-lbvVtz {
   background-color    : rgba(0,0,0,0);
   color               : var(--auto-palette-color-1);
   font-size           : 50.0px;
@@ -333,7 +425,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.verifyloginmobile .line-4-5cdee0a1-51aa-4514-94c6-1af22c7fe26a-0vzmEd {
+.verifyloginmobile .line-4-ec54fa40-7e72-40e8-88d3-5ae11dbf5c7c-gUO8xs {
   background-color    : rgba(255,255,255,0);
   height              : 6px;
   left                : 0px;
@@ -341,7 +433,7 @@ a {
   top                 : 51px;
   width               : 272px;
 }
-.verifyloginmobile .razer-logo-2f8a30e9-fe43-4a6e-812f-68c64b1aed25-oxjlqd {
+.verifyloginmobile .razer-logo-de7b6620-b1e0-443f-bf93-73eea353ae18-VOxKuO {
   align-self          : flex-end;
   background-color    : rgba(255,255,255,0);
   flex-shrink         : 0;
@@ -349,7 +441,7 @@ a {
   position            : relative;
   width               : 228px;
 }
-.verifyloginmobile .group-91-6696ed58-41a2-4ffe-bd24-350f3098608e-7YJFCy {
+.verifyloginmobile .group-91-8ab36bd7-c6f5-427a-97e9-9cfba611a411-TehLgb {
   align-items         : flex-start;
   background-color    : rgba(255,255,255,0);
   box-sizing          : border-box;
@@ -363,7 +455,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.verifyloginmobile .group-90-dd0f0aa7-485a-46b3-8d4c-379494ba2e4a-RmSXlj {
+.verifyloginmobile .group-90-fc5c4b87-f7d6-4462-8a17-f17a5178144b-CuBynx {
   background-color    : rgba(255,255,255,0);
   flex-shrink         : 0;
   height              : 589px;
@@ -371,10 +463,9 @@ a {
   transform           : rotate(0deg);
   width               : 1154px;
 }
-.verifyloginmobile .rectangle-104-17007e6b-1f25-417a-9050-e4ed934ad29c-q4DVSy {
+.verifyloginmobile .rectangle-104-b2b445fa-dc80-4658-b70b-f74b65ecd250-VzbOx3 {
   background-color    : rgba(0,0,0,0);
   border-radius       : 20.0px;
-  cursor              : pointer;
   height              : 739px;
   left                : -75px;
   position            : absolute;
@@ -382,7 +473,7 @@ a {
   transform           : rotate(0deg);
   width               : 1304px;
 }
-.verifyloginmobile .group-101-82a6ac89-a264-458f-b31c-eebabbf06153-AHKwXU {
+.verifyloginmobile .group-101-310aa547-3a80-4115-b78e-b81acb5f2ea0-HxlcKB {
   background-color    : rgba(255,255,255,0);
   height              : 121px;
   left                : 163px;
@@ -391,7 +482,7 @@ a {
   transform           : rotate(0deg);
   width               : 829px;
 }
-.verifyloginmobile .rectangle-598-6e752cd4-d8ea-4d89-bc8c-69e30c6f8b81-nNxlqT {
+.verifyloginmobile .rectangle-598-c55bcb38-954b-4b61-bf1f-516397941e48-t3MGml {
   background-color    : var(--auto-palette-color-4);
   border-radius       : 61.0px;
   height              : 121px;
@@ -401,7 +492,7 @@ a {
   transform           : rotate(0deg);
   width               : 829px;
 }
-.verifyloginmobile .mobile-number-5244d195-1cb9-433d-9b24-40c2c5c5f5ac-72dIrf {
+.verifyloginmobile .mobile-number-0d1e43ca-9e0b-4828-9ee2-2354d608f6c8-4I8ixx {
   background-color    : rgba(0,0,0,0);
   color               : var(--auto-palette-color-1);
   font-size           : 40.0px;
@@ -414,7 +505,7 @@ a {
   transform           : rotate(0deg);
   width               : 527px;
 }
-.verifyloginmobile .group-84-517d3368-ba9b-4a91-b29f-180f1714cb54-AWp8Wz {
+.verifyloginmobile .group-84-37164bca-3187-4682-acda-b9005ec5bb84-h7QzE7 {
   align-items         : flex-end;
   background-color    : rgba(255,255,255,0);
   box-sizing          : border-box;
@@ -428,7 +519,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.verifyloginmobile .text-field-outlined-unfilled-enabled-7d1c9ca5-e3bd-4c44-8736-60e38919ab65-TfCDOH {
+.verifyloginmobile .text-field-outlined-unfilled-enabled-7f762903-c8ac-4645-8456-4cb4cf3a5fb2-VbOwFJ {
   align-items         : flex-start;
   background-color    : rgba(255,255,255,0);
   box-sizing          : border-box;
@@ -443,7 +534,7 @@ a {
   transform           : rotate(0deg);
   width               : 563px;
 }
-.verifyloginmobile .surface-1b915a15-1991-4274-bd94-ebf120a70245-ixg8Uu {
+.verifyloginmobile .surface-4a56d6d0-f6ad-4931-b21b-ae95fb1d5a32-nKhhr0 {
   background-color    : rgba(255,255,255,0);
   border-color        : var(--auto-palette-color-2);
   border-radius       : 4.0px;
@@ -457,7 +548,7 @@ a {
   transform           : rotate(0deg);
   width               : 563px;
 }
-.verifyloginmobile .verification-code-4dc8f45f-3551-49a1-beed-680d45df2f88-cxnxbr {
+.verifyloginmobile .verification-code-6d79f43d-d6ea-4273-a926-bddac3c55d10-LodGxd {
   background-color    : rgba(255,255,255,0);
   color               : var(--auto-palette-color-2);
   height              : auto;
@@ -468,7 +559,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.verifyloginmobile .resend-127b9c1d-afec-4753-ab38-9f2c64a3ead2-k2GEQJ {
+.verifyloginmobile .resend-15fd34a8-8f4c-4065-b97c-5e4552457f74-r34Zmp {
   background-color    : rgba(255,255,255,0);
   color               : var(--auto-palette-color-2);
   flex-shrink         : 0;
@@ -483,7 +574,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.verifyloginmobile .a-text-message-has-been-sent-to-65-xxxx-xx77-ac96d0eb-076b-4c46-b3b2-7ead62f1b799-2uRIp8 {
+.verifyloginmobile .a-text-message-has-been-sent-to-65-xxxx-xx77-aac9ecbc-5fca-4b2d-a69c-974d77831f7f-avfr1r {
   background-color    : rgba(255,255,255,0);
   color               : var(--auto-palette-color-2);
   flex-shrink         : 0;
@@ -496,7 +587,7 @@ a {
   transform           : rotate(0deg);
   width               : auto;
 }
-.verifyloginmobile .buttons-contained-enabled-d42e9611-c971-4b37-8010-d4635bd1c44e-wCgaOV {
+.verifyloginmobile .buttons-contained-enabled-d2181d0a-9448-40db-b255-37c6ffce1225-fZUR84 {
   background-color    : rgba(255,255,255,0);
   cursor              : pointer;
   height              : 71px;
@@ -506,7 +597,7 @@ a {
   transform           : rotate(0deg);
   width               : 327px;
 }
-.verifyloginmobile .rectangle-377-6e2a7a8a-8fdf-4fcd-944d-ce84ca2e650b-3K4dit {
+.verifyloginmobile .rectangle-377-7eb7f5bc-9c49-47ae-9b91-68b8b60d8429-grc1d9 {
   background-color    : rgba(0,229,1,0);
   border-radius       : 4.0px;
   height              : 80px;
@@ -516,7 +607,7 @@ a {
   transform           : rotate(0deg);
   width               : 336px;
 }
-.verifyloginmobile .confirm-6a77fdc1-d864-4f19-bf4b-bb23d9024b63-v09bSy {
+.verifyloginmobile .confirm-3386265c-6d4b-4659-b112-a0378e0f7ad0-CfePlp {
   background-color    : rgba(0,0,0,0);
   height              : auto;
   left                : 120px;
@@ -539,95 +630,4 @@ a {
   padding             : 22.0px 72.0px;
   position            : relative;
   width               : 1440.0px;
-}
-.verifyloginmobile .group-10-5e818160-884d-4380-9e15-3e1b71294437-CsI0dx {
-  align-items         : flex-end;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  flex-shrink         : 0;
-  height              : 20px;
-  justify-content     : flex-start;
-  margin-left         : 135px;
-  margin-top          : 24.0px;
-  position            : relative;
-  transform           : rotate(0deg);
-  width               : auto;
-}
-.verifyloginmobile .services-20eae5f9-e550-48d5-8da7-dab619cb60f3-SDxmCn {
-  background-color    : rgba(0,0,0,0);
-  color               : var(--auto-palette-color-1);
-  flex-shrink         : 0;
-  font-size           : 17.0px;
-  height              : auto;
-  line-height         : 17.0px;
-  margin-bottom       : -3.5px;
-  margin-left         : 42px;
-  min-height          : 22px;
-  min-width           : 80px;
-  position            : relative;
-  text-align          : left;
-  transform           : rotate(0deg);
-  width               : auto;
-}
-.verifyloginmobile .discover-726d1caa-ea55-478a-aafd-9153ff7e4d57-UptaY5 {
-  background-color    : rgba(0,0,0,0);
-  color               : var(--auto-palette-color-1);
-  flex-shrink         : 0;
-  font-size           : 17.0px;
-  height              : auto;
-  line-height         : 17.0px;
-  margin-bottom       : -3.5px;
-  min-height          : 22px;
-  min-width           : 84px;
-  position            : relative;
-  text-align          : left;
-  transform           : rotate(0deg);
-  width               : auto;
-}
-.verifyloginmobile .apply-dee67332-609f-4629-924a-7a5c89896ce4-Tx4eJ1 {
-  background-color    : rgba(0,0,0,0);
-  color               : var(--auto-palette-color-1);
-  flex-shrink         : 0;
-  font-size           : 17.0px;
-  height              : auto;
-  line-height         : 17.0px;
-  margin-bottom       : -3.5px;
-  margin-left         : 44px;
-  min-height          : 22px;
-  min-width           : 60px;
-  position            : relative;
-  text-align          : left;
-  transform           : rotate(0deg);
-  width               : auto;
-}
-.verifyloginmobile .contact-7df3dc66-dc07-456e-9cc4-2dd11f3528bf-krJxNQ {
-  background-color    : rgba(0,0,0,0);
-  color               : var(--auto-palette-color-1);
-  flex-shrink         : 0;
-  font-size           : 17.0px;
-  height              : auto;
-  line-height         : 17.0px;
-  margin-bottom       : -3.5px;
-  margin-left         : 41px;
-  min-height          : 22px;
-  min-width           : 79px;
-  position            : relative;
-  text-align          : left;
-  transform           : rotate(0deg);
-  width               : auto;
-}
-.verifyloginmobile .please-verify-your-identity-with-any-of-the-options-below-8f7cdd50-c011-4c14-a7cb-cbf6719a51a5-RM4JLl {
-  background-color    : rgba(0,0,0,0);
-  color               : var(--auto-palette-color-1);
-  font-size           : 42.0px;
-  height              : auto;
-  left                : 0px;
-  line-height         : 42.0px;
-  position            : absolute;
-  text-align          : left;
-  top                 : 0px;
-  transform           : rotate(0deg);
-  width               : auto;
 }

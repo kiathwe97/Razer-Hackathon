@@ -2,32 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f17d61e-693e-4bef-9700-8edb61fb0730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project_zobo/project_zobo/templates/letteroffer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_zobo/project_zobo/templates/lettersigned.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_zobo/project_zobo/templates/signletter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_zobo/loan_status/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/loan_status/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_zobo/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/login/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_zobo/my_account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/my_account/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_zobo/open_account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/open_account/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_zobo/project_zobo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/project_zobo/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_zobo/project_zobo/templates/Dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/project_zobo/templates/Dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_zobo/project_zobo/templates/LoanStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/project_zobo/templates/LoanStatus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_zobo/project_zobo/templates/LoanSubmit.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/project_zobo/templates/LoanSubmit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_zobo/project_zobo/templates/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/project_zobo/templates/Register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_zobo/project_zobo/templates/aboutloan.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/project_zobo/templates/aboutloan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_zobo/project_zobo/templates/aboutopenaccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/project_zobo/templates/aboutopenaccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_zobo/project_zobo/templates/loanappcomplete.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/project_zobo/templates/loanappcomplete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_zobo/project_zobo/templates/loanapplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/project_zobo/templates/loanapplication.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_zobo/project_zobo/templates/loanapproved.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/project_zobo/templates/loanapproved.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_zobo/project_zobo/templates/makepayment.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/project_zobo/templates/makepayment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_zobo/project_zobo/templates/myaccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/project_zobo/templates/myaccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_zobo/project_zobo/templates/myinfomessage.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/project_zobo/templates/myinfomessage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_zobo/project_zobo/templates/registersuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/project_zobo/templates/registersuccess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_zobo/project_zobo/templates/verifylogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/project_zobo/templates/verifylogin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_zobo/project_zobo/templates/verifyloginmobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/project_zobo/templates/verifyloginmobile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_zobo/project_zobo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/project_zobo/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_zobo/static/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/static/css/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zobo/static/css/verifyloginmobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/project_zobo/static/css/verifyloginmobile.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,24 +27,24 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="46" />
-          <entry key="html" value="2148" />
-          <entry key="py" value="6556" />
+          <entry key="html" value="2196" />
+          <entry key="py" value="6564" />
           <entry key="vmoptions" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2148" />
+          <entry key="HTML" value="2196" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="6602" />
+          <entry key="Python" value="6610" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="html" value="40" />
+          <entry key="html" value="43" />
           <entry key="png" value="1" />
-          <entry key="py" value="70" />
+          <entry key="py" value="73" />
           <entry key="sqlite3" value="1" />
           <entry key="vmoptions" value="1" />
           <entry key="xml" value="1" />
@@ -74,10 +53,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="40" />
+          <entry key="HTML" value="43" />
           <entry key="Image" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="70" />
+          <entry key="Python" value="73" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -85,13 +64,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
+            <state relative-caret-position="323">
+              <caret line="76" column="51" selection-start-line="76" selection-start-column="51" selection-end-line="76" selection-end-column="51" />
               <folding>
                 <element signature="e#636#668#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-165">
+              <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_zobo/open_account/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+                <marker date="1589676562433" expanded="true" signature="269:274" ph="..." />
+                <marker date="1589676562433" expanded="true" signature="355:408" ph="..." />
+                <marker date="1589676562433" expanded="true" signature="586:634" ph="..." />
+                <marker date="1589676562433" expanded="true" signature="731:734" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/templates/verifyloginmobile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#div#0;n#a#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/templates/makepayment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/templates/myaccount.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="145" column="24" selection-start-line="145" selection-start-column="24" selection-end-line="145" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_zobo/login/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+              <folding>
+                <marker date="1589664547350" expanded="true" signature="162:163" ph="..." />
+                <marker date="1589664547350" expanded="true" signature="162:168" ph="..." />
+                <marker date="1589664547350" expanded="true" signature="247:304" ph="..." />
+                <marker date="1589664547350" expanded="true" signature="338:392" ph="..." />
               </folding>
             </state>
           </provider>
@@ -117,8 +171,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>learn more</find>
-      <find>APPLY</find>
       <find>OPEN</find>
       <find>get started</find>
       <find>settings_path</find>
@@ -140,13 +192,15 @@
       <find>&lt;a</find>
       <find>my</find>
       <find>loan det</find>
-      <find>png</find>
       <find>let</find>
       <find>.png</find>
       <find>.css</find>
       <find>.html</find>
       <find>log out</find>
       <find>login/verifylogin</find>
+      <find>register/</find>
+      <find>{% static '</find>
+      <find>png</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -154,9 +208,10 @@
       <replace>.png'%}</replace>
       <replace>{% static '</replace>
       <replace>.png' %}</replace>
-      <replace>.css' %}</replace>
       <replace>%}</replace>
       <replace>register</replace>
+      <replace>login/verifylogin/</replace>
+      <replace>.css' %}</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -192,22 +247,22 @@
         <option value="$PROJECT_DIR$/project_zobo/project_zobo/templates/makepayment.html" />
         <option value="$PROJECT_DIR$/project_zobo/project_zobo/templates/registersuccess.html" />
         <option value="$PROJECT_DIR$/project_zobo/login/views.py" />
-        <option value="$PROJECT_DIR$/project_zobo/project_zobo/templates/verifyloginmobile.html" />
         <option value="$PROJECT_DIR$/project_zobo/project_zobo/templates/register.html" />
-        <option value="$PROJECT_DIR$/project_zobo/project_zobo/settings.py" />
         <option value="$PROJECT_DIR$/project_zobo/project_zobo/templates/dashboard.html" />
         <option value="$PROJECT_DIR$/project_zobo/project_zobo/templates/aboutopenaccount.html" />
         <option value="$PROJECT_DIR$/project_zobo/project_zobo/templates/aboutloan.html" />
         <option value="$PROJECT_DIR$/project_zobo/project_zobo/templates/verifylogin.html" />
-        <option value="$PROJECT_DIR$/project_zobo/project_zobo/templates/myaccount.html" />
         <option value="$PROJECT_DIR$/project_zobo/project_zobo/templates/loanapproved.html" />
         <option value="$PROJECT_DIR$/project_zobo/project_zobo/templates/letteroffer.html" />
         <option value="$PROJECT_DIR$/project_zobo/project_zobo/templates/signletter.html" />
         <option value="$PROJECT_DIR$/project_zobo/project_zobo/templates/lettersigned.html" />
         <option value="$PROJECT_DIR$/project_zobo/loan_status/views.py" />
-        <option value="$PROJECT_DIR$/project_zobo/open_account/views.py" />
         <option value="$PROJECT_DIR$/project_zobo/my_account/views.py" />
         <option value="$PROJECT_DIR$/project_zobo/project_zobo/urls.py" />
+        <option value="$PROJECT_DIR$/project_zobo/project_zobo/settings.py" />
+        <option value="$PROJECT_DIR$/project_zobo/open_account/views.py" />
+        <option value="$PROJECT_DIR$/project_zobo/project_zobo/templates/myaccount.html" />
+        <option value="$PROJECT_DIR$/project_zobo/project_zobo/templates/verifyloginmobile.html" />
       </list>
     </option>
   </component>
@@ -247,6 +302,12 @@
               <item name="Django_hackathon" type="462c0819:PsiDirectoryNode" />
               <item name="project_zobo" type="462c0819:PsiDirectoryNode" />
               <item name="loan_status" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_hackathon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_hackathon" type="462c0819:PsiDirectoryNode" />
+              <item name="project_zobo" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Django_hackathon" type="b2602c69:ProjectViewProjectNode" />
@@ -689,37 +750,10 @@
         <state relative-caret-position="-50" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/templates/makepayment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/templates/registersuccess.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="72" column="22" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_zobo/login/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <marker date="1589664547350" expanded="true" signature="162:163" ph="..." />
-            <marker date="1589664547350" expanded="true" signature="162:168" ph="..." />
-            <marker date="1589664547350" expanded="true" signature="247:304" ph="..." />
-            <marker date="1589664547350" expanded="true" signature="338:392" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/templates/verifyloginmobile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -729,13 +763,6 @@
           <folding>
             <element signature="n#src#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="135" column="36" lean-forward="true" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -775,13 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="35" column="246" selection-start-line="35" selection-start-column="246" selection-end-line="35" selection-end-column="246" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/templates/myaccount.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="145" column="35" selection-start-line="145" selection-start-column="35" selection-end-line="145" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -863,20 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_zobo/open_account/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-            <marker date="1589675975228" expanded="true" signature="268:273" ph="..." />
-            <marker date="1589675975228" expanded="true" signature="354:407" ph="..." />
-            <marker date="1589675975228" expanded="true" signature="585:633" ph="..." />
-            <marker date="1589675975228" expanded="true" signature="730:733" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/templates/lettersigned.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -911,10 +917,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
+        <state relative-caret-position="323">
+          <caret line="76" column="51" selection-start-line="76" selection-start-column="51" selection-end-line="76" selection-end-column="51" />
           <folding>
             <element signature="e#636#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_zobo/open_account/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <marker date="1589676562433" expanded="true" signature="269:274" ph="..." />
+            <marker date="1589676562433" expanded="true" signature="355:408" ph="..." />
+            <marker date="1589676562433" expanded="true" signature="586:634" ph="..." />
+            <marker date="1589676562433" expanded="true" signature="731:734" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/templates/myaccount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="145" column="24" selection-start-line="145" selection-start-column="24" selection-end-line="145" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_zobo/login/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <marker date="1589664547350" expanded="true" signature="162:163" ph="..." />
+            <marker date="1589664547350" expanded="true" signature="162:168" ph="..." />
+            <marker date="1589664547350" expanded="true" signature="247:304" ph="..." />
+            <marker date="1589664547350" expanded="true" signature="338:392" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/templates/makepayment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_zobo/project_zobo/templates/verifyloginmobile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#a#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
